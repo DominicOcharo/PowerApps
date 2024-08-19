@@ -1,0 +1,8 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_fastconnector2-5f905e490d5e3e8483-5f0946db7d93a6fa3e",
+    "Name": "FastConnector2",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo"
+  }
+]

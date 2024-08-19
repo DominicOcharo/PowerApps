@@ -1,0 +1,39 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |
+        =ClearCollect(
+            colTabs,
+            {
+                ID: 1,
+                Name: "Gps Results",
+                Logo: Icon.Tag
+            },
+            {
+                Name: "PPE Results",
+                ID: 2,
+                Logo: Icon.LogJournal
+            },
+            {
+                Name: "Assigned to Me",
+                ID: 3,
+                Logo: Icon.Clock
+            },
+            {
+                Name: "Information",
+                ID: 4,
+                Logo: Icon.Information
+            }
+        );
+        Set(
+            varTabSelected,
+            1
+        );
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

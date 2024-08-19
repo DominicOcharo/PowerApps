@@ -1,0 +1,38 @@
+{
+  "880bea82-fa87-4645-bd3e-03f9760ab1b2": {
+    "connectionRef": {
+      "displayName": "Spatial Services",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1675/1.0.1675.3608/microsoftspatialservices/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_microsoftspatialservices"
+    },
+    "datasets": {},
+    "dataSources": [
+      "SpatialServices"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "880bea82-fa87-4645-bd3e-03f9760ab1b2"
+  },
+  "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": {
+    "appActions": [
+      "GpsAll",
+      "PpeAll"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "FastConnector2",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_fastconnector2-5f905e490d5e3e8483-5f0946db7d93a6fa3e",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "FastConnector2"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b1f30146-87d3-4bc0-be9f-de6bf21d93e4"
+  }
+}
