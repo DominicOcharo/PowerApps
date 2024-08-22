@@ -403,14 +403,14 @@
                     ZIndex: =1
 
             Button3 As button:
-                OnSelect: =ClearCollect(RRRCollection,ShowColumns(FastConnector2.GpsAll(),altitude))
+                OnSelect: =FirstN(Sort(PPE, Time, SortOrder.Descending), 1)
                 Text: ="Button"
                 Visible: =If(varTabSelected=3, true, false)
                 ZIndex: =7
 
             "Gallery2 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
                 DelayItemLoading: =true
-                Items: =RRRCollection
+                Items: =FirstN(Sort(PPE, Time, SortOrder.Descending), 1)
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
@@ -421,6 +421,7 @@
 
                 Image1 As image:
                     Height: =296
+                    Image: =Icon.Tools
                     ImagePosition: =ImagePosition.Fill
                     OnSelect: =Select(Parent)
                     RadiusBottomLeft: =8
@@ -440,7 +441,7 @@
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Text: =ThisItem.altitude
+                    Text: =ThisItem.Time
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 64
                     X: =32
@@ -455,7 +456,7 @@
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Text: =ThisItem.altitude
+                    Text: =ThisItem.Date
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Title1.Width
                     X: =Title1.X
