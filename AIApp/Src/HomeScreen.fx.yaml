@@ -245,7 +245,7 @@
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: |-
-                        ="Time: " & Text(DateAdd(DateAdd(DateValue("1970-01-01"), ThisItem.time, TimeUnit.Seconds), 3, TimeUnit.Hours), "[$-en-US]hh:mm:ss")
+                        ="Time: " & ThisItem.Time
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 185
                     X: =25
@@ -262,7 +262,7 @@
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: |-
-                        ="Date: " & Text(DateAdd(DateAdd(DateValue("1970-01-01"), ThisItem.time, TimeUnit.Seconds), 3, TimeUnit.Hours), "[$-en-US]yyyy-mm-dd hh:mm:ss")
+                        ="Date: " & ThisItem.Date
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Title6_1.Width
                     X: =Title6_1.X
@@ -277,7 +277,7 @@
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Text: =ThisItem.inference_time
+                    Text: =ThisItem.InferenceTime
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Subtitle6_1.Width
                     X: =Title6_1.X
