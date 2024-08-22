@@ -1,5 +1,5 @@
 {
-  "1447b925-9ff4-4079-b92f-2b0a149a2b5b": {
+  "9b489fe7-6caf-4ef6-88d9-dfc22613c910": {
     "connectionRef": {
       "displayName": "Spatial Services",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1675/1.0.1675.3608/microsoftspatialservices/icon.png",
@@ -11,7 +11,7 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "1447b925-9ff4-4079-b92f-2b0a149a2b5b"
+    "id": "9b489fe7-6caf-4ef6-88d9-dfc22613c910"
   },
   "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": {
     "appActions": [

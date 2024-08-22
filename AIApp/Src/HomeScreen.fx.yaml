@@ -381,7 +381,7 @@
                     CurrentLocation: =true
                     CurrentLocationLatitude: =ThisItem.Latitude
                     CurrentLocationLongitude: =ThisItem.Longitude
-                    DefaultZoomLevel: =50
+                    DefaultZoomLevel: =250
                     DisplayMode: =DisplayMode.Edit
                     Height: =Parent.Height-10
                     ItemsLatitudes: =ThisItem.Latitude
