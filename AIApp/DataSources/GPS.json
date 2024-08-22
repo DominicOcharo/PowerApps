@@ -1,0 +1,20 @@
+[
+  {
+    "Data": "[{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209109079000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209109079000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209108777000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209108477000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209108177000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209107876000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209107577000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209107276000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209106375000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209106076000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209105775000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209105475000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209105175000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209104874000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209103973000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209103674000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209103373000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209103073000},{\"Altitude\":1661,\"Date\":\"8/22/2024\",\"Latitude\":1.2921,\"Longitude\":36.8219,\"Time\":-2209102773000}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "GPS",
+    "OrderedColumnNames": [
+      "Latitude",
+      "Longitude",
+      "Altitude",
+      "Date",
+      "Time"
+    ],
+    "OriginalName": "GPS",
+    "OriginalSchema": "*[Altitude:n, Date:s, Latitude:n, Longitude:n, Time:d]",
+    "Schema": "*[Altitude:n, Date:s, Latitude:n, Longitude:n, Time:d]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

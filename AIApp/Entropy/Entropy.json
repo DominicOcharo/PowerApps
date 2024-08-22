@@ -53,10 +53,10 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/19/2024 07:57:43",
+  "HeaderLastSavedDateTimeUTC": "08/22/2024 13:53:36",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "880bea82-fa87-4645-bd3e-03f9760ab1b2": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
+    "1447b925-9ff4-4079-b92f-2b0a149a2b5b": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
     "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": "\"/providers/microsoft.powerapps/apis/shared_fastconnector2-5f905e490d5e3e8483-5f0946db7d93a6fa3e/connections/e154ebe2b1bc41c0828202e54617f572\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
@@ -67,6 +67,8 @@
   "OrderDataSource": {
     "CustomGallerySample": 2,
     "FastConnector2": 1,
+    "GPS": 3,
+    "PPE": 4,
     "SpatialServices": 0
   },
   "OrderGroupControls": {},
@@ -954,7 +956,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3895739,
+    "AnalysisLoadTime": 0.5013729,
     "ControlCount": {
       "button": 2,
       "gallery": 6,
@@ -968,7 +970,7 @@
       "screen": 1,
       "timer": 2
     },
-    "DeserializationLoadTime": 1.2139373
+    "DeserializationLoadTime": 1.0152682
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
