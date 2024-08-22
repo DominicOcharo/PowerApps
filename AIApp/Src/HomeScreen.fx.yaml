@@ -384,8 +384,8 @@
                     DefaultZoomLevel: =50
                     DisplayMode: =DisplayMode.Edit
                     Height: =Parent.Height-10
-                    ItemsLatitudes: =ThisItem.latitude
-                    ItemsLongitudes: =ThisItem.longitude
+                    ItemsLatitudes: =ThisItem.Latitude
+                    ItemsLongitudes: =ThisItem.Longitude
                     OnItemsChange: =false
                     OnLoad: =false
                     OnMapClick: =false

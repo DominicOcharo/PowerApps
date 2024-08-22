@@ -5079,7 +5079,7 @@
         {
           "Category": "Data",
           "PropertyName": "ItemsLongitudes",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -5099,7 +5099,7 @@
         {
           "Category": "Data",
           "PropertyName": "ItemsLatitudes",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
