@@ -14,12 +14,132 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Title6.Text"
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Title6.Text",
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": "PredictionsCollection1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "PredictionsCollection1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "SortByColumns"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "SortByColumns"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.galleryTemplate6_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.galleryTemplate6_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 21,
+                  "snippet": {
+                    "text": ".detections"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.galleryTemplate6_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "detections"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Title6_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Title6_1.Text",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -33,7 +153,7 @@
               "properties": {
                 "member": "Text",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Title6"
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Title6_1"
               }
             }
           ],
@@ -54,12 +174,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Title6.Text"
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Title6_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Title6.Text",
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Title6_1.Text",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -73,7 +193,7 @@
               "properties": {
                 "member": "Text",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Title6"
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Title6_1"
               }
             }
           ],
@@ -94,12 +214,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Subtitle6.Text"
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Subtitle6_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Subtitle6.Text",
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Subtitle6_1.Text",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -113,7 +233,7 @@
               "properties": {
                 "member": "Text",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Subtitle6"
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Subtitle6_1"
               }
             }
           ],
@@ -134,12 +254,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Subtitle6.Text"
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Subtitle6_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Subtitle6.Text",
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Subtitle6_1.Text",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -153,7 +273,7 @@
               "properties": {
                 "member": "Text",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Subtitle6"
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Subtitle6_1"
               }
             }
           ],
@@ -174,32 +294,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2.Text"
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Body2_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2.Text",
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Body2_1.Text",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
-                  "charOffset": 23,
+                  "charLength": 15,
+                  "charOffset": 8,
                   "snippet": {
-                    "text": ".altitude"
+                    "text": ".inference_time"
                   }
                 }
               },
               "properties": {
                 "member": "Text",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2"
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPEResultsGallery.Body2_1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "altitude"
+              "inference_time"
             ],
             "id": "issue"
           },
@@ -214,26 +334,226 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2.Text"
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPELabelsGallery.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2.Text",
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPELabelsGallery.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 26,
+                  "snippet": {
+                    "text": ".detections"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPELabelsGallery"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "detections"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPELabelsGallery.Label7.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.PPELabelsGallery.Label7.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".label"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.PPELabelsGallery.Label7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "label"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 21,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "PredictionsCollection"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "PredictionsCollection"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.ItemsLongitudes"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.ItemsLongitudes",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".longitude"
+                  }
+                }
+              },
+              "properties": {
+                "member": "ItemsLongitudes",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "longitude"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLongitude"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLongitude",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".longitude"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CurrentLocationLongitude",
+                "module": "HomeScreen",
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "longitude"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.ItemsLatitudes"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.ItemsLatitudes",
                   "relativeAddress": 0
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 81,
+                  "charOffset": 8,
                   "snippet": {
                     "text": ".latitude"
                   }
                 }
               },
               "properties": {
-                "member": "Text",
+                "member": "ItemsLatitudes",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2"
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1"
               }
             }
           ],
@@ -254,32 +574,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2.Text"
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLatitude"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2.Text",
+                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLatitude",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 10,
-                  "charOffset": 128,
+                  "charLength": 9,
+                  "charOffset": 8,
                   "snippet": {
-                    "text": ".longitude"
+                    "text": ".latitude"
                   }
                 }
               },
               "properties": {
-                "member": "Text",
+                "member": "CurrentLocationLatitude",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.GpsResultsGallery.Body2"
+                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "longitude"
+              "latitude"
             ],
             "id": "issue"
           },
@@ -828,36 +1148,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.results"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.results",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "results",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -928,23 +1218,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unused variable"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove the unused variable."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             }
           ],

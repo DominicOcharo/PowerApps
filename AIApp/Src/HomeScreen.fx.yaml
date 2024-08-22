@@ -145,7 +145,7 @@
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: |-
-                        ="Time: " & Text(DateAdd(DateAdd(DateValue("1970-01-01"), ThisItem.time, TimeUnit.Seconds), 3, TimeUnit.Hours), "[$-en-US]hh:mm:ss")
+                        ="Time: " & ThisItem.Time
                     VerticalAlign: =VerticalAlign.Top
                     Width: =184
                     X: =25
@@ -162,7 +162,7 @@
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: |-
-                        ="Date: " & Text(DateAdd(DateAdd(DateValue("1970-01-01"), ThisItem.time, TimeUnit.Seconds), 3, TimeUnit.Hours), "[$-en-US]yyyy-mm-dd hh:mm:ss")
+                        ="Date: " & ThisItem.Date
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Title6.Width
                     X: =25
@@ -178,9 +178,9 @@
                     PaddingRight: =0
                     PaddingTop: =0
                     Text: |-
-                        ="Altitude: " & ThisItem.altitude & " metres" & Char(10) &
-                        "Latitude: " & ThisItem.latitude & Char(10) &
-                        "Longitude: " & ThisItem.longitude
+                        ="Altitude: " & ThisItem.Altitude & " metres" & Char(10) &
+                        "Latitude: " & ThisItem.Latitude & Char(10) &
+                        "Longitude: " & ThisItem.Longitude
                     VerticalAlign: =VerticalAlign.Top
                     Width: =246
                     X: =Title6.X
@@ -461,20 +461,4 @@
                     X: =Title1.X
                     Y: =Title1.Y + Title1.Height + 8
                     ZIndex: =3
-
-            GPSTimer As timer:
-                AutoStart: =true
-                Duration: =20000
-                OnTimerEnd: =ClearCollect(PredictionsCollection,FastConnector2.GpsAll())
-                Repeat: =true
-                Visible: =false
-                ZIndex: =9
-
-            PPETimer As timer:
-                AutoStart: =true
-                Duration: =20000
-                OnTimerEnd: =ClearCollect(PredictionsCollection1,FastConnector2.PpeAll())
-                Repeat: =true
-                Visible: =false
-                ZIndex: =10
 
