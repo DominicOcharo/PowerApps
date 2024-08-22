@@ -5084,7 +5084,7 @@
         {
           "Category": "Data",
           "PropertyName": "CurrentLocation",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -5094,7 +5094,7 @@
         {
           "Category": "Data",
           "PropertyName": "CurrentLocationLongitude",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -5104,7 +5104,7 @@
         {
           "Category": "Data",
           "PropertyName": "CurrentLocationLatitude",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",

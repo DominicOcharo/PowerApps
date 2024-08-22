@@ -367,7 +367,7 @@
 
             MapGallery As gallery.variableTemplateHeightGallery:
                 DelayItemLoading: =true
-                Items: =PredictionsCollection
+                Items: =FirstN(Sort(GPS, Time, SortOrder.Descending), 1)
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -379,8 +379,8 @@
                 "Map1 As 'Map (preview)'.pcfdataset":
                     BorderColor: =RGBA(0, 18, 107, 1)
                     CurrentLocation: =true
-                    CurrentLocationLatitude: =ThisItem.latitude
-                    CurrentLocationLongitude: =ThisItem.longitude
+                    CurrentLocationLatitude: =ThisItem.Latitude
+                    CurrentLocationLongitude: =ThisItem.Longitude
                     DefaultZoomLevel: =50
                     DisplayMode: =DisplayMode.Edit
                     Height: =Parent.Height-10

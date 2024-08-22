@@ -414,46 +414,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 21,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "PredictionsCollection"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "PredictionsCollection"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.ItemsLongitudes"
                 }
               ],
@@ -494,46 +454,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLongitude"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLongitude",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".longitude"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CurrentLocationLongitude",
-                "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "longitude"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.ItemsLatitudes"
                 }
               ],
@@ -552,46 +472,6 @@
               },
               "properties": {
                 "member": "ItemsLatitudes",
-                "module": "HomeScreen",
-                "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "latitude"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLatitude"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1.CurrentLocationLatitude",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".latitude"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CurrentLocationLatitude",
                 "module": "HomeScreen",
                 "type": "HomeScreen.ScreenContainer1.MainContainer1.MapGallery.Map1"
               }
