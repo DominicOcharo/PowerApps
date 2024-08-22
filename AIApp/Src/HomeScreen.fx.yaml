@@ -421,7 +421,7 @@
 
                 Image1 As image:
                     Height: =296
-                    Image: =Icon.Tools
+                    Image: = Icon.Tag
                     ImagePosition: =ImagePosition.Fill
                     OnSelect: =Select(Parent)
                     RadiusBottomLeft: =8
