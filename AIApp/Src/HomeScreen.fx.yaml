@@ -331,7 +331,7 @@
             PPELabelsGallery As gallery.galleryVertical:
                 DelayItemLoading: =true
                 Height: =200
-                Items: =PPEResultsGallery.Selected.detections
+                Items: =FirstN(Sort(PPE, Time, SortOrder.Descending), 30)
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =50
                 LayoutMinWidth: =100
@@ -349,7 +349,7 @@
                     Height: =46
                     OnSelect: =Select(Parent)
                     Size: =20
-                    Text: =ThisItem.label
+                    Text: =ThisItem.Detections
                     Width: =270
                     X: =18
                     Y: =84
