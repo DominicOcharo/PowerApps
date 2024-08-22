@@ -124,7 +124,7 @@
 
             "GpsResultsGallery As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver5.0'":
                 DelayItemLoading: =true
-                Items: =FirstN(Sort(GPS, Time, SortOrder.Descending), 10)
+                Items: =FirstN(Sort(GPS, Time, SortOrder.Descending), 20)
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
