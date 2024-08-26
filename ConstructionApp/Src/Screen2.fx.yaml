@@ -231,76 +231,31 @@
                     Width: =Parent.Width
                     ZIndex: =11
 
-                    "'Company Name_1' As label":
-                        Font: =Font.'Lato Black'
-                        FontWeight: =FontWeight.Bold
-                        Height: =60
-                        Size: =(Screen2.Width)/38
-                        Text: ="Soti Tech Company"
-                        Width: =(Screen2.Width)/2.5
-                        X: =CompanyLogo_1.Width
-                        Y: =Parent.Height/10
-                        ZIndex: =6
-
-                    CompanyLogo_1 As image:
-                        Height: =Parent.Height-15
-                        Image: =logo
-                        ImagePosition: =ImagePosition.Fill
-                        RadiusBottomLeft: =50
-                        RadiusBottomRight: =50
-                        RadiusTopLeft: =50
-                        RadiusTopRight: =50
-                        Width: =Parent.Height-15
-                        Y: =Parent.Height/9
-                        ZIndex: =7
-
-                    ProfileImage_1 As image:
-                        Height: =Parent.Height-15
-                        Image: =User().Image
-                        ImagePosition: =ImagePosition.Fill
-                        RadiusBottomLeft: =50
-                        RadiusBottomRight: =50
-                        RadiusTopLeft: =50
-                        RadiusTopRight: =50
-                        Visible: =If(((ProfileImage_1.X-HelpButton_1.X-HelpButton_1.Width)<1)&&HelpButton_1.Visible,false,true)
-                        Width: |
-                            =Parent.Height-15
-                        X: =(Screen2.Width)-(42+ProfileImage_1.Width)
-                        Y: =Screen2.Width/150
-                        ZIndex: =8
-
-                    Name_1 As label:
-                        FontWeight: =FontWeight.Bold
-                        Height: =Parent.Height-15
-                        Size: =Screen2.Width/100
-                        Text: =User().FullName
-                        Visible: =If((Name_1.X-HelpButton_1.X-HelpButton_1.Width)<1,false,true)
-                        Width: =Len(User().FullName)*12
-                        X: =(ProfileImage_1.X-Name_1.Width-1)
-                        Y: =7
-                        ZIndex: =9
-
-                    HelpButton_1 As button:
-                        Color: =Color.Black
-                        Fill: =Color.LightBlue
+                    SearchButton As button:
+                        Height: =68
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
                         RadiusTopLeft: =20
                         RadiusTopRight: =20
-                        Size: =(Screen2.Width)/80
-                        Text: ="Help"
-                        Visible: =If(Screen2.Width >= (CompanyLogo_1.Width+'Company Name_1'.Width+Screen2.Width/5+HelpButton_1.Width),true,false)
-                        X: =(CompanyLogo_1.Width+'Company Name_1'.Width+Screen2.Width/5)
-                        Y: =19
-                        ZIndex: =10
+                        Text: =
+                        Width: =328
+                        ZIndex: =1
 
-                    Icon1_1 As icon.Help:
-                        Color: =RGBA(0, 0, 0, 1)
-                        Height: =40
-                        Icon: =Icon.Help
-                        Visible: =If(Screen2.Width >= (CompanyLogo_1.Width+'Company Name_1'.Width+Screen2.Width/5+HelpButton_1.Width),true,false)
-                        Width: =44
-                        X: =(CompanyLogo_1.Width+'Company Name_1'.Width+Screen2.Width/5)
-                        Y: =19
-                        ZIndex: =11
+                    SearchText As label:
+                        Color: =RGBA(241, 244, 249, 1)
+                        Fill: =Color.White
+                        PaddingLeft: =40
+                        Text: =
+                        Width: =296
+                        X: =SearchButton.X+SearchButton.Width/20
+                        Y: =14
+                        ZIndex: =2
+
+                    SearchIcon As icon.Search:
+                        Height: =SearchText.Height
+                        Icon: =Icon.Search
+                        Width: =SearchText.Width/8
+                        X: =SearchText.X
+                        Y: =SearchText.Y
+                        ZIndex: =3
 
