@@ -327,7 +327,7 @@
                     Dropdown1 As dropdown:
                         AllowEmptySelection: =true
                         Items: =DetectionsCol
-                        X: =495
+                        X: =375
                         Y: =14
                         ZIndex: =5
 
