@@ -326,7 +326,7 @@
 
                     Dropdown1 As dropdown:
                         AllowEmptySelection: =true
-                        Items: =Choices(PPE.Detections)
+                        Items: =DetectionsCol
                         X: =495
                         Y: =14
                         ZIndex: =5
