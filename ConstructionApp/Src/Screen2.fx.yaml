@@ -378,7 +378,7 @@
                     Dropdown2 As dropdown:
                         AllowEmptySelection: =true
                         Height: =Parent.Height/1.8
-                        Items: =UniqueDateDetections
+                        Items: =UniqueTimeDetections
                         Reset: =true
                         Size: =TextInput2.Width/10
                         Width: =DropButton2.Width-DropButton2.Width/8
