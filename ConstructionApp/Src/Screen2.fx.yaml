@@ -90,7 +90,7 @@
                         Text: =User().FullName
                         Visible: =If((Name.X-HelpButton.X-HelpButton.Width)<1,false,true)
                         Width: =Len(User().FullName)*12
-                        X: =(ProfileImage.X-Name.Width-5)
+                        X: =(ProfileImage.X-Name.Width-1)
                         Y: =7
                         ZIndex: =9
 
