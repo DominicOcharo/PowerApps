@@ -69,6 +69,13 @@
                         Y: =ProductList.Y+ProductList.Height
                         ZIndex: =3
 
+                    Icon2 As icon.Download:
+                        Height: =28
+                        Icon: =Icon.Download
+                        X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,ProductList.X,Screen2.Width-212)
+                        Y: =ProductList.Y+ProductList.Height
+                        ZIndex: =4
+
                 Container1 As groupContainer.manualLayoutContainer:
                     Height: =((Parent.Height)/2)
                     Width: =Parent.Width
