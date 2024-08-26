@@ -298,6 +298,7 @@
                         Color: =Color.Black
                         Default: =
                         Fill: =Color.White
+                        Height: =Parent.Height/1.8
                         HoverFill: =Color.White
                         PaddingLeft: =SearchIcon.Width+2
                         RadiusBottomLeft: =10
