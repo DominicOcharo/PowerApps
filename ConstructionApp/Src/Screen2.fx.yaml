@@ -70,10 +70,10 @@
                         ZIndex: =3
 
                     Icon2 As icon.Download:
-                        Height: =28
+                        Height: =20
                         Icon: =Icon.Download
-                        X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,(ProductList.X-8),Screen2.Width-212)
-                        Y: =ProductList.Y+ProductList.Height
+                        X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,(ProductList.X-8),Screen2.Width-216)
+                        Y: =ProductList.Y+ProductList.Height+5
                         ZIndex: =4
 
                 Container1 As groupContainer.manualLayoutContainer:
