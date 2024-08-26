@@ -1,7 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |-
-        =ClearCollect(PPEData,{'ID':1,'Detection':PPE})
+        =ClearCollect(PPEData,{ID:1,Detection:PPE})
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
