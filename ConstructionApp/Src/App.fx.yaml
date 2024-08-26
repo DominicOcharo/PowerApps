@@ -3,7 +3,7 @@ App As appinfo:
     OnStart: |
         =ClearCollect(
             UniqueDetections,
-            {Result: ""},
+            {Result: false},
             Distinct(
                 PPE,
                 Detections
