@@ -208,7 +208,7 @@
                                     Detections,
                                     Dropdown1.Selected.Value
                                 )) && (StartsWith(
-                                    Detections,
+                                    Date,
                                     Dropdown2.Selected.Value
                                 ))
                             )
