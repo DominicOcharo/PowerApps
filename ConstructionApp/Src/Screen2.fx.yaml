@@ -207,6 +207,9 @@
                                 )) && (StartsWith(
                                     Detections,
                                     Dropdown1.Selected.Value
+                                )) && (StartsWith(
+                                    Detections,
+                                    Dropdown2.Selected.Value
                                 ))
                             )
                         Layout: =Layout.Vertical
