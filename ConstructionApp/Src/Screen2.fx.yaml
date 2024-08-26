@@ -198,7 +198,7 @@
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
-                        TemplateSize: =104
+                        TemplateSize: =Gallery2.Width/15
                         Width: =Screen2.Width-Screen2.Width/40
                         WrapCount: =2
                         X: =ItemsContainer.X
