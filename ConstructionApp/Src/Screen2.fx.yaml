@@ -227,7 +227,7 @@
                         ZIndex: =4
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
-                    Height: =((MainHeader.Height)/10)
+                    Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.4)
                     Width: =Parent.Width
                     ZIndex: =11
 
