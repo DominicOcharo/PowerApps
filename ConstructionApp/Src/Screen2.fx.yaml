@@ -88,7 +88,7 @@
                         Height: =Parent.Height-15
                         Size: =Screen2.Width/100
                         Text: =User().FullName
-                        Visible: =If((Screen2.Width>1120),true,false)
+                        Visible: =If((Name.X-HelpButton.X-HelpButton.Width)<1,false,true)
                         Width: =Len(User().FullName)*12
                         X: =(ProfileImage.X-Name.Width-5)
                         Y: =7
