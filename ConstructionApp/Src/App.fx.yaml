@@ -3,9 +3,14 @@ App As appinfo:
     OnStart: |
         =ClearCollect(
             UniqueDetections,
-            {Result: "Blank", Value: ""},  // Display as "Blank", store as empty
+            {Result: ""},  // Blank option
             Distinct(PPE, Detections)  // Unique detections
-        )
+        );
+        ClearCollect(
+            UniqueDateDetections,
+            {Result: ""},  // Blank option
+            Distinct(PPE, Date)  // Unique detections
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
