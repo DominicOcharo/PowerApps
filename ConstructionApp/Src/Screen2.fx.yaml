@@ -274,7 +274,7 @@
                         RadiusTopLeft: =20
                         RadiusTopRight: =20
                         Text: =
-                        Width: =SearchFilterContainer.Width/4
+                        Width: =Screen2.Width/4
                         ZIndex: =1
 
                     TextInput2 As text:
@@ -312,7 +312,7 @@
                         RadiusTopLeft: =20
                         RadiusTopRight: =20
                         Text: =
-                        Width: =SearchFilterContainer.Width/4
+                        Width: =Screen2.Width/4
                         X: =(DropButton2.X-SearchButton.X)/2
                         ZIndex: =4
 
@@ -337,7 +337,7 @@
                         RadiusTopLeft: =20
                         RadiusTopRight: =20
                         Text: =
-                        Width: =SearchFilterContainer.Width/4
+                        Width: =Screen2.Width/4
                         X: =Screen2.Width-DropButton2.Width-(Screen2.Width*0.2)
                         ZIndex: =6
 
@@ -357,7 +357,7 @@
                         Height: =Dropdown2.Height
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
                         Text: ="Button"
-                        Width: =DropButton2.Width/2
+                        Width: =Screen2.Width/9
                         X: =(Screen2.Width - DropButton2.X+DropButton2.Width)/0.83
                         Y: =DropButton2.Y+DropButton2.Height/4.5
                         ZIndex: =8
