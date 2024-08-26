@@ -232,6 +232,7 @@
                     ZIndex: =11
 
                     SearchButton As button:
+                        DisplayMode: =DisplayMode.View
                         Height: =68
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
