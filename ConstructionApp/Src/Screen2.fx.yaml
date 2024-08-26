@@ -62,8 +62,8 @@
                         ZIndex: =2
 
                     DownloadButton1 As button:
-                        Height: =Screen2.Width/50
-                        Size: =Screen2.Width/130
+                        Height: =28
+                        Size: =12
                         Text: ="Download"
                         X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,ProductList.X,Screen2.Width-204)
                         Y: =ProductList.Y+ProductList.Height
@@ -79,7 +79,7 @@
                         FontWeight: =FontWeight.Bold
                         Height: =60
                         Size: =(Screen2.Width)/38
-                        Text: ="Domi Tech Company"
+                        Text: ="Soti Tech Company"
                         Width: =(Screen2.Width)/2.5
                         X: =CompanyLogo.Width
                         Y: =Parent.Height/10
