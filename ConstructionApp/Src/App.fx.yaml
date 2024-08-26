@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Set(DetectionsCol,PPE.Detections)
+    OnStart: =Set(Blank1,"")
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

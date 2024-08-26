@@ -339,7 +339,8 @@
 
                     Dropdown1 As dropdown:
                         AllowEmptySelection: =true
-                        Items: =Distinct(PPE, Detections)
+                        Items: =Distinct(PPE, Detections && Blank1)
+                        Reset: =true
                         X: =375
                         Y: =14
                         ZIndex: =5
