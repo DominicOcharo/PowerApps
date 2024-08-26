@@ -244,7 +244,7 @@
 
                     TextInput2 As text:
                         Color: =Color.Black
-                        Default: ="Text input"
+                        Default: =
                         Fill: =Color.White
                         PaddingLeft: =SearchIcon.Width+2
                         Width: =SearchButton.Width-SearchButton.Width/8
