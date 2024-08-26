@@ -1,0 +1,141 @@
+"Screen2 As screen.'autoLayout_HeaderFooter_ver1.0'":
+
+    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =150
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Header As groupContainer.manualLayoutContainer:
+                BorderColor: =Color.White
+                BorderStyle: =BorderStyle.None
+                Height: =Parent.Height
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                Width: =Parent.Width
+                ZIndex: =2
+
+                Container11 As groupContainer.manualLayoutContainer:
+                    Fill: =Color.LightGray
+                    Height: =(Parent.Height)-((Parent.Height)/3)
+                    Width: =Screen2.Width
+                    Y: =(Parent.Height)/2
+                    ZIndex: =10
+
+                Container1 As groupContainer.manualLayoutContainer:
+                    Height: =((Parent.Height)/2)
+                    Width: =Parent.Width
+                    ZIndex: =11
+
+                    "'Company Name' As label":
+                        Font: =Font.'Lato Black'
+                        FontWeight: =FontWeight.Bold
+                        Height: =60
+                        Size: =(Screen2.Width)/38
+                        Text: ="Domi Tech Company"
+                        Width: =(Screen2.Width)/2.5
+                        X: =CompanyLogo.Width
+                        Y: =Parent.Height/10
+                        ZIndex: =6
+
+                    CompanyLogo As image:
+                        Height: =Parent.Height-15
+                        Image: =logo
+                        ImagePosition: =ImagePosition.Fill
+                        RadiusBottomLeft: =Len(logo)
+                        RadiusBottomRight: =Len(logo)
+                        RadiusTopLeft: =Len(logo)
+                        RadiusTopRight: =Len(logo)
+                        Width: =Parent.Height-15
+                        Y: =Parent.Height/9
+                        ZIndex: =7
+
+                    ProfileImage As image:
+                        Height: =Parent.Height-15
+                        Image: =User().Image
+                        ImagePosition: =ImagePosition.Fill
+                        Visible: =If(((ProfileImage.X-HelpButton.X-HelpButton.Width)<1)&&HelpButton.Visible,false,true)
+                        Width: |
+                            =Parent.Height-15
+                        X: =(Screen2.Width)-(42+ProfileImage.Width)
+                        Y: =Screen2.Width/150
+                        ZIndex: =8
+
+                    Name As label:
+                        FontWeight: =FontWeight.Bold
+                        Height: =Parent.Height-15
+                        Size: =Screen2.Width/100
+                        Text: =User().FullName
+                        Visible: =If((Screen2.Width>1120),true,false)
+                        Width: =Len(User().FullName)*10
+                        X: =(Screen2.Width-42-ProfileImage.Width-Name.Width)
+                        Y: =7
+                        ZIndex: =9
+
+                    HelpButton As button:
+                        Color: =Color.Black
+                        Fill: =Color.LightBlue
+                        Size: =(Screen2.Width)/80
+                        Text: ="Help"
+                        Visible: =If(Screen2.Width >= (CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5+HelpButton.Width),true,false)
+                        X: =(CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5)
+                        Y: =19
+                        ZIndex: =10
+
+                    Icon1 As icon.Help:
+                        Color: =RGBA(0, 0, 0, 1)
+                        Height: =40
+                        Icon: =Icon.Help
+                        Visible: =If(Screen2.Width >= (CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5+HelpButton.Width),true,false)
+                        Width: =44
+                        X: =(CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5)
+                        Y: =19
+                        ZIndex: =11
+
+        MainContainer1 As groupContainer.verticalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =3
+
+        FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =4
+

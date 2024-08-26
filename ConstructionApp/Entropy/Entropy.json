@@ -1,0 +1,107 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Company Name": 10,
+    "CompanyLogo": 11,
+    "Container1": 8,
+    "Container11": 15,
+    "FooterContainer1": 17,
+    "Header": 7,
+    "HeaderContainer1": 6,
+    "HelpButton": 13,
+    "Host": 3,
+    "Icon1": 14,
+    "MainContainer1": 16,
+    "Name": 9,
+    "ProfileImage": 12,
+    "Screen2": 4,
+    "ScreenContainer1": 5
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "08/26/2024 05:50:44",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": true,
+  "LocalResourceFileNames": {
+    "ISAIAH 60 22": "1b878808-6a21-449b-a474-dd342b14fcad.jpeg",
+    "logo": "103eb9df-fce4-4d99-808d-7c19bf743599.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "ISAIAH 60 22": "https://docserverpwaprodsuk.blob.core.windows.net/03c76e0e-1777-45be-a098-831cc5a1c106-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-26T05%3A44%3A34Z&ske=2024-08-27T05%3A59%3A34Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-08-27T05%3A59%3A34Z&sr=b&sp=r&sig=0clcYYs2kVM8U44nn1H2uoXpjgoT5x25zyToDCnuo2Q%3D",
+    "logo": "https://docserverpwaprodsuk.blob.core.windows.net/03c76e0e-1777-45be-a098-831cc5a1c106-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-26T05%3A44%3A34Z&ske=2024-08-27T05%3A59%3A34Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-08-27T05%3A59%3A34Z&sr=b&sp=r&sig=bCQSiZ0Pl1CGcqW5W2wdrA53pqkHxS3qIxQx2%2BGojR8%3D"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "groupContainer": 0,
+    "icon": 4,
+    "image": 2,
+    "label": 1
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Company Name": {},
+    "CompanyLogo": {},
+    "Container1": {},
+    "Container11": {},
+    "FooterContainer1": {},
+    "Header": {},
+    "HeaderContainer1": {},
+    "HelpButton": {},
+    "Host": {},
+    "Icon1": {},
+    "MainContainer1": {},
+    "Name": {},
+    "ProfileImage": {},
+    "Screen2": {},
+    "ScreenContainer1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Company Name": 5,
+    "CompanyLogo": 6,
+    "Container1": 3,
+    "Container11": 10,
+    "FooterContainer1": 12,
+    "Header": 2,
+    "HeaderContainer1": 1,
+    "HelpButton": 8,
+    "Host": 0,
+    "Icon1": 9,
+    "MainContainer1": 11,
+    "Name": 4,
+    "ProfileImage": 7,
+    "Screen2": 0,
+    "ScreenContainer1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-ISAIAH 60 22": 1,
+    "Image-logo": 2,
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1745651,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 7,
+      "icon": 1,
+      "image": 2,
+      "label": 2,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 4.7865891
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
