@@ -357,6 +357,6 @@
                         Height: =49.1111111111112
                         Icon: =Icon.Reset
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
-                        X: =DropButton2.X+DropButton2.Width+(Screen2.Width*0.1)
+                        X: =(DropButton2.X+DropButton2.Width)+((Screen2.Width)-(DropButton2.X+DropButton2.Width))/2
                         ZIndex: =9
 
