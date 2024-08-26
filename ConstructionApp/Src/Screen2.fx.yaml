@@ -199,7 +199,7 @@
                         Items: =PPE
                         Width: =Screen2.Width-(Screen2.Width/36)
                         X: =ItemsContainer.X
-                        Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
+                        Y: =0
                         ZIndex: =2
 
                         Detections_Column2 As dataTableColumn.textualColumn:
