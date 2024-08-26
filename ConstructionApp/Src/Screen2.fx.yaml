@@ -197,9 +197,9 @@
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =ItemsContainer.Height
                         Items: =PPE
-                        Width: =Screen2.Width-(Screen2.Width/38)
+                        Width: =Screen2.Width-(Screen2.Width/36)
                         X: =ItemsContainer.X
-                        Y: =0
+                        Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
                         ZIndex: =2
 
                         Detections_Column2 As dataTableColumn.textualColumn:
