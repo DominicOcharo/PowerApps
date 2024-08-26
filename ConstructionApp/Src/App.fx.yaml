@@ -1,13 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |-
-        =Set(HelpLen, ((Container1.Width))-(('User Image'.Width)+('User Name'.Width)+(Separator.Width)+(Icon1.Width)+90)+150);
-        Set(HelpIcon,((Container1.Width))-(('User Image'.Width)+('User Name'.Width)+(Separator.Width)+50)+150);
-        Set(UserName,(Container1.Width)-(('User Image'.Width)+('User Name'.Width))+150);
-        Set(UserImage,(Container1.Width)-('User Image'.Width)+150);
-        Set(SeperatorLen,(Container1.Width)-(('User Name'.Width)+('User Image'.Width))+150);
-        Set(CompanyLen,(CompanyLogo.Width)+10);
-        Set(DownloadButton,(Screen2.Width-HelpButton.Width))
+        =ClearCollect(PPEData,{'ID':1,'Detection':PPE})
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
