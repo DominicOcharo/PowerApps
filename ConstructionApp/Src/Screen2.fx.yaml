@@ -344,6 +344,7 @@
 
                     DropButton1 As button:
                         DisplayMode: =DisplayMode.View
+                        Fill: =Color.AliceBlue
                         Height: =Parent.Height
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
@@ -368,6 +369,7 @@
 
                     DropButton2 As button:
                         DisplayMode: =DisplayMode.View
+                        Fill: =Color.AliceBlue
                         Height: =Parent.Height
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
