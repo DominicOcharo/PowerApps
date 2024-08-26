@@ -1287,7 +1287,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "WrapCount",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "WrapCount",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "TemplateSize",
         "TemplatePadding",
         "Layout",
@@ -1323,7 +1330,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Height",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "505.90476190476187",
+          "InvariantPropertyName": "Height",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ZIndex"
       ],
       "GalleryTemplateChildName": "galleryTemplate2",
@@ -1459,7 +1473,7 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

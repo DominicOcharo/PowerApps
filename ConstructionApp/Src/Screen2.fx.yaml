@@ -191,13 +191,14 @@
 
                     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
                         DelayItemLoading: =true
-                        Height: =505.90476190476187
-                        Items: =Search(PPE,TextInput2.Text,Detections)
+                        Height: =Screen2.Height-HeaderContainer1.Height-SearchFilterContainer.Height-(Screen2.Height/18)
+                        Items: =Filter(PPE,StartsWith(Detections,TextInput2.Text))
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
                         TemplateSize: =104
                         Width: =ItemsContainer.Width
+                        WrapCount: =4
                         X: =ItemsContainer.X
                         ZIndex: =1
 
