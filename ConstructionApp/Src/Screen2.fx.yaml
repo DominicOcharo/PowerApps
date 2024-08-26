@@ -337,11 +337,25 @@
                         Y: =TextInput2.Y
                         ZIndex: =3
 
+                    DropButton1 As button:
+                        DisplayMode: =DisplayMode.View
+                        Height: =Parent.Height
+                        RadiusBottomLeft: =20
+                        RadiusBottomRight: =20
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
+                        Text: =
+                        Width: =SearchFilterContainer.Width/4
+                        X: =SearchButton.X+SearchButton.Width+5
+                        ZIndex: =4
+
                     Dropdown1 As dropdown:
                         AllowEmptySelection: =true
                         Items: =UniqueDetections
                         Reset: =true
-                        X: =375
-                        Y: =14
+                        Size: =TextInput2.Width/10
+                        Width: =DropButton1.Width-DropButton1.Width/8
+                        X: =DropButton1.X+DropButton1.Width/20
+                        Y: =DropButton1.Y+DropButton1.Height/4.5
                         ZIndex: =5
 
