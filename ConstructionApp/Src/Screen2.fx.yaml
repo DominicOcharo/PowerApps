@@ -39,10 +39,32 @@
 
                 Container11 As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
-                    Height: =(Parent.Height)-((Parent.Height)/3)
+                    Height: =((Parent.Height)-Container1.Height)
                     Width: =Screen2.Width
                     Y: =(Parent.Height)/2
                     ZIndex: =10
+
+                    ProductList As label:
+                        Font: =Font.'Lato Black'
+                        FontWeight: =FontWeight.Bold
+                        Size: =17
+                        Text: ="Product List"
+                        X: =5
+                        Y: =1
+                        ZIndex: =1
+
+                    ProductListDesc As label:
+                        Text: ="Here isa list of all the products in the database"
+                        Width: =Len(ProductListDesc.Text)*8
+                        X: =5
+                        Y: =35
+                        ZIndex: =2
+
+                    Button1 As button:
+                        Text: ="Download"
+                        X: =Screen2.Width-204
+                        Y: =35
+                        ZIndex: =3
 
                 Container1 As groupContainer.manualLayoutContainer:
                     Height: =((Parent.Height)/2)
