@@ -202,7 +202,6 @@
                         Width: =ItemsContainer.Width
                         WrapCount: =4
                         X: =ItemsContainer.X
-                        Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
                         ZIndex: =1
 
                         Image2 As image:
