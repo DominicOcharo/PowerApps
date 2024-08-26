@@ -242,21 +242,22 @@
                         Width: =328
                         ZIndex: =1
 
-                    SearchText As label:
+                    TextInput2 As text:
                         Color: =Color.Black
+                        Default: ="Text input"
                         Fill: =Color.White
-                        PaddingLeft: =40
-                        Text: =
-                        Width: =296
+                        PaddingLeft: =SearchIcon.Width+2
+                        Width: =SearchButton.Width-SearchButton.Width/8
                         X: =SearchButton.X+SearchButton.Width/20
-                        Y: =14
+                        Y: =SearchButton.Y+SearchButton.Height/4
                         ZIndex: =2
 
                     SearchIcon As icon.Search:
-                        Height: =SearchText.Height
+                        Color: =Color.Black
+                        Height: =TextInput2.Height
                         Icon: =Icon.Search
-                        Width: =SearchText.Width/8
-                        X: =SearchText.X
-                        Y: =SearchText.Y
+                        Width: =TextInput2.Width/8
+                        X: =TextInput2.X
+                        Y: =TextInput2.Y
                         ZIndex: =3
 

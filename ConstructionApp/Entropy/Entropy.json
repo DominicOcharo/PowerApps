@@ -30,11 +30,11 @@
     "SearchButton": 52,
     "SearchFilterContainer": 39,
     "SearchIcon": 54,
-    "SearchText": 53
+    "TextInput2": 55
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/26/2024 08:19:59",
+  "HeaderLastSavedDateTimeUTC": "08/26/2024 08:27:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -57,7 +57,8 @@
     "groupContainer": 0,
     "icon": 4,
     "image": 2,
-    "label": 1
+    "label": 1,
+    "text": 5
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -88,7 +89,7 @@
     "SearchButton": {},
     "SearchFilterContainer": {},
     "SearchIcon": {},
-    "SearchText": {}
+    "TextInput2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -121,7 +122,7 @@
     "SearchButton": 18,
     "SearchFilterContainer": 17,
     "SearchIcon": 20,
-    "SearchText": 19
+    "TextInput2": 19
   },
   "ResourcesJsonIndices": {
     "Image-ISAIAH 60 22": 1,
