@@ -10,7 +10,6 @@ App As appinfo:
         );
         ClearCollect(
             UniqueDateDetections,
-            {Result: ""},
             Distinct(
                 PPE,
                 Date
@@ -18,7 +17,6 @@ App As appinfo:
         );
         ClearCollect(
             UniqueTimeDetections,
-            {Result: ""},
             Distinct(
                 PPE,
                 Time
