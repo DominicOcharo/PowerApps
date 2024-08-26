@@ -72,7 +72,7 @@
                     Icon2 As icon.Download:
                         Height: =28
                         Icon: =Icon.Download
-                        X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,ProductList.X,Screen2.Width-212)
+                        X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,(ProductList.X-8),Screen2.Width-212)
                         Y: =ProductList.Y+ProductList.Height
                         ZIndex: =4
 
