@@ -355,7 +355,7 @@
 
                     Reset As icon.Reset:
                         Fill: =RGBA(186, 202, 226, 1)
-                        Height: =Screen2.Height/25
+                        Height: =Dropdown2.Height
                         Icon: =Icon.Reset
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
                         Width: =Screen2.Width/20
