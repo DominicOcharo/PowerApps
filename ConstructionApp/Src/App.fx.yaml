@@ -3,13 +3,18 @@ App As appinfo:
     OnStart: |
         =ClearCollect(
             UniqueDetections,
-            {Result: ""},  // Blank option
-            Distinct(PPE, Detections)  // Unique detections
+            {Result: ""},
+            Distinct(PPE, Detections)
         );
         ClearCollect(
             UniqueDateDetections,
-            {Result: ""},  // Blank option
-            Distinct(PPE, Date)  // Unique detections
+            {Result: ""},
+            Distinct(PPE, Date)
+        );
+        ClearCollect(
+            UniqueTimeDetections,
+            {Result: ""},
+            Distinct(PPE, Time)
         );
     Theme: =PowerAppsTheme
 
