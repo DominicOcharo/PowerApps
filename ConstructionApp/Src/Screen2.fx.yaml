@@ -188,7 +188,7 @@
                     Fill: =Color.LightGray
                     Height: =Screen2.Height-HeaderContainer1.Height-SearchFilterContainer.Height-(Screen2.Height/18)
                     Width: =1334
-                    Y: =MainHeader.Y+SearchFilterContainer.Height
+                    Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
                     ZIndex: =10
 
                     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
