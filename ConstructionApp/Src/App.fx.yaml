@@ -1,6 +1,11 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Set(Blank1,"")
+    OnStart: |
+        =ClearCollect(
+            UniqueDetections,
+            {Result: ""},  // Blank option
+            Distinct(PPE, Detections)  // Unique detections
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
