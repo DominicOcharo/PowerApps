@@ -373,7 +373,7 @@
                         RadiusTopRight: =20
                         Text: =
                         Width: =SearchFilterContainer.Width/3.2
-                        X: =Screen2.Width-DropButton2.Width-(Screen2.Width*0.03)
+                        X: =Screen2.Width-DropButton2.Width-(Screen2.Width*0.06)
                         ZIndex: =6
 
                     Dropdown2 As dropdown:
