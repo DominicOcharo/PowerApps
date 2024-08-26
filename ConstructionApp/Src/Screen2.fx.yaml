@@ -358,6 +358,6 @@
                         Icon: =Icon.Reset
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
                         Width: =Screen2.Width/20
-                        X: =(DropButton2.X+DropButton2.Width)+((Screen2.Width)-(DropButton2.X+DropButton2.Width))/2
+                        X: =(DropButton2.X+DropButton2.Width)+((Screen2.Width)-(Screen2.Width/8)-(DropButton2.X+DropButton2.Width))/2
                         ZIndex: =9
 
