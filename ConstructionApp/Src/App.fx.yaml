@@ -3,7 +3,7 @@ App As appinfo:
     OnStart: |
         =ClearCollect(
             UniqueDetections,
-            {Result: ""},  // Blank option
+            {Result: "Blank", Value: ""},  // Display as "Blank", store as empty
             Distinct(PPE, Detections)  // Unique detections
         )
     Theme: =PowerAppsTheme
