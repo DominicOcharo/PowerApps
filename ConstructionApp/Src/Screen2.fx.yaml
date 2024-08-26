@@ -351,6 +351,7 @@
 
                     Dropdown1 As dropdown:
                         AllowEmptySelection: =true
+                        Height: =Parent.Height/1.8
                         Items: =UniqueDetections
                         Reset: =true
                         Size: =TextInput2.Width/10
