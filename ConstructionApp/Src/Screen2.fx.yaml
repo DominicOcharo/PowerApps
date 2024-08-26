@@ -63,6 +63,10 @@
 
                     DownloadButton1 As button:
                         Height: =28
+                        RadiusBottomLeft: =20
+                        RadiusBottomRight: =20
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
                         Size: =12
                         Text: ="Download"
                         X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,ProductList.X,Screen2.Width-204)
@@ -70,6 +74,7 @@
                         ZIndex: =3
 
                     Icon2 As icon.Download:
+                        Color: =RGBA(0, 0, 0, 1)
                         Height: =20
                         Icon: =Icon.Download
                         X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,(ProductList.X-8),Screen2.Width-216)
@@ -108,6 +113,10 @@
                         Height: =Parent.Height-15
                         Image: =User().Image
                         ImagePosition: =ImagePosition.Fill
+                        RadiusBottomLeft: =50
+                        RadiusBottomRight: =50
+                        RadiusTopLeft: =50
+                        RadiusTopRight: =50
                         Visible: =If(((ProfileImage.X-HelpButton.X-HelpButton.Width)<1)&&HelpButton.Visible,false,true)
                         Width: |
                             =Parent.Height-15
@@ -129,6 +138,10 @@
                     HelpButton As button:
                         Color: =Color.Black
                         Fill: =Color.LightBlue
+                        RadiusBottomLeft: =20
+                        RadiusBottomRight: =20
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
                         Size: =(Screen2.Width)/80
                         Text: ="Help"
                         Visible: =If(Screen2.Width >= (CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5+HelpButton.Width),true,false)
