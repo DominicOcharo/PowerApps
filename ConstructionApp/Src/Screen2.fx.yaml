@@ -200,7 +200,6 @@
                         TemplatePadding: =0
                         TemplateSize: =Gallery2.Width/15
                         Width: =Screen2.Width-Screen2.Width/40
-                        WrapCount: =2
                         X: =ItemsContainer.X
                         ZIndex: =1
 
