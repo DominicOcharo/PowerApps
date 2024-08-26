@@ -353,12 +353,10 @@
                         Y: =DropButton2.Y+DropButton2.Height/4.5
                         ZIndex: =7
 
-                    Button1 As button:
-                        Height: =Dropdown2.Height
+                    Reset As icon.Reset:
+                        Height: =49.1111111111112
+                        Icon: =Icon.Reset
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
-                        Text: ="Button"
-                        Width: =Screen2.Width/9
-                        X: =(Screen2.Width - DropButton2.X+DropButton2.Width)/0.83
-                        Y: =DropButton2.Y+DropButton2.Height/4.5
-                        ZIndex: =8
+                        X: =DropButton2.X+DropButton2.Width+(Screen2.Width*0.1)
+                        ZIndex: =9
 
