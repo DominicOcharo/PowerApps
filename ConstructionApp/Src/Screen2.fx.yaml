@@ -355,7 +355,7 @@
 
                     Button1 As button:
                         Height: =Dropdown2.Height
-                        OnSelect: =Reset(Dropdown1);Reset(Dropdown2);Reset(TextInput2)
+                        OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
                         Text: ="Button"
                         X: =DropButton2.X+DropButton2.Width+(Screen2.Width*0.04)
                         Y: =DropButton2.Y+DropButton2.Height/4.5
