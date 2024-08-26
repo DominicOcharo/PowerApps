@@ -294,7 +294,7 @@
                         RadiusTopLeft: =20
                         RadiusTopRight: =20
                         Text: =
-                        Width: =328
+                        Width: =SearchFilterContainer.Width/4
                         ZIndex: =1
 
                     TextInput2 As text:
