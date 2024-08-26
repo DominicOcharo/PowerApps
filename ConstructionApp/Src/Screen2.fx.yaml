@@ -285,7 +285,7 @@
 
                     SearchButton As button:
                         DisplayMode: =DisplayMode.View
-                        Height: =68
+                        Height: =Parent.Height
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
                         RadiusTopLeft: =20
