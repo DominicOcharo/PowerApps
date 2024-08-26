@@ -54,19 +54,19 @@
                         ZIndex: =1
 
                     ProductListDesc As label:
-                        Text: ="Here isa list of all the products in the database"
+                        Text: ="Here is a list of all the products in the database"
                         Visible: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,false,true)
                         Width: =Len(ProductListDesc.Text)*8
                         X: =5
-                        Y: =35
+                        Y: =ProductList.Y+ProductList.Height
                         ZIndex: =2
 
                     DownloadButton1 As button:
-                        Height: =Screen2.Width/40
+                        Height: =Screen2.Width/50
                         Size: =Screen2.Width/130
                         Text: ="Download"
                         X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,ProductList.X,Screen2.Width-204)
-                        Y: =35
+                        Y: =ProductList.Y+ProductList.Height
                         ZIndex: =3
 
                 Container1 As groupContainer.manualLayoutContainer:
