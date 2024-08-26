@@ -360,6 +360,6 @@
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
                         Width: =Screen2.Width/20
                         X: =(DropButton2.X+DropButton2.Width)+((Screen2.Width)-(Screen2.Width/8)-(DropButton2.X+DropButton2.Width))/2
-                        Y: =DropButton2.Y+DropButton2.Height/9
+                        Y: =Dropdown2.Y
                         ZIndex: =9
 
