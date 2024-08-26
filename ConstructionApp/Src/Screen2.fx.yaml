@@ -246,10 +246,11 @@
                         Color: =Color.Black
                         Default: =
                         Fill: =Color.White
+                        HoverFill: =Color.White
                         PaddingLeft: =SearchIcon.Width+2
                         Width: =SearchButton.Width-SearchButton.Width/8
                         X: =SearchButton.X+SearchButton.Width/20
-                        Y: =SearchButton.Y+SearchButton.Height/4
+                        Y: =SearchButton.Y+SearchButton.Height/4.5
                         ZIndex: =2
 
                     SearchIcon As icon.Search:
