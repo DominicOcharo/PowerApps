@@ -1899,7 +1899,14 @@
         "ChevronHoverBackground",
         "ChevronDisabledBackground",
         "SelectionFill",
-        "Color",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "HoverColor",
         "PressedColor",
         "DisabledColor",
@@ -2056,7 +2063,7 @@
         {
           "Category": "Design",
           "PropertyName": "Color",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",
@@ -2236,7 +2243,14 @@
         "ChevronHoverBackground",
         "ChevronDisabledBackground",
         "SelectionFill",
-        "Color",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "HoverColor",
         "PressedColor",
         "DisabledColor",
@@ -2393,7 +2407,7 @@
         {
           "Category": "Design",
           "PropertyName": "Color",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

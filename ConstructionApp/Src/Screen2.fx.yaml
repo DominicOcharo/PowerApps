@@ -354,6 +354,7 @@
 
                     Dropdown1 As dropdown:
                         AllowEmptySelection: =true
+                        Color: =Color.Black
                         Height: =Parent.Height/1.8
                         Items: =UniqueDetections
                         Reset: =true
@@ -377,6 +378,7 @@
 
                     Dropdown2 As dropdown:
                         AllowEmptySelection: =true
+                        Color: =Color.Black
                         Height: =Parent.Height/1.8
                         Items: =UniqueTimeDetections
                         Reset: =true
