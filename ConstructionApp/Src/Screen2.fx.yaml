@@ -324,3 +324,10 @@
                         Y: =TextInput2.Y
                         ZIndex: =3
 
+                    Dropdown1 As dropdown:
+                        AllowEmptySelection: =true
+                        Items: =Choices(PPE.Detections)
+                        X: =495
+                        Y: =14
+                        ZIndex: =5
+

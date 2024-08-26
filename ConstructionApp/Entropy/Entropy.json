@@ -8,6 +8,7 @@
     "Container1": 8,
     "Container11": 15,
     "DownloadButton1": 18,
+    "Dropdown1": 36,
     "Gallery2": 27,
     "galleryTemplate2": 28,
     "Header": 7,
@@ -38,7 +39,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/26/2024 09:38:35",
+  "HeaderLastSavedDateTimeUTC": "08/26/2024 09:54:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -54,6 +55,7 @@
   "OrderComponentTemplate": {},
   "OrderDataSource": {
     "CustomGallerySample": 1,
+    "DropDownSample": 2,
     "PPE": 0
   },
   "OrderGroupControls": {},
@@ -61,13 +63,14 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 3,
-    "gallery": 6,
+    "dropdown": 5,
+    "gallery": 7,
     "groupContainer": 0,
     "icon": 4,
     "image": 2,
     "label": 1,
-    "rectangle": 7,
-    "text": 5
+    "rectangle": 8,
+    "text": 6
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -76,6 +79,7 @@
     "Container1": {},
     "Container11": {},
     "DownloadButton1": {},
+    "Dropdown1": {},
     "Gallery2": {},
     "galleryTemplate2": {},
     "Header": {},
@@ -113,6 +117,7 @@
     "Container1": 3,
     "Container11": 10,
     "DownloadButton1": 13,
+    "Dropdown1": 0,
     "Gallery2": 22,
     "galleryTemplate2": 23,
     "Header": 2,
