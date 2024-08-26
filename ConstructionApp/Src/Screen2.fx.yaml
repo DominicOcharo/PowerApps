@@ -195,7 +195,20 @@
                         DelayItemLoading: =true
                         Fill: =RGBA(241, 244, 249, 1)
                         Height: =Screen2.Height-HeaderContainer1.Height-SearchFilterContainer.Height-(Screen2.Height/18)
-                        Items: =Filter(PPE,(StartsWith(Detections,TextInput2.Text) || StartsWith(InferenceTime,TextInput2.Text))&&(StartsWith(Detections,Dropdown1.Selected.Value)))
+                        Items: |-
+                            =Filter(
+                                PPE,
+                                (StartsWith(
+                                    Detections,
+                                    TextInput2.Text
+                                ) || StartsWith(
+                                    InferenceTime,
+                                    TextInput2.Text
+                                )) && (StartsWith(
+                                    Detections,
+                                    Dropdown1.Selected.Value
+                                ))
+                            )
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
