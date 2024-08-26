@@ -171,6 +171,7 @@
             RadiusTopLeft: =8
             RadiusTopRight: =8
             Width: =Parent.Width
+            Y: =HeaderContainer1.Y+HeaderContainer1.Height
             ZIndex: =2
 
             MainHeader As groupContainer.manualLayoutContainer:
@@ -180,13 +181,14 @@
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 Width: =Parent.Width
+                Y: =MainContainer.Y
                 ZIndex: =2
 
                 ItemsContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
                     Height: =Screen2.Height-HeaderContainer1.Height-SearchFilterContainer.Height-(Screen2.Height/18)
                     Width: =1334
-                    Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
+                    Y: =MainHeader.Y+SearchFilterContainer.Height
                     ZIndex: =10
 
                     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
@@ -200,6 +202,7 @@
                         Width: =ItemsContainer.Width
                         WrapCount: =4
                         X: =ItemsContainer.X
+                        Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
                         ZIndex: =1
 
                         Image2 As image:
@@ -277,6 +280,7 @@
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
                     Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.4)
                     Width: =Parent.Width
+                    Y: =MainHeader.Y
                     ZIndex: =11
 
                     SearchButton As button:
