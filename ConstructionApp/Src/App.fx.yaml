@@ -4,17 +4,26 @@ App As appinfo:
         =ClearCollect(
             UniqueDetections,
             {Result: ""},
-            Distinct(PPE, Detections)
+            Distinct(
+                PPE,
+                Detections
+            )
         );
         ClearCollect(
             UniqueDateDetections,
             {Result: ""},
-            Distinct(PPE, Date)
+            Distinct(
+                PPE,
+                Date
+            )
         );
         ClearCollect(
             UniqueTimeDetections,
             {Result: ""},
-            Distinct(PPE, Time)
+            Distinct(
+                PPE,
+                Time
+            )
         );
     Theme: =PowerAppsTheme
 
