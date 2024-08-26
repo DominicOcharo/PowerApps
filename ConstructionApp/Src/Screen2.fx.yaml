@@ -89,8 +89,8 @@
                         Size: =Screen2.Width/100
                         Text: =User().FullName
                         Visible: =If((Screen2.Width>1120),true,false)
-                        Width: =Len(User().FullName)*10
-                        X: =(Screen2.Width-42-ProfileImage.Width-Name.Width)
+                        Width: =Len(User().FullName)*12
+                        X: =(ProfileImage.X-Name.Width-5)
                         Y: =7
                         ZIndex: =9
 
