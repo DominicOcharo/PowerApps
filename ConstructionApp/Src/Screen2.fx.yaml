@@ -198,7 +198,7 @@
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
-                        TemplateSize: =Gallery2.Width/15
+                        TemplateSize: =Gallery2.Width/12
                         Width: =Screen2.Width-Screen2.Width/40
                         X: =ItemsContainer.X
                         ZIndex: =1
@@ -223,6 +223,7 @@
                             PaddingLeft: =0
                             PaddingRight: =0
                             PaddingTop: =0
+                            Size: =Gallery2.Width/100
                             Text: =ThisItem.Date
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Parent.TemplateWidth - 173
@@ -238,6 +239,7 @@
                             PaddingLeft: =0
                             PaddingRight: =0
                             PaddingTop: =0
+                            Size: =Gallery2.Width/110
                             Text: =ThisItem.Detections
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Title2.Width
