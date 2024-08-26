@@ -196,7 +196,7 @@
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
                         Height: =ItemsContainer.Height
-                        Items: =Filter(PPE,(StartsWith(Detections,TextInput2.Text)|| StartsWith(InferenceTime,TextInput2.Text))&&(Dropdown1.Selected.Value))
+                        Items: =Filter(PPE,(StartsWith(Detections,TextInput2.Text)|| StartsWith(InferenceTime,TextInput2.Text))&&(StartsWith(Detections,Dropdown1.Selected.Value)||Dropdown1.Selected.Value=Blank()))
                         Width: =Screen2.Width-(Screen2.Width/36)
                         X: =ItemsContainer.X
                         Y: =0
