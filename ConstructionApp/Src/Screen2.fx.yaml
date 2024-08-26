@@ -63,7 +63,7 @@
 
                     DownloadButton1 As button:
                         Text: ="Download"
-                        X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,0,Screen2.Width-204)
+                        X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,ProductList.X,Screen2.Width-204)
                         Y: =35
                         ZIndex: =3
 
