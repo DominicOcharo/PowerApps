@@ -358,7 +358,7 @@
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
                         Text: ="Button"
                         Width: =DropButton2.Width/2
-                        X: =DropButton2.X+DropButton2.Width+(Screen2.Width*0.04)
+                        X: =(Screen2.Width - DropButton2.X+DropButton2.Width)/0.83
                         Y: =DropButton2.Y+DropButton2.Height/4.5
                         ZIndex: =8
 
