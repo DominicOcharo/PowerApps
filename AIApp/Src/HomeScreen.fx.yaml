@@ -383,12 +383,6 @@
                     Y: =0
                     ZIndex: =1
 
-            Button3 As button:
-                OnSelect: =FirstN(Sort(PPE, Time, SortOrder.Descending), 1)
-                Text: ="Button"
-                Visible: =If(varTabSelected=3, true, false)
-                ZIndex: =7
-
             "PPELabelsGallery As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
                 DelayItemLoading: =true
                 Items: =FirstN(Sort(PPE, Time, SortOrder.Descending), 30)
@@ -447,43 +441,44 @@
                     Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
                     ZIndex: =5
 
-        Container2 As groupContainer.manualLayoutContainer:
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            Visible: =If(varTabSelected = 3, true, false)
-            ZIndex: =8
+            Container2 As groupContainer.manualLayoutContainer:
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                Visible: =If(varTabSelected = 3, true, false)
+                ZIndex: =9
 
-            CompositePieChart1 As group:
-                Height: =5
-                Width: =5
-                X: =40
-                Y: =40
-                ZIndex: =1
-
-                Title3 As label:
-                    Align: =Align.Center
-                    Height: =25
-                    Text: ="Chart Title"
-                    Visible: =If(varTabSelected,true,false)
-                    Width: =400
+                CompositePieChart1 As group:
+                    Height: =5
+                    Width: =5
                     X: =40
                     Y: =40
-                    ZIndex: =2
+                    ZIndex: =1
 
-                PieChart1 As pieChart:
-                    Height: =100
-                    Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
-                    Visible: =If(varTabSelected,true,false)
-                    X: =40
-                    ZIndex: =3
+                    Title3 As label:
+                        Align: =Align.Center
+                        FontWeight: =FontWeight.Bold
+                        Height: =25
+                        Text: ="PPE Counts"
+                        Visible: =If(varTabSelected,true,false)
+                        Width: =400
+                        X: =5
+                        ZIndex: =2
 
-                Legend2 As legend:
-                    Height: =100
-                    ItemColorSet: =PieChart1.ItemColorSet
-                    Items: =PieChart1.SeriesLabels
-                    Size: =16
-                    Visible: =If(varTabSelected,true,false)
-                    Width: =400
-                    X: =40
-                    ZIndex: =4
+                    PieChart1 As pieChart:
+                        Height: =411
+                        Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
+                        Visible: =If(varTabSelected,true,false)
+                        Width: =571
+                        ZIndex: =3
+
+                    Legend2 As legend:
+                        Height: =123
+                        ItemColorSet: =PieChart1.ItemColorSet
+                        Items: =PieChart1.SeriesLabels
+                        Size: =16
+                        Visible: =If(varTabSelected,true,false)
+                        Width: =555
+                        X: =5
+                        Y: =421
+                        ZIndex: =4
 
