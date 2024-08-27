@@ -90,7 +90,7 @@
                     ZIndex: =1
 
                 Icon8 As icon.Add:
-                    Height: =Parent.TemplateHeight/2
+                    Height: =Parent.TemplateHeight/2.2
                     Icon: =ThisItem.Logo
                     OnSelect: =Select(Parent)
                     Width: =75
