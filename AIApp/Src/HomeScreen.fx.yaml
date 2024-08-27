@@ -49,7 +49,7 @@
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(39, 67, 125, 1)
                 Height: =HeaderContainer1.Height
-                Size: =(HeaderContainer1.Width/HeaderContainer1.Height)*0.8
+                Size: =(HeaderContainer1.Width)/70
                 Text: ="Welcome, " & User().FullName
                 Visible: =HomeScreen.Size<>1
                 Width: =Parent.Width-(Label1.Width+Image2.Width)
