@@ -35,7 +35,7 @@
                 Height: =HeaderContainer1.Height
                 Size: =(HeaderContainer1.Width)/40
                 Text: ="Automatic Health and Safety"
-                Width: =If(HomeScreen.Size<>1,Parent.Width/1.5,HomeScreen.Width-Image2.Width)
+                Width: =If(HomeScreen.Size<>1,Parent.Width/1.5,HeaderContainer1.Width-Image2.Width)
                 ZIndex: =1
 
             Image2 As image:
