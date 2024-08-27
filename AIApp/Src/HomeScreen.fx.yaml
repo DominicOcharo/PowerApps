@@ -83,7 +83,7 @@
                     Align: =Align.Center
                     Height: =50
                     OnSelect: =Select(Parent)
-                    Size: =(TabsContainer.Width)/70
+                    Size: =(TabsContainer.Width)/50
                     Text: =ThisItem.Name
                     Width: =Parent.TemplateWidth
                     Y: =35
