@@ -5376,7 +5376,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "HoverFill",
+          "PropertyName": "PressedFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -5391,37 +5391,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "PressedFill",
+          "PropertyName": "HoverFill",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "DisabledFill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "FocusedBorderColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "BorderStyle",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "HoverBorderColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Fill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PressedBorderColor",
+          "PropertyName": "LoadingSpinnerColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -5431,7 +5406,32 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "LoadingSpinnerColor",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6005,17 +6005,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "DisabledFill",
+          "PropertyName": "Height",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "PressedFill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "HoverFill",
+          "PropertyName": "FocusedBorderColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6030,7 +6025,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "FocusedBorderColor",
+          "PropertyName": "HoverFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6055,12 +6050,17 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Height",
+          "PropertyName": "PressedFill",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6471,17 +6471,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "DisabledFill",
+          "PropertyName": "Y",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "PressedFill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "HoverFill",
+          "PropertyName": "Width",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6511,7 +6506,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Width",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6536,7 +6536,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Y",
+          "PropertyName": "DisabledFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -6803,6 +6803,266 @@
         }
       ],
       "StyleName": "dividerStyle2020",
+      "Type": "ControlInfo"
+    },
+    "subtitle": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        "Live",
+        "Overflow",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "ThisItem.Date",
+          "InvariantPropertyName": "Text",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Role",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "DisabledColor",
+        "PressedColor",
+        "HoverColor",
+        "BorderColor",
+        "DisabledBorderColor",
+        "PressedBorderColor",
+        "HoverBorderColor",
+        "BorderStyle",
+        "FocusedBorderColor",
+        "Fill",
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "Font",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FontWeight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Align",
+        "VerticalAlign",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "40",
+          "InvariantPropertyName": "X",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Y",
+        "Width",
+        "Height",
+        "DisplayMode",
+        "OnSelect",
+        "ZIndex",
+        "PaddingTop",
+        "PaddingRight",
+        "PaddingBottom",
+        "PaddingLeft",
+        "TabIndex",
+        "Size"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "subtitle",
+      "OptimizeForDevices": "Off",
+      "ParentIndex": 4,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Data",
+          "PropertyName": "Live",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Role",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Text",
+          "RuleProviderType": "User"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Overflow",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Color",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Font",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Align",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "VerticalAlign",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "User"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FontWeight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingTop",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingRight",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingBottom",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingLeft",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "TabIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Size",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Behavior",
+          "PropertyName": "OnSelect",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "titleLabelStyle_galleryLayouts_ver5",
       "Type": "ControlInfo"
     },
     "Subtitle6": {
@@ -7573,7 +7833,14 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        "FontWeight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FontWeight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Align",
         "VerticalAlign",
         "X",
@@ -7628,6 +7895,11 @@
         },
         {
           "Category": "Design",
+          "PropertyName": "HoverColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
           "PropertyName": "Overflow",
           "RuleProviderType": "Unknown"
         },
@@ -7643,12 +7915,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "PressedColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "HoverColor",
+          "PropertyName": "Width",
           "RuleProviderType": "Unknown"
         },
         {
@@ -7663,12 +7930,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "PressedBorderColor",
+          "PropertyName": "Height",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "HoverBorderColor",
+          "PropertyName": "HoverFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -7678,7 +7945,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "FocusedBorderColor",
+          "PropertyName": "PressedFill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -7693,12 +7960,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "PressedFill",
+          "PropertyName": "FocusedBorderColor",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "HoverFill",
+          "PropertyName": "HoverBorderColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -7708,7 +7975,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Width",
+          "PropertyName": "PressedColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -7738,253 +8005,7 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Height",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "DisplayMode",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "ZIndex",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PaddingTop",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PaddingRight",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PaddingBottom",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PaddingLeft",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "TabIndex",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Size",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Behavior",
-          "PropertyName": "OnSelect",
-          "RuleProviderType": "Unknown"
-        }
-      ],
-      "StyleName": "titleLabelStyle_galleryLayouts_ver5",
-      "Type": "ControlInfo"
-    },
-    "Title2_1": {
-      "AllowAccessToGlobals": true,
-      "ControlPropertyState": [
-        "Live",
-        "Overflow",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ThisItem.Date",
-          "InvariantPropertyName": "Text",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        "Role",
-        "Color",
-        "DisabledColor",
-        "PressedColor",
-        "HoverColor",
-        "BorderColor",
-        "DisabledBorderColor",
-        "PressedBorderColor",
-        "HoverBorderColor",
-        "BorderStyle",
-        "FocusedBorderColor",
-        "Fill",
-        "DisabledFill",
-        "PressedFill",
-        "HoverFill",
-        "Font",
-        "FontWeight",
-        "Align",
-        "VerticalAlign",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "40",
-          "InvariantPropertyName": "X",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        "Y",
-        "Width",
-        "Height",
-        "DisplayMode",
-        "OnSelect",
-        "ZIndex",
-        "PaddingTop",
-        "PaddingRight",
-        "PaddingBottom",
-        "PaddingLeft",
-        "TabIndex",
-        "Size"
-      ],
-      "HasDynamicProperties": false,
-      "IsAutoGenerated": false,
-      "IsComponentDefinition": false,
-      "IsDataControl": false,
-      "IsFromScreenLayout": false,
-      "IsGroupControl": false,
-      "IsLocked": false,
-      "LayoutName": "",
-      "MetaDataIDKey": "",
-      "Name": "Title2_1",
-      "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
-      "PersistMetaDataIDKey": false,
-      "Properties": [
-        {
-          "Category": "Data",
-          "PropertyName": "Live",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "Role",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "Text",
-          "RuleProviderType": "User"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Overflow",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Color",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "DisabledColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PressedColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "HoverColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "BorderColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "DisabledBorderColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
           "PropertyName": "PressedBorderColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "HoverBorderColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "BorderStyle",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "FocusedBorderColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Fill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "DisabledFill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PressedFill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "HoverFill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Font",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Width",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Align",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "VerticalAlign",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "X",
-          "RuleProviderType": "User"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Y",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "FontWeight",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Height",
           "RuleProviderType": "Unknown"
         },
         {

@@ -403,7 +403,7 @@
                 ZIndex: =8
 
                 Title2 As label:
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    FontWeight: =FontWeight.Bold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
@@ -431,8 +431,9 @@
                     Width: =4
                     ZIndex: =4
 
-                Title2_1 As label:
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                subtitle As label:
+                    Color: =RGBA(232, 244, 217, 1)
+                    FontWeight: =FontWeight.Bold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
