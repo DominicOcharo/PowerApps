@@ -831,7 +831,7 @@
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Series1\":\"PPECount1\",\"Series2\":\"PPECount1\",\"Series3\":\"PPECount1\",\"Series4\":\"PPECount1\",\"Series5\":\"PPECount1\",\"Series6\":\"PPECount1\",\"Series7\":\"PPECount1\",\"Series8\":\"PPECount1\",\"Series9\":\"PPECount1\",\"Labels\":\"Time\"}",
+          "NameMap": "{\"Series1\":\"PPECount1\",\"Series2\":\"Time\",\"Series3\":\"Time\",\"Series4\":\"Time\",\"Series5\":\"Time\",\"Series6\":\"Time\",\"Series7\":\"Time\",\"Series8\":\"Time\",\"Series9\":\"Time\",\"Labels\":\"Time\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },
