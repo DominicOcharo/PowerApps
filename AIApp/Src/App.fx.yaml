@@ -28,7 +28,6 @@ App As appinfo:
             varTabSelected,
             1
         );
-        Set(PPECountTable,(AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))))
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
