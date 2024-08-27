@@ -33,7 +33,7 @@
                 Fill: =RGBA(39, 67, 125, 1)
                 FillPortions: =1
                 Height: =HeaderContainer1.Height
-                Size: =HeaderContainer1.Width/40
+                Size: =(HeaderContainer1.Width/HeaderContainer1.Height)*1.5
                 Text: ="Automatic Health and Safety"
                 Width: =Parent.Height
                 ZIndex: =1
@@ -48,7 +48,7 @@
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(39, 67, 125, 1)
                 Height: =HeaderContainer1.Height
-                Size: =HeaderContainer1.Width/80
+                Size: =(HeaderContainer1.Width/HeaderContainer1.Height)*0.8
                 Text: ="Welcome, " & User().FullName
                 Visible: =HomeScreen.Size<>1
                 Width: =300
