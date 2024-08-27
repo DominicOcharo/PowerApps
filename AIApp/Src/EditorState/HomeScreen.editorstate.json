@@ -5773,7 +5773,7 @@
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Labels\":\"Detections\",\"Series\":\"PPECount\"}",
+          "NameMap": "{\"Labels\":\"Detections\",\"Series\":\"Count\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },

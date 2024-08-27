@@ -101,7 +101,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 4,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -120,7 +120,7 @@
     "ManualOfflineProfileId": "",
     "Name": "AI App",
     "OriginatingVersion": "1.343",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 3,
     "ShowStatusBar": false
   },
   "PublishInfo": {

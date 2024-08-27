@@ -499,7 +499,10 @@
                         ZIndex: =6
 
                     PieChart2 As pieChart:
-                        Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
+                        Items: |-
+                            =AddColumns(Table({Detections: "Compliance", Count: CountRows(Filter(PPE, !StartsWith(Detections, "NO")))},{Detections: "Non-compliance", Count: CountRows(Filter(PPE, StartsWith(Detections, "NO")))} ),"Percentage", (Count / CountRows(PPE)) * 100)
+                            
+                            AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Filter(PPE, !StartsWith(Detections, "NO"))))
                         X: =702
                         Y: =30
                         ZIndex: =7
