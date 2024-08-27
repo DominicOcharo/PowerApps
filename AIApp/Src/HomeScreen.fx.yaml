@@ -397,7 +397,7 @@
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =0
-                TemplateSize: =50
+                TemplateSize: =80
                 Visible: =If(varTabSelected=2 && showGallery8 = true, true, false)
                 WrapCount: =HomeScreen.Size
                 ZIndex: =8
@@ -414,7 +414,6 @@
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 86
                     X: =16
-                    Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
                     ZIndex: =1
 
                 Separator2 As rectangle:
@@ -431,4 +430,19 @@
                     Visible: =ThisItem.IsSelected
                     Width: =4
                     ZIndex: =4
+
+                Title2_1 As label:
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =ThisItem.Time
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 86
+                    X: =16
+                    Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                    ZIndex: =5
 
