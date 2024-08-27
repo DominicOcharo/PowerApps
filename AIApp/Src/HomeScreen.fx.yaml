@@ -33,7 +33,7 @@
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(39, 67, 125, 1)
                 Height: =HeaderContainer1.Height
-                Size: =(HeaderContainer1.Width/HeaderContainer1.Height)*1.5
+                Size: =(HeaderContainer1.Width)/40
                 Text: ="Automatic Health and Safety"
                 Width: =Parent.Width/1.5
                 ZIndex: =1
