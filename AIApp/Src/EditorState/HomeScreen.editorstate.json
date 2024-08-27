@@ -1085,7 +1085,14 @@
     "ColumnChart1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Items",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "ColumnChartSample",
+          "InvariantPropertyName": "Items",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ItemColorSet",
         "GridStyle",
         "DisabledBorderColor",
@@ -1128,7 +1135,7 @@
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Labels\":\"City\",\"Series1\":\"Area\",\"Series2\":\"Density\",\"Series3\":\"Population\",\"Series4\":\"Population\",\"Series5\":\"Population\",\"Series6\":\"Population\",\"Series7\":\"Population\",\"Series8\":\"Population\",\"Series9\":\"Population\"}",
+          "NameMap": "{\"Labels\":\"Detections\",\"Series1\":\"Detections\",\"Series2\":\"InferenceTime\",\"Series3\":\"InferenceTime\",\"Series4\":\"InferenceTime\",\"Series5\":\"InferenceTime\",\"Series6\":\"InferenceTime\",\"Series7\":\"InferenceTime\",\"Series8\":\"InferenceTime\",\"Series9\":\"Time\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },

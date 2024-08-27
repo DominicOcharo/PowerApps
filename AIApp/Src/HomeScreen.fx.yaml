@@ -456,28 +456,28 @@
 
         Title1 As label:
             Align: =Align.Center
-            Height: =25
+            Height: =17
             Text: ="Chart Title"
             Width: =400
             X: =40
-            Y: =40
+            Y: =258
             ZIndex: =3
 
         ColumnChart1 As barChart:
-            Height: =488
-            Items: =ColumnChartSample
+            Height: =397
+            Items: =PPE
             Visible: =If(varTabSelected=3,true,false)
             Width: =576
             X: =18
-            Y: =255
+            Y: =289
             ZIndex: =4
 
         Legend1 As legend:
-            Height: =80
+            Height: =31
             ItemColorSet: =ColumnChart1.ItemColorSet
             Items: =ColumnChart1.SeriesLabels
             Width: =320
-            X: =80
-            Y: =480
+            X: =40
+            Y: =717
             ZIndex: =5
 
