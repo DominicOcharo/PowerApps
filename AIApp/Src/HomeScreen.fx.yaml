@@ -42,7 +42,7 @@
                 Height: =HeaderContainer1.Height
                 Image: =User().Image
                 ImagePosition: =ImagePosition.Fill
-                Width: =Parent.Width/15
+                Width: =Parent.Height
                 ZIndex: =2
 
             Label3 As label:
