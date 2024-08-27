@@ -33,7 +33,7 @@
                 Fill: =RGBA(39, 67, 125, 1)
                 FillPortions: =1
                 Height: =HeaderContainer1.Height
-                Size: =Label1.Width/40
+                Size: =HeaderContainer1.Height/2
                 Text: ="Automatic Health and Safety"
                 Width: =Parent.Height
                 ZIndex: =1
