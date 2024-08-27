@@ -483,3 +483,35 @@
                         Y: =421
                         ZIndex: =4
 
+                CompositeColumnChart2 As group:
+                    Height: =5
+                    Width: =5
+                    X: =40
+                    Y: =40
+                    ZIndex: =5
+
+                    Title4 As label:
+                        Align: =Align.Center
+                        Height: =25
+                        Text: ="Chart Title"
+                        Width: =586
+                        X: =716
+                        Y: =25
+                        ZIndex: =6
+
+                    ColumnChart2 As barChart:
+                        Items: =AddColumns(GroupBy(PPE, Time, Grouped), PPECount1, CountRows(Grouped))
+                        Width: =586
+                        X: =716
+                        Y: =55
+                        ZIndex: =7
+
+                    Legend3 As legend:
+                        Height: =80
+                        ItemColorSet: =ColumnChart2.ItemColorSet
+                        Items: =ColumnChart2.SeriesLabels
+                        Width: =469
+                        X: =775
+                        Y: =449
+                        ZIndex: =8
+
