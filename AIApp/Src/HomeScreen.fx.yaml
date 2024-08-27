@@ -66,7 +66,7 @@
 
             Gallery5 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Height: =Parent.Height
+                Height: =TabsContainer.Height
                 Items: =colTabs
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
@@ -102,7 +102,7 @@
                     OnSelect: =Select(Parent)
                     Visible: =varTabSelected = ThisItem.ID
                     Width: =Parent.TemplateWidth
-                    Y: =89
+                    Y: =Parent.TemplateHeight-Rectangle9.Height
                     ZIndex: =3
 
                 Button1 As button:
