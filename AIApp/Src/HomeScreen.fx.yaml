@@ -447,34 +447,37 @@
                     Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
                     ZIndex: =5
 
-    CompositeColumnChart1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =2
-
-        Title1 As label:
-            Align: =Align.Center
-            Height: =25
-            Text: ="Chart Title"
-            Width: =400
-            X: =228
-            Y: =234
-            ZIndex: =3
-
-        ColumnChart1 As barChart:
-            Items: =ColumnChartSample
-            X: =228
-            Y: =264
+        CompositePieChart1 As group:
+            Height: =5
+            LayoutMinHeight: =5
+            LayoutMinWidth: =5
+            Width: =5
+            X: =40
+            Y: =40
             ZIndex: =4
 
-        Legend1 As legend:
-            Height: =80
-            ItemColorSet: =ColumnChart1.ItemColorSet
-            Items: =ColumnChart1.SeriesLabels
-            Width: =320
-            X: =268
-            Y: =674
-            ZIndex: =5
+            Title3 As label:
+                Align: =Align.Center
+                Height: =25
+                Text: ="Chart Title"
+                Width: =400
+                X: =40
+                Y: =40
+                ZIndex: =5
+
+            PieChart1 As pieChart:
+                Items: =PPE
+                X: =40
+                Y: =70
+                ZIndex: =6
+
+            Legend2 As legend:
+                Height: =200
+                ItemColorSet: =PieChart1.ItemColorSet
+                Items: =PieChart1.SeriesLabels
+                Size: =16
+                Width: =400
+                X: =40
+                Y: =470
+                ZIndex: =7
 

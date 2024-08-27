@@ -13,20 +13,6 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "barChart": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/barChart",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "barChart",
-    "OverridableProperties": {},
-    "Version": "2.3.0"
-  },
   "button": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -555,6 +541,20 @@
     },
     "TemplateDisplayName": "Map (preview)",
     "Version": "1.8.27"
+  },
+  "pieChart": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/pieChart",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "pieChart",
+    "OverridableProperties": {},
+    "Version": "2.2.0"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
