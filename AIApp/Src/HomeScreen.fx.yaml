@@ -25,23 +25,24 @@
             RadiusBottomRight: =8
             RadiusTopLeft: =8
             RadiusTopRight: =8
+            Width: =HomeScreen.Width
             ZIndex: =1
 
             Label1 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(39, 67, 125, 1)
-                FillPortions: =1
                 Height: =HeaderContainer1.Height
                 Size: =(HeaderContainer1.Width/HeaderContainer1.Height)*1.5
                 Text: ="Automatic Health and Safety"
-                Width: =Parent.Height
+                Width: =Parent.Width/1.5
                 ZIndex: =1
 
             Image2 As image:
                 Height: =HeaderContainer1.Height
                 Image: =User().Image
                 ImagePosition: =ImagePosition.Fill
+                Width: =Parent.Width/15
                 ZIndex: =2
 
             Label3 As label:
@@ -51,7 +52,7 @@
                 Size: =(HeaderContainer1.Width/HeaderContainer1.Height)*0.8
                 Text: ="Welcome, " & User().FullName
                 Visible: =HomeScreen.Size<>1
-                Width: =300
+                Width: =Parent.Width-(Label1.Width+Image2.Width)
                 ZIndex: =3
 
         TabsContainer As groupContainer.horizontalAutoLayoutContainer:
