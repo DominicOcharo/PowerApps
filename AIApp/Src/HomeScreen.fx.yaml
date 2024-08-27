@@ -432,7 +432,7 @@
                     ZIndex: =4
 
                 subtitle As label:
-                    Color: =RGBA(232, 244, 217, 1)
+                    Color: =RGBA(141, 198, 63, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
@@ -446,4 +446,38 @@
                     X: =16
                     Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
                     ZIndex: =5
+
+    CompositeColumnChart1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =2
+
+        Title1 As label:
+            Align: =Align.Center
+            Height: =25
+            Text: ="Chart Title"
+            Width: =400
+            X: =40
+            Y: =40
+            ZIndex: =3
+
+        ColumnChart1 As barChart:
+            Height: =488
+            Items: =ColumnChartSample
+            Visible: =If(varTabSelected=3,true,false)
+            Width: =576
+            X: =18
+            Y: =255
+            ZIndex: =4
+
+        Legend1 As legend:
+            Height: =80
+            ItemColorSet: =ColumnChart1.ItemColorSet
+            Items: =ColumnChart1.SeriesLabels
+            Width: =320
+            X: =80
+            Y: =480
+            ZIndex: =5
 
