@@ -91,7 +91,7 @@
                         FontWeight: =FontWeight.Bold
                         Height: =60
                         Size: =(Screen2.Width)/38
-                        Text: ="Soti Tech Company"
+                        Text: ="So T Co"
                         Width: =(Screen2.Width)/2.5
                         X: =CompanyLogo.Width
                         Y: =Parent.Height/10

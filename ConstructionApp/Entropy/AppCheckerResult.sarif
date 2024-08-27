@@ -43,19 +43,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.TextInput2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.Reset.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.TextInput2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.Reset.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.TextInput2"
+                "type": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.Reset"
               }
             }
           ],
@@ -103,19 +103,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.Reset.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.TextInput2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.Reset.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.TextInput2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen2",
-                "type": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.Reset"
+                "type": "Screen2.ScreenContainer1.MainContainer.MainHeader.SearchFilterContainer.TextInput2"
               }
             }
           ],
