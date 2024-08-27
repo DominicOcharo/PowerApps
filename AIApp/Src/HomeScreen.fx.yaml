@@ -17,7 +17,7 @@
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
-            Height: =HomeScreen.Height/10
+            Height: =HomeScreen.Height/12
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
@@ -32,14 +32,14 @@
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(39, 67, 125, 1)
                 FillPortions: =1
-                Height: =HomeScreen.Height/10
+                Height: =HeaderContainer1.Height
                 Size: =Label1.Width/40
                 Text: ="Automatic Health and Safety"
                 Width: =Parent.Height
                 ZIndex: =1
 
             Image2 As image:
-                Height: =HomeScreen.Height/10
+                Height: =HeaderContainer1.Height
                 Image: =User().Image
                 ImagePosition: =ImagePosition.Fill
                 ZIndex: =2
@@ -47,7 +47,7 @@
             Label3 As label:
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(39, 67, 125, 1)
-                Height: =HomeScreen.Height/10
+                Height: =HeaderContainer1.Height
                 Text: ="Welcome, " & User().FullName
                 Visible: =HomeScreen.Size<>1
                 Width: =300
