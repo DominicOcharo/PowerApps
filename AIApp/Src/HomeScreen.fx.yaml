@@ -95,6 +95,7 @@
                     OnSelect: =Select(Parent)
                     Width: =75
                     X: =(Parent.TemplateWidth-Self.Width)/2
+                    Y: =1
                     ZIndex: =2
 
                 Rectangle9 As rectangle:
