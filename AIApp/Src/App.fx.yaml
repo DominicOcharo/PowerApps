@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |+
+    OnStart: |-
         =ClearCollect(
             colTabs,
             {
@@ -28,11 +28,7 @@ App As appinfo:
             varTabSelected,
             1
         );
-        ClearCollect(
-            DetectionData,
-            PPE
-        );
-        
+        Set(PPECountTable,(AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))))
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
