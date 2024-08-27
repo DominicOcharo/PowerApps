@@ -51,11 +51,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/22/2024 17:32:13",
+  "HeaderLastSavedDateTimeUTC": "08/27/2024 09:04:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "9b489fe7-6caf-4ef6-88d9-dfc22613c910": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
-    "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": "\"/providers/microsoft.powerapps/apis/shared_fastconnector2-5f905e490d5e3e8483-5f0946db7d93a6fa3e/connections/e154ebe2b1bc41c0828202e54617f572\""
+    "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": "\"/providers/microsoft.powerapps/apis/shared_fastconnector2-5f905e490d5e3e8483-5f0946db7d93a6fa3e/connections/e154ebe2b1bc41c0828202e54617f572\"",
+    "ce47b9fc-a3b3-4229-a051-4c5e21ae3794": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {},
@@ -949,7 +949,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3568348,
+    "AnalysisLoadTime": 0.3537544,
     "ControlCount": {
       "button": 2,
       "gallery": 6,
@@ -962,7 +962,7 @@
       "rectangle": 5,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.3366456
+    "DeserializationLoadTime": 1.26325
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
