@@ -61,6 +61,7 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
+            Width: =HomeScreen.Width
             ZIndex: =2
 
             Gallery5 As gallery.galleryVertical:
@@ -74,6 +75,7 @@
                 OnSelect: =Set(varTabSelected,ThisItem.ID)
                 TemplateFill: =If(ThisItem.IsSelected, RGBA(0, 0, 0, 0),Color.LightGray)
                 TemplateSize: =Parent.Height
+                Width: =Parent.Width
                 WrapCount: =CountRows(colTabs)
                 ZIndex: =1
 
