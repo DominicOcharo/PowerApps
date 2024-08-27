@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =ClearCollect(
             colTabs,
             {
@@ -28,6 +28,7 @@ App As appinfo:
             varTabSelected,
             1
         );
+        ClearCollect(FilteredCollection, ShowColumns(PPE, Time, Detections))
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

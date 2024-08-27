@@ -483,35 +483,34 @@
                         Y: =421
                         ZIndex: =4
 
-                CompositeColumnChart2 As group:
+                CompositePieChart2 As group:
                     Height: =5
                     Width: =5
                     X: =40
                     Y: =40
                     ZIndex: =5
 
-                    Title4 As label:
+                    Title7 As label:
                         Align: =Align.Center
                         Height: =25
                         Text: ="Chart Title"
-                        Width: =586
-                        X: =716
-                        Y: =25
+                        Width: =400
+                        X: =702
                         ZIndex: =6
 
-                    ColumnChart2 As barChart:
-                        Items: =AddColumns(GroupBy(PPE, Time, Grouped), PPECount1, CountRows(Grouped))
-                        Width: =586
-                        X: =716
-                        Y: =55
+                    PieChart2 As pieChart:
+                        Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
+                        X: =702
+                        Y: =30
                         ZIndex: =7
 
-                    Legend3 As legend:
-                        Height: =80
-                        ItemColorSet: =ColumnChart2.ItemColorSet
-                        Items: =ColumnChart2.SeriesLabels
-                        Width: =469
-                        X: =775
-                        Y: =449
+                    Legend5 As legend:
+                        Height: =200
+                        ItemColorSet: =PieChart2.ItemColorSet
+                        Items: =PieChart2.SeriesLabels
+                        Size: =16
+                        Width: =400
+                        X: =702
+                        Y: =304
                         ZIndex: =8
 
