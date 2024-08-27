@@ -86,7 +86,7 @@
                     Size: =(TabsContainer.Width)/50
                     Text: =ThisItem.Name
                     Width: =Parent.TemplateWidth
-                    Y: =35
+                    Y: =Parent.TemplateHeight-Rectangle9.Height-Label9.Height
                     ZIndex: =1
 
                 Icon8 As icon.Add:
