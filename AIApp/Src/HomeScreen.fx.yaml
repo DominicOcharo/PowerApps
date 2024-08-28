@@ -474,7 +474,7 @@
                             Align: =Align.Center
                             FontWeight: =FontWeight.Bold
                             Height: =DataCard1_1.Height/10
-                            Size: =DataCard1_1.Width/60
+                            Size: =DataCard1_1.Width/35
                             Text: ="Chart Title"
                             Width: =DataCard1_1.Width
                             ZIndex: =2
@@ -489,7 +489,7 @@
                             Height: =DataCard1_1.Height/10
                             ItemColorSet: =PieChart1.ItemColorSet
                             Items: =PieChart1.SeriesLabels
-                            Size: =16
+                            Size: =DataCard1_1.Width/80
                             Width: =DataCard1_1.Width-(DataCard1_1.Width/8)
                             X: =DataCard1_1.Width/8
                             Y: =DataCard1_1.X+DataCard1_1.Height-Legend1.Height
