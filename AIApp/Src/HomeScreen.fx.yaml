@@ -341,7 +341,7 @@
                 Icon: =Icon.BackArrow
                 OnSelect: |-
                     =UpdateContext({showMap2: false})
-                Visible: =If(varTabSelected=1 && showMap2=true, true,false)
+                Visible: =If(varTabSelected=3 && showMap2=true, true,false)
                 Width: =30
                 X: =20
                 ZIndex: =5
