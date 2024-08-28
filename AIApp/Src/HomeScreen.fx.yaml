@@ -472,7 +472,9 @@
 
                         Title1 As label:
                             Align: =Align.Center
+                            FontWeight: =FontWeight.Bold
                             Height: =DataCard1_1.Height/10
+                            Size: =DataCard1_1.Width/60
                             Text: ="Chart Title"
                             Width: =DataCard1_1.Width
                             ZIndex: =2
