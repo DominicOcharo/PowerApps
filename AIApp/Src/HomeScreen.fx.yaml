@@ -443,7 +443,7 @@
 
             Canvas1_1 As fluidGrid.fluidGridWithBlankCard:
                 BorderThickness: =0
-                Height: =Parent.Height - Self.Y
+                Height: =MainContainer1.Height
                 LayoutMinHeight: =250
                 LayoutMinWidth: =100
                 Visible: =If(varTabSelected = 3, true, false)
@@ -502,7 +502,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =MainContainer1.Height
                     Width: =1334
                     X: =0
                     Y: =1
