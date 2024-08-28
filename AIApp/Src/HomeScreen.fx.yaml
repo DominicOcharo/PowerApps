@@ -475,7 +475,7 @@
                             FontWeight: =FontWeight.Bold
                             Height: =DataCard1_1.Height/10
                             Size: =DataCard1_1.Width/50
-                            Text: ="Chart Title"
+                            Text: ="PPE Compliance Rate"
                             Width: =DataCard1_1.Width
                             ZIndex: =2
 
