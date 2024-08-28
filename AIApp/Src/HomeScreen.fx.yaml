@@ -477,13 +477,13 @@
                         ZIndex: =3
 
                     Legend2 As legend:
-                        Height: =Container2.Height
+                        Height: =Container2.Height/6
                         ItemColorSet: =PieChart1.ItemColorSet
                         Items: =PieChart1.SeriesLabels
                         Size: =16
                         Visible: =If(varTabSelected,true,false)
                         Width: =If(Container2.Width>=1334,Container2.Width/2,Container2.Width)
-                        Y: =461
+                        Y: =PieChart1.X+PieChart1.Height-Legend2.Height
                         ZIndex: =4
 
                 CompositePieChart2 As group:
