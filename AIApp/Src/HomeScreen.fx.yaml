@@ -488,7 +488,8 @@
                             ItemColorSet: =PieChart1.ItemColorSet
                             Items: =PieChart1.SeriesLabels
                             Size: =16
-                            Width: =DataCard1_1.Width
+                            Width: =DataCard1_1.Width-(DataCard1_1.Width/8)
+                            X: =DataCard1_1.Width/8
                             Y: =DataCard1_1.X+DataCard1_1.Height-Legend1.Height
                             ZIndex: =4
 
