@@ -531,3 +531,9 @@
                             Width: =DataCard2.Width
                             ZIndex: =3
 
+                    Rectangle1 As rectangle:
+                        Fill: =RGBA(166, 166, 166, 1)
+                        Height: =DataCard2.Height/150
+                        Width: =DataCard2.Width
+                        ZIndex: =4
+

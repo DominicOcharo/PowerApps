@@ -38,6 +38,7 @@
     "PieChart1": 27,
     "PPELabelsGallery": 18,
     "PPEResultsGallery": 43,
+    "Rectangle1": 62,
     "Rectangle12": 37,
     "Rectangle12_1": 45,
     "Rectangle2": 20,
@@ -58,7 +59,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/28/2024 11:10:38",
+  "HeaderLastSavedDateTimeUTC": "08/28/2024 11:13:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4d13f5c3-31c8-4bba-8bec-115e5d35b31c": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
@@ -488,6 +489,7 @@
     "PieChart1": {},
     "PPELabelsGallery": {},
     "PPEResultsGallery": {},
+    "Rectangle1": {},
     "Rectangle12": {},
     "Rectangle12_1": {},
     "Rectangle2": {},
@@ -964,6 +966,7 @@
     "PieChart1": 0,
     "PPELabelsGallery": 0,
     "PPEResultsGallery": 21,
+    "Rectangle1": 0,
     "Rectangle12": 15,
     "Rectangle12_1": 23,
     "Rectangle2": 0,
@@ -1003,7 +1006,7 @@
       "legend": 2,
       "Map": 1,
       "pieChart": 2,
-      "rectangle": 7,
+      "rectangle": 8,
       "screen": 1
     },
     "DeserializationLoadTime": 1.5714243
