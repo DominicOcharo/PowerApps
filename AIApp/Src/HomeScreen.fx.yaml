@@ -480,7 +480,7 @@
 
                         PieChart1 As pieChart:
                             Height: =DataCard1_1.Height-Legend1.Height
-                            ItemColorSet: =[Color.Red,Color.Orange, Color.Blue, RGBA(246,199,144,1), Color.Black, Color.Green, RGBA(246,143,100,1), Color.Violet, Color.Brown,Color.Yellow, Color.Azure]
+                            ItemColorSet: =[Color.SkyBlue,Color.LightGray, Color.Blue, RGBA(246,199,144,1), Color.Black, Color.Green, RGBA(246,143,100,1), Color.Violet, Color.Brown,Color.Yellow, Color.Azure]
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
                             Size: =DataCard1_1.Width/130
                             Width: =Canvas1_1.Width-Canvas1_1.Width/10
@@ -526,7 +526,7 @@
 
                         ColumnChart1 As barChart:
                             Height: =DataCard2.Height
-                            ItemColorSet: =[Color.Red,Color.Orange, Color.Blue, RGBA(246,199,144,1), Color.Black, Color.Green, RGBA(246,143,100,1), Color.Violet, Color.Brown,Color.Yellow, Color.Azure]
+                            ItemColorSet: =[Color.SkyBlue,Color.LightGray, Color.Blue, RGBA(246,199,144,1), Color.Black, Color.Green, RGBA(246,143,100,1), Color.Violet, Color.Brown,Color.Yellow, Color.Azure]
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
                             ItemsGap: =3
                             PaddingRight: =DataCard2.Width/100

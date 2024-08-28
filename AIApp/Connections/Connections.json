@@ -1,18 +1,4 @@
 {
-  "5778db00-fb97-42e7-b410-9db20d1ab3db": {
-    "connectionRef": {
-      "displayName": "Spatial Services",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1675/1.0.1675.3608/microsoftspatialservices/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_microsoftspatialservices"
-    },
-    "datasets": {},
-    "dataSources": [
-      "SpatialServices"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "5778db00-fb97-42e7-b410-9db20d1ab3db"
-  },
   "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": {
     "appActions": [
       "GpsAll",
@@ -34,5 +20,19 @@
     "dependencies": {},
     "dependents": [],
     "id": "b1f30146-87d3-4bc0-be9f-de6bf21d93e4"
+  },
+  "d70e3968-c349-42f6-8895-f2613097ba8d": {
+    "connectionRef": {
+      "displayName": "Spatial Services",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1675/1.0.1675.3608/microsoftspatialservices/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_microsoftspatialservices"
+    },
+    "datasets": {},
+    "dataSources": [
+      "SpatialServices"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d70e3968-c349-42f6-8895-f2613097ba8d"
   }
 }

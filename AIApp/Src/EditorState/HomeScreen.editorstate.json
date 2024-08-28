@@ -1146,7 +1146,7 @@
         {
           "Category": "Design",
           "PropertyName": "ItemsGap",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultBarChartStyle",
@@ -5956,7 +5956,7 @@
         {
           "Category": "Design",
           "PropertyName": "BorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultPieChartStyle",
