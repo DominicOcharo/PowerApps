@@ -476,7 +476,7 @@
                             Height: =DataCard1_1.Height/10
                             Size: =DataCard1_1.Width/50
                             Text: ="PPE Compliance Rate"
-                            Width: =DataCard1_1.Width
+                            Width: =Canvas1_1.Width-Canvas1_1.Width/10
                             ZIndex: =2
 
                         PieChart1 As pieChart:
@@ -484,7 +484,7 @@
                             ItemColorSet: =[Color.Red,Color.Orange, Color.Blue, RGBA(246,199,144,1), Color.Black, Color.Green, RGBA(246,143,100,1), Color.Violet, Color.Brown,Color.Yellow, Color.Azure]
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
                             Size: =DataCard1_1.Width/130
-                            Width: =DataCard1_1.Width
+                            Width: =Canvas1_1.Width-Canvas1_1.Width/10
                             ZIndex: =3
 
                         Legend1 As legend:
@@ -492,7 +492,7 @@
                             ItemColorSet: =PieChart1.ItemColorSet
                             Items: =PieChart1.SeriesLabels
                             Size: =DataCard1_1.Width/75
-                            Width: =DataCard1_1.Width
+                            Width: =Canvas1_1.Width-Canvas1_1.Width/10
                             X: =DataCard1_1.Width/12
                             Y: =DataCard1_1.X+DataCard1_1.Height-Legend1.Height
                             ZIndex: =4
