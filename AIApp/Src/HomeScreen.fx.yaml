@@ -458,7 +458,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 100
-                    Width: =Canvas1_1.Width
+                    Width: =Canvas1_1.Width-Canvas1_1.Width/100
                     X: =0
                     Y: =0
                     ZIndex: =1
@@ -492,7 +492,7 @@
                             ItemColorSet: =PieChart1.ItemColorSet
                             Items: =PieChart1.SeriesLabels
                             Size: =DataCard1_1.Width/75
-                            Width: =DataCard1_1.Width-(DataCard1_1.Width/8)
+                            Width: =DataCard1_1.Width
                             X: =DataCard1_1.Width/12
                             Y: =DataCard1_1.X+DataCard1_1.Height-Legend1.Height
                             ZIndex: =4
@@ -530,7 +530,7 @@
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
                             PaddingRight: =DataCard2.Width/100
                             Size: =DataCard1_1.Width/120
-                            Width: =DataCard2.Width-DataCard2.Width/500
+                            Width: =DataCard2.Width
                             ZIndex: =3
 
                     Rectangle1 As rectangle:
