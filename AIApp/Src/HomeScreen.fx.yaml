@@ -523,7 +523,9 @@
                             ZIndex: =2
 
                         ColumnChart1 As barChart:
+                            Height: =DataCard2.Height
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
+                            Width: =DataCard2.Width
                             ZIndex: =3
 
                         Legend2 As legend:
