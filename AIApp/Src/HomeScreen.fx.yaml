@@ -463,7 +463,7 @@
                         Size: =(Container2.Width)/60
                         Text: ="PPE Counts"
                         Visible: =If(varTabSelected,true,false)
-                        Width: =Container2.Width/2
+                        Width: =If(Container2.Width>=1334,Container2.Width/2,Container2.Width)
                         ZIndex: =2
 
                     PieChart1 As pieChart:
@@ -471,7 +471,7 @@
                         ItemColorSet: =[Color.SlateBlue,RGBA(48,166,103, 1),Color.Red, RGBA(246,199,144,1), Color.Yellow, RGBA(247,180,91,1), RGBA(246,143,100,1), RGBA(212,96,104,1), RGBA(148, 110, 176, 1), Color.Purple, RGBA(96, 197, 234, 1)]
                         Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
                         Visible: =If(varTabSelected,true,false)
-                        Width: =Container2.Width/2
+                        Width: =If(Container2.Width>=1334,Container2.Width/2,Container2.Width)
                         Y: =Title3.Y+Title3.Height
                         ZIndex: =3
 
@@ -481,7 +481,7 @@
                         Items: =PieChart1.SeriesLabels
                         Size: =16
                         Visible: =If(varTabSelected,true,false)
-                        Width: =Container2.Width/2
+                        Width: =If(Container2.Width>=1334,Container2.Width/2,Container2.Width)
                         Y: =461
                         ZIndex: =4
 
