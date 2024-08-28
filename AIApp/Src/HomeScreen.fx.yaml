@@ -503,7 +503,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =MainContainer1.Height
-                    Width: =Canvas1_1.Width
+                    Width: =Canvas1_1.Width-Canvas1_1.Width/100
                     X: =0
                     Y: =12
                     ZIndex: =2
