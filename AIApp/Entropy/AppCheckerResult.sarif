@@ -24,7 +24,7 @@
                 },
                 "region": {
                   "charLength": 10,
-                  "charOffset": 249,
+                  "charOffset": 247,
                   "snippet": {
                     "text": "AddColumns"
                   }
@@ -61,7 +61,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 293,
+                  "charOffset": 291,
                   "snippet": {
                     "text": ","
                   }
@@ -102,7 +102,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 293,
+                  "charOffset": 291,
                   "snippet": {
                     "text": ","
                   }
@@ -219,7 +219,7 @@
                 },
                 "region": {
                   "charLength": 10,
-                  "charOffset": 249,
+                  "charOffset": 247,
                   "snippet": {
                     "text": "AddColumns"
                   }

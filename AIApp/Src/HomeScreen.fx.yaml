@@ -442,9 +442,11 @@
                     ZIndex: =5
 
             Container2 As groupContainer.manualLayoutContainer:
+                Height: =HomeScreen.Height-TabsContainer.Height-HeaderContainer1.Height
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 Visible: =If(varTabSelected = 3, true, false)
+                Width: =HomeScreen.Width
                 ZIndex: =9
 
                 CompositePieChart1 As group:
@@ -457,30 +459,28 @@
                     Title3 As label:
                         Align: =Align.Center
                         FontWeight: =FontWeight.Bold
-                        Height: =25
+                        Height: =Container2.Height
                         Text: ="PPE Counts"
                         Visible: =If(varTabSelected,true,false)
-                        Width: =400
-                        X: =5
+                        Width: =Container2.Width/2
                         ZIndex: =2
 
                     PieChart1 As pieChart:
-                        Height: =411
+                        Height: =Container2.Height
                         ItemColorSet: =[Color.SlateBlue,RGBA(48,166,103, 1),Color.Red, RGBA(246,199,144,1), Color.Yellow, RGBA(247,180,91,1), RGBA(246,143,100,1), RGBA(212,96,104,1), RGBA(148, 110, 176, 1), Color.Purple, RGBA(96, 197, 234, 1)]
                         Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
                         Visible: =If(varTabSelected,true,false)
-                        Width: =571
+                        Width: =Container2.Width/2
                         ZIndex: =3
 
                     Legend2 As legend:
-                        Height: =123
+                        Height: =Container2.Height
                         ItemColorSet: =PieChart1.ItemColorSet
                         Items: =PieChart1.SeriesLabels
                         Size: =16
                         Visible: =If(varTabSelected,true,false)
-                        Width: =555
-                        X: =5
-                        Y: =421
+                        Width: =Container2.Width/2
+                        Y: =461
                         ZIndex: =4
 
                 CompositePieChart2 As group:
