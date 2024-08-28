@@ -426,7 +426,7 @@
                     ZIndex: =4
 
                 subtitle As label:
-                    Color: =RGBA(141, 198, 63, 1)
+                    Color: =RGBA(39, 67, 125, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
