@@ -139,7 +139,7 @@
                 TemplateFill: =If(ThisItem.IsSelected,Color.LightCyan, RGBA(0, 0, 0, 0))
                 TemplatePadding: =0
                 TemplateSize: =116
-                Visible: =If(varTabSelected = 1 && !showMap2, true, false)
+                Visible: =If(varTabSelected = 3 && !showMap2, true, false)
                 Width: =MainContainer1.Width
                 WrapCount: =HomeScreen.Size
                 ZIndex: =1
@@ -354,7 +354,7 @@
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplateSize: =280
-                Visible: =If(varTabSelected=1 && showMap2=true, true, false)
+                Visible: =If(varTabSelected=3 && showMap2=true, true, false)
                 ZIndex: =6
 
                 "Map1 As 'Map (preview)'.pcfdataset":
@@ -446,7 +446,7 @@
                 Height: =MainContainer1.Height
                 LayoutMinHeight: =250
                 LayoutMinWidth: =100
-                Visible: =If(varTabSelected = 3, true, false)
+                Visible: =If(varTabSelected = 1, true, false)
                 Width: =HomeScreen.Width
                 Y: =HeaderContainer1.Height+TabsContainer.Height
                 ZIndex: =9
