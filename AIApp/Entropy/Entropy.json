@@ -6,8 +6,8 @@
     "Body2": 39,
     "Body2_1": 47,
     "Button1": 13,
+    "CompositePieChart": 57,
     "CompositePieChart1": 31,
-    "CompositePieChart2": 32,
     "Container2": 24,
     "Gallery5": 11,
     "galleryTemplate1": 52,
@@ -26,15 +26,15 @@
     "Label1": 7,
     "Label3": 9,
     "Label9": 15,
+    "Legend": 56,
     "Legend2": 27,
-    "Legend5": 30,
     "MainContainer1": 17,
     "Map1": 53,
     "MapGallery": 51,
     "NextArrow3": 38,
     "NextArrow3_1": 45,
+    "PieChart": 55,
     "PieChart1": 26,
-    "PieChart2": 29,
     "PPELabelsGallery": 18,
     "PPEResultsGallery": 41,
     "Rectangle12": 35,
@@ -49,15 +49,15 @@
     "Subtitle6": 37,
     "Subtitle6_1": 46,
     "TabsContainer": 10,
+    "Title": 54,
     "Title2": 22,
     "Title3": 25,
     "Title6": 36,
-    "Title6_1": 44,
-    "Title7": 28
+    "Title6_1": 44
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/28/2024 09:37:16",
+  "HeaderLastSavedDateTimeUTC": "08/28/2024 09:40:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "66ae4338-94bc-4c28-8076-8f67016667b7": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
@@ -80,15 +80,15 @@
     "SpatialServices": 0
   },
   "OrderGroupControls": {
+    "CompositePieChart": {
+      "Legend": 2,
+      "PieChart": 1,
+      "Title": 0
+    },
     "CompositePieChart1": {
       "Legend2": 2,
       "PieChart1": 1,
       "Title3": 0
-    },
-    "CompositePieChart2": {
-      "Legend5": 2,
-      "PieChart2": 1,
-      "Title7": 0
     }
   },
   "OrderPcfTemplate": {
@@ -111,8 +111,8 @@
     "Body2": {},
     "Body2_1": {},
     "Button1": {},
+    "CompositePieChart": {},
     "CompositePieChart1": {},
-    "CompositePieChart2": {},
     "Container2": {},
     "Gallery5": {},
     "galleryTemplate1": {},
@@ -131,8 +131,8 @@
     "Label1": {},
     "Label3": {},
     "Label9": {},
+    "Legend": {},
     "Legend2": {},
-    "Legend5": {},
     "MainContainer1": {},
     "Map1": {
       "Bounds": {
@@ -481,8 +481,8 @@
     "MapGallery": {},
     "NextArrow3": {},
     "NextArrow3_1": {},
+    "PieChart": {},
     "PieChart1": {},
-    "PieChart2": {},
     "PPELabelsGallery": {},
     "PPEResultsGallery": {},
     "Rectangle12": {},
@@ -497,11 +497,11 @@
     "Subtitle6": {},
     "Subtitle6_1": {},
     "TabsContainer": {},
+    "Title": {},
     "Title2": {},
     "Title3": {},
     "Title6": {},
-    "Title6_1": {},
-    "Title7": {}
+    "Title6_1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {
     "Map1": {
@@ -929,8 +929,8 @@
     "Body2": 19,
     "Body2_1": 27,
     "Button1": 8,
+    "CompositePieChart": 0,
     "CompositePieChart1": 0,
-    "CompositePieChart2": 0,
     "Container2": 0,
     "Gallery5": 6,
     "galleryTemplate1": 38,
@@ -949,15 +949,15 @@
     "Label1": 2,
     "Label3": 4,
     "Label9": 10,
+    "Legend": 0,
     "Legend2": 0,
-    "Legend5": 0,
     "MainContainer1": 12,
     "Map1": 39,
     "MapGallery": 37,
     "NextArrow3": 18,
     "NextArrow3_1": 25,
+    "PieChart": 0,
     "PieChart1": 0,
-    "PieChart2": 0,
     "PPELabelsGallery": 0,
     "PPEResultsGallery": 21,
     "Rectangle12": 15,
@@ -972,11 +972,11 @@
     "Subtitle6": 17,
     "Subtitle6_1": 26,
     "TabsContainer": 5,
+    "Title": 0,
     "Title2": 0,
     "Title3": 0,
     "Title6": 16,
-    "Title6_1": 24,
-    "Title7": 0
+    "Title6_1": 24
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -989,14 +989,14 @@
       "button": 1,
       "gallery": 5,
       "galleryTemplate": 5,
-      "group": 2,
+      "group": 3,
       "groupContainer": 5,
       "icon": 5,
       "image": 1,
-      "label": 13,
-      "legend": 2,
+      "label": 14,
+      "legend": 3,
       "Map": 1,
-      "pieChart": 2,
+      "pieChart": 3,
       "rectangle": 7,
       "screen": 1
     },
