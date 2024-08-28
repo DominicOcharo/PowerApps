@@ -161,7 +161,7 @@
                     ZIndex: =1
 
                 Subtitle6 As label:
-                    Color: =RGBA(141, 198, 63, 1)
+                    Color: =RGBA(39, 67, 125, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =Self.Size * 1.8
                     OnSelect: =Select(Parent)
@@ -178,7 +178,6 @@
                     ZIndex: =2
 
                 Body2 As label:
-                    FontWeight: =FontWeight.Bold
                     Height: =61
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
