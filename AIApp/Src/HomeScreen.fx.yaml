@@ -530,7 +530,7 @@
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
                             PaddingRight: =DataCard2.Width/100
                             Size: =DataCard1_1.Width/120
-                            Width: =DataCard2.Width
+                            Width: =Canvas1_1.Width-Canvas1_1.Width/10
                             ZIndex: =3
 
                     Rectangle1 As rectangle:
