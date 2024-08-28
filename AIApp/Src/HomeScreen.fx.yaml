@@ -478,7 +478,7 @@
                             ZIndex: =2
 
                         PieChart1 As pieChart:
-                            Height: =DataCard1_1.Height
+                            Height: =DataCard1_1.Height-Legend1.Height
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
                             Width: =DataCard1_1.Width
                             ZIndex: =3
@@ -489,7 +489,7 @@
                             Items: =PieChart1.SeriesLabels
                             Size: =16
                             Width: =DataCard1_1.Width
-                            Y: =384
+                            Y: =DataCard1_1.X+DataCard1_1.Height-Legend1.Height
                             ZIndex: =4
 
                 DataCard2 As dataCard.blankCard:
