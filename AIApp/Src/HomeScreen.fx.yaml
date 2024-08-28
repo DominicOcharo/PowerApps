@@ -459,7 +459,8 @@
                     Title3 As label:
                         Align: =Align.Center
                         FontWeight: =FontWeight.Bold
-                        Height: =Container2.Height
+                        Height: =MainContainer1.Height/12
+                        Size: =(Container2.Width)/60
                         Text: ="PPE Counts"
                         Visible: =If(varTabSelected,true,false)
                         Width: =Container2.Width/2
