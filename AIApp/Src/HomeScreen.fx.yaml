@@ -472,7 +472,7 @@
                         Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
                         Visible: =If(varTabSelected,true,false)
                         Width: =Container2.Width/2
-                        Y: =Title3.Height
+                        Y: =Title3.Y+Title3.Height
                         ZIndex: =3
 
                     Legend2 As legend:
