@@ -501,8 +501,8 @@
                         Text: ="PPE Counts"
                         Visible: =If(varTabSelected,true,false)
                         Width: =If(Container2.Width>=1334,Container2.Width/2,Container2.Width)
-                        X: =40
-                        Y: =40
+                        X: =If(Container2.Width>=1334,Container2.Width/2,0)
+                        Y: =If(Container2.Width>=1334,0,(Title3.Y+Title3.Height+3))
                         ZIndex: =6
 
                     PieChart As pieChart:
@@ -512,8 +512,8 @@
                         Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
                         Visible: =If(varTabSelected,true,false)
                         Width: =If(Container2.Width>=1334,Container2.Width/2,Container2.Width)
-                        X: =40
-                        Y: =Title.Y
+                        X: =If(Container2.Width>=1334,Container2.Width/2,0)
+                        Y: =If(Container2.Width>=1334,0,(Title3.Y+Title3.Height+3))
                         ZIndex: =7
 
                     Legend As legend:
@@ -523,7 +523,7 @@
                         Size: =16
                         Visible: =If(varTabSelected,true,false)
                         Width: =If(Container2.Width>=1334,Container2.Width/2,Container2.Width)
-                        X: =40
-                        Y: =PieChart.X+PieChart.Height-Legend.Height
+                        X: =If(Container2.Width>=1334,Container2.Width/2,0)
+                        Y: =If(Container2.Width>=1334,0,(Title3.Y+Title3.Height+3))
                         ZIndex: =8
 
