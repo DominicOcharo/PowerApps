@@ -467,11 +467,12 @@
                         ZIndex: =2
 
                     PieChart1 As pieChart:
-                        Height: =Container2.Height
+                        Height: =Container2.Height-Title3.Height
                         ItemColorSet: =[Color.SlateBlue,RGBA(48,166,103, 1),Color.Red, RGBA(246,199,144,1), Color.Yellow, RGBA(247,180,91,1), RGBA(246,143,100,1), RGBA(212,96,104,1), RGBA(148, 110, 176, 1), Color.Purple, RGBA(96, 197, 234, 1)]
                         Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount, CountRows(Grouped))
                         Visible: =If(varTabSelected,true,false)
                         Width: =Container2.Width/2
+                        Y: =Title3.Height
                         ZIndex: =3
 
                     Legend2 As legend:
