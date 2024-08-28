@@ -458,7 +458,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 100
-                    Width: =Parent.Width
+                    Width: =HomeScreen.Width
                     X: =0
                     Y: =0
                     ZIndex: =1
@@ -503,7 +503,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =MainContainer1.Height
-                    Width: =1334
+                    Width: =HomeScreen.Width
                     X: =0
                     Y: =12
                     ZIndex: =2
