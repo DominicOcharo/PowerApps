@@ -5,7 +5,7 @@ App As appinfo:
             colTabs,
             {
                 ID: 1,
-                Name: "Gps Results",
+                Name: "Analytics",
                 Logo: Icon.Tag
             },
             {
@@ -14,7 +14,7 @@ App As appinfo:
                 Logo: Icon.LogJournal
             },
             {
-                Name: "Assigned to Me",
+                Name: "Gps Results",
                 ID: 3,
                 Logo: Icon.Clock
             },
