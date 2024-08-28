@@ -472,27 +472,23 @@
 
                         Title1 As label:
                             Align: =Align.Center
-                            Height: =25
+                            Height: =DataCard1_1.Height
                             Text: ="Chart Title"
-                            Width: =400
-                            X: =40
-                            Y: =40
+                            Width: =DataCard1_1.Width
                             ZIndex: =2
 
                         PieChart1 As pieChart:
+                            Height: =DataCard1_1.Height
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
-                            X: =40
-                            Y: =70
+                            Width: =DataCard1_1.Width
                             ZIndex: =3
 
                         Legend1 As legend:
-                            Height: =200
+                            Height: =DataCard1_1.Height
                             ItemColorSet: =PieChart1.ItemColorSet
                             Items: =PieChart1.SeriesLabels
                             Size: =16
-                            Width: =400
-                            X: =40
-                            Y: =470
+                            Width: =DataCard1_1.Width
                             ZIndex: =4
 
                 DataCard2 As dataCard.blankCard:
