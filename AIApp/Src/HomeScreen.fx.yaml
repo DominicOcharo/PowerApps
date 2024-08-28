@@ -517,9 +517,12 @@
 
                         Title3 As label:
                             Align: =Align.Center
-                            Height: =25
+                            FontWeight: =FontWeight.Bold
+                            Height: =DataCard1_1.Height/10
+                            Size: =DataCard1_1.Width/50
                             Text: ="Chart Title"
                             Width: =DataCard2.Width
+                            Y: =20
                             ZIndex: =2
 
                         ColumnChart1 As barChart:
