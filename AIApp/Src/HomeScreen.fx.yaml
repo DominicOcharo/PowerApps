@@ -472,7 +472,7 @@
 
                         Title1 As label:
                             Align: =Align.Center
-                            Height: =DataCard1_1.Height
+                            Height: =DataCard1_1.Height/10
                             Text: ="Chart Title"
                             Width: =DataCard1_1.Width
                             ZIndex: =2
@@ -484,11 +484,12 @@
                             ZIndex: =3
 
                         Legend1 As legend:
-                            Height: =DataCard1_1.Height
+                            Height: =DataCard1_1.Height/10
                             ItemColorSet: =PieChart1.ItemColorSet
                             Items: =PieChart1.SeriesLabels
                             Size: =16
                             Width: =DataCard1_1.Width
+                            Y: =384
                             ZIndex: =4
 
                 DataCard2 As dataCard.blankCard:
