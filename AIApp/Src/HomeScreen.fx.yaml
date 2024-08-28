@@ -474,7 +474,7 @@
                             Align: =Align.Center
                             FontWeight: =FontWeight.Bold
                             Height: =DataCard1_1.Height/10
-                            Size: =DataCard1_1.Width/35
+                            Size: =DataCard1_1.Width/50
                             Text: ="Chart Title"
                             Width: =DataCard1_1.Width
                             ZIndex: =2
@@ -482,6 +482,7 @@
                         PieChart1 As pieChart:
                             Height: =DataCard1_1.Height-Legend1.Height
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
+                            Size: =DataCard1_1.Width/130
                             Width: =DataCard1_1.Width
                             ZIndex: =3
 
