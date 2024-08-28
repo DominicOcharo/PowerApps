@@ -458,7 +458,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =Parent.Height - 100
-                    Width: =HomeScreen.Width
+                    Width: =Canvas1_1.Width
                     X: =0
                     Y: =0
                     ZIndex: =1
@@ -503,7 +503,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =MainContainer1.Height
-                    Width: =HomeScreen.Width
+                    Width: =Canvas1_1.Width
                     X: =0
                     Y: =12
                     ZIndex: =2
@@ -519,7 +519,7 @@
                             Align: =Align.Center
                             Height: =25
                             Text: ="Chart Title"
-                            Width: =400
+                            Width: =DataCard2.Width
                             ZIndex: =2
 
                         ColumnChart1 As barChart:
@@ -527,11 +527,4 @@
                             Items: =AddColumns(GroupBy(PPE, Detections, Grouped), PPECount1, CountRows(Grouped))
                             Width: =DataCard2.Width
                             ZIndex: =3
-
-                        Legend2 As legend:
-                            Height: =80
-                            ItemColorSet: =ColumnChart1.ItemColorSet
-                            Items: =ColumnChart1.SeriesLabels
-                            Width: =320
-                            ZIndex: =4
 

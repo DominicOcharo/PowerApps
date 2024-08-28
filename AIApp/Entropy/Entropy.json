@@ -30,7 +30,6 @@
     "Label3": 9,
     "Label9": 15,
     "Legend1": 28,
-    "Legend2": 59,
     "MainContainer1": 17,
     "Map1": 55,
     "MapGallery": 53,
@@ -59,7 +58,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/28/2024 11:03:22",
+  "HeaderLastSavedDateTimeUTC": "08/28/2024 11:06:50",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4d13f5c3-31c8-4bba-8bec-115e5d35b31c": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
@@ -84,7 +83,6 @@
   "OrderGroupControls": {
     "CompositeColumnChart1": {
       "ColumnChart1": 1,
-      "Legend2": 2,
       "Title3": 0
     },
     "CompositePieChart1": {
@@ -139,7 +137,6 @@
     "Label3": {},
     "Label9": {},
     "Legend1": {},
-    "Legend2": {},
     "MainContainer1": {},
     "Map1": {
       "Bounds": {
@@ -959,7 +956,6 @@
     "Label3": 4,
     "Label9": 10,
     "Legend1": 0,
-    "Legend2": 0,
     "MainContainer1": 12,
     "Map1": 39,
     "MapGallery": 37,
