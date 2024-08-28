@@ -7,8 +7,8 @@
     "Body2_1": 49,
     "Button1": 13,
     "Canvas1_1": 24,
-    "ColumnChart1": 58,
-    "CompositeColumnChart1": 60,
+    "ColumnChart1": 32,
+    "CompositeColumnChart1": 34,
     "CompositePieChart1": 29,
     "DataCard1_1": 25,
     "DataCard2": 30,
@@ -38,7 +38,7 @@
     "PieChart1": 27,
     "PPELabelsGallery": 18,
     "PPEResultsGallery": 43,
-    "Rectangle1": 62,
+    "Rectangle1": 33,
     "Rectangle12": 37,
     "Rectangle12_1": 45,
     "Rectangle2": 20,
@@ -53,16 +53,16 @@
     "TabsContainer": 10,
     "Title1": 26,
     "Title2": 22,
-    "Title3": 57,
+    "Title3": 31,
     "Title6": 38,
     "Title6_1": 46
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/28/2024 11:37:44",
+  "HeaderLastSavedDateTimeUTC": "08/28/2024 11:58:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "4d13f5c3-31c8-4bba-8bec-115e5d35b31c": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
+    "5778db00-fb97-42e7-b410-9db20d1ab3db": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\"",
     "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": "\"/providers/microsoft.powerapps/apis/shared_fastconnector2-5f905e490d5e3e8483-5f0946db7d93a6fa3e/connections/e154ebe2b1bc41c0828202e54617f572\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
@@ -991,8 +991,9 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.4688961,
+    "AnalysisLoadTime": 0.3898825,
     "ControlCount": {
+      "barChart": 1,
       "button": 1,
       "dataCard": 2,
       "fluidGrid": 1,
@@ -1003,13 +1004,13 @@
       "icon": 5,
       "image": 1,
       "label": 13,
-      "legend": 2,
+      "legend": 1,
       "Map": 1,
-      "pieChart": 2,
+      "pieChart": 1,
       "rectangle": 8,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.5714243
+    "DeserializationLoadTime": 1.7053196
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
