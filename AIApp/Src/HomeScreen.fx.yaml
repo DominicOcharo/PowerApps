@@ -505,7 +505,7 @@
                     Height: =MainContainer1.Height
                     Width: =1334
                     X: =0
-                    Y: =1
+                    Y: =12
                     ZIndex: =2
 
                     CompositePieChart1_1 As group:
