@@ -59,11 +59,10 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/28/2024 19:20:32",
+  "HeaderLastSavedDateTimeUTC": "08/30/2024 10:23:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "b1f30146-87d3-4bc0-be9f-de6bf21d93e4": "\"/providers/microsoft.powerapps/apis/shared_fastconnector2-5f905e490d5e3e8483-5f0946db7d93a6fa3e/connections/e154ebe2b1bc41c0828202e54617f572\"",
-    "d70e3968-c349-42f6-8895-f2613097ba8d": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\""
+    "e03e5b92-fd7f-4df4-847b-021671c529db": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/fc3290a9e9f0401f820fb77ec91161e7\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {},
@@ -71,14 +70,13 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "ColumnChartSample": 5,
-    "CustomGallerySample": 2,
-    "FastConnector2": 1,
-    "GPS": 3,
-    "LegendSample": 6,
-    "LineChartSample": 8,
-    "PieChartSample": 7,
-    "PPE": 4,
+    "ColumnChartSample": 4,
+    "CustomGallerySample": 1,
+    "GPS": 2,
+    "LegendSample": 5,
+    "LineChartSample": 7,
+    "PieChartSample": 6,
+    "PPE": 3,
     "SpatialServices": 0
   },
   "OrderGroupControls": {
@@ -991,7 +989,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3917141,
+    "AnalysisLoadTime": 0.4256402,
     "ControlCount": {
       "barChart": 1,
       "button": 1,
@@ -1010,7 +1008,7 @@
       "rectangle": 8,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.8166801
+    "DeserializationLoadTime": 1.7490023
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
