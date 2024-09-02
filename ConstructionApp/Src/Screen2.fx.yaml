@@ -237,6 +237,11 @@
 
                                 Image2 As image:
                                     Height: =Parent.Height*70%
+                                    Image: =ThisItem.'Company Logo'
+                                    RadiusBottomLeft: =Self.Height
+                                    RadiusBottomRight: =Self.Height
+                                    RadiusTopLeft: =Self.Height
+                                    RadiusTopRight: =Self.Height
                                     Width: =Self.Height
                                     X: =15
                                     Y: =(Parent.Height-Self.Height)/2
