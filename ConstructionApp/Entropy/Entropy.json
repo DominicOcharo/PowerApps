@@ -40,7 +40,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/27/2024 06:59:21",
+  "HeaderLastSavedDateTimeUTC": "09/02/2024 09:54:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -49,8 +49,8 @@
     "logo": "103eb9df-fce4-4d99-808d-7c19bf743599.jpg"
   },
   "LocalResourceRootPaths": {
-    "ISAIAH 60 22": "https://docserverpwaprodsuk.blob.core.windows.net/ff3773ca-b7ca-4f61-94ca-17c465580a9c-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-27T06%3A58%3A54Z&ske=2024-08-28T07%3A13%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-08-28T07%3A13%3A54Z&sr=b&sp=r&sig=YC4iyqpoMRXKh63lO1xTSD8sjqW%2BH63m4sTCmz5xIzw%3D",
-    "logo": "https://docserverpwaprodsuk.blob.core.windows.net/ff3773ca-b7ca-4f61-94ca-17c465580a9c-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-08-27T06%3A58%3A54Z&ske=2024-08-28T07%3A13%3A54Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-08-28T07%3A13%3A54Z&sr=b&sp=r&sig=K6G6tZtWvA3Q7Nug0ZVqn60sdURPGpkZkvs0vNJ3tCM%3D"
+    "ISAIAH 60 22": "https://docserverpwaprodwuk.blob.core.windows.net/0f246631-d740-4dce-9571-4b049f22f750-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T09%3A53%3A45Z&ske=2024-09-03T10%3A08%3A45Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A08%3A45Z&sr=b&sp=r&sig=7hy7Oa8TBxND%2BjyFPm0PY5D4kfeg1w6OsTYqulhLDEA%3D",
+    "logo": "https://docserverpwaprodwuk.blob.core.windows.net/0f246631-d740-4dce-9571-4b049f22f750-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T09%3A53%3A45Z&ske=2024-09-03T10%3A08%3A45Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A08%3A45Z&sr=b&sp=r&sig=f%2BCp%2F85qCXqcljDpCqtvInXHKUWECzKamWHFYyPWJD8%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -116,9 +116,9 @@
     "CompanyLogo": 6,
     "Container1": 3,
     "Container11": 10,
-    "DataTable2": 26,
-    "Date_Column2": 28,
-    "Detections_Column2": 27,
+    "DataTable2": 27,
+    "Date_Column2": 29,
+    "Detections_Column2": 28,
     "DownloadButton1": 13,
     "DropButton1": 19,
     "DropButton2": 20,
@@ -130,22 +130,22 @@
     "Host": 0,
     "Icon1": 9,
     "Icon2": 14,
-    "InferenceTime_Column2": 30,
-    "ItemsContainer": 25,
+    "InferenceTime_Column2": 31,
+    "ItemsContainer": 26,
     "MainContainer": 15,
     "MainHeader": 16,
     "Name": 4,
     "ProductList": 11,
     "ProductListDesc": 12,
     "ProfileImage": 7,
-    "Reset": 0,
+    "Reset": 25,
     "Screen2": 0,
     "ScreenContainer1": 0,
     "SearchButton": 18,
     "SearchFilterContainer": 17,
     "SearchIcon": 22,
     "TextInput2": 21,
-    "Time_Column2": 29
+    "Time_Column2": 30
   },
   "ResourcesJsonIndices": {
     "Image-ISAIAH 60 22": 1,
@@ -155,7 +155,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3299188,
+    "AnalysisLoadTime": 0.3256628,
     "ControlCount": {
       "button": 5,
       "dataTable": 1,
@@ -168,7 +168,7 @@
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 2.0372986
+    "DeserializationLoadTime": 1.0503575
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
