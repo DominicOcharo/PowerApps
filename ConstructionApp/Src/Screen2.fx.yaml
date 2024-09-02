@@ -478,9 +478,10 @@
                                             ZIndex: =1
 
                                         Label5 As label:
+                                            Align: =Align.Center
                                             FontWeight: =FontWeight.Semibold
                                             Height: =Parent.Height
-                                            Size: =9.5
+                                            Size: =9
                                             Text: ="TE"
                                             Width: =Parent.Width
                                             ZIndex: =2
