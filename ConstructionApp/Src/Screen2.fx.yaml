@@ -183,7 +183,7 @@
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 Width: =Parent.Width
-                Y: =MainContainer.Y
+                Y: =HeaderContainer1.Y+HeaderContainer1.Height
                 ZIndex: =2
 
                 ItemsContainer_1 As groupContainer.manualLayoutContainer:
