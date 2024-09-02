@@ -443,6 +443,7 @@
                                     Height: =Parent.Height
                                     Items: =Table1
                                     LoadingSpinner: =LoadingSpinner.Data
+                                    ShowScrollbar: =false
                                     TemplatePadding: =0
                                     TemplateSize: =30
                                     Width: =Parent.Width*52.5%
