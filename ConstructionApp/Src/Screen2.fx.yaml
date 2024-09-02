@@ -208,7 +208,7 @@
                 TableHeaderContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
                     Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.36)
-                    Width: =1334
+                    Width: =Parent.Width
                     Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
                     ZIndex: =2
 
