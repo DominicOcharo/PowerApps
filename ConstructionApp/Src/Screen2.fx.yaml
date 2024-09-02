@@ -274,6 +274,38 @@
                                 ZIndex: =3
 
                                 TextPill_BG As button:
+                                    Fill: |-
+                                        =ColorFade(Switch(
+                                            Text(ThisItem.'Review Stage'),
+                                            "Not Started",
+                                            RGBA(
+                                                69,
+                                                14,
+                                                140,
+                                                1
+                                            ),
+                                            "In Progress",
+                                            RGBA(
+                                                140,
+                                                14,
+                                                108,
+                                                1
+                                            ),
+                                            "Awaiting Approval",
+                                            RGBA(
+                                                140,
+                                                98,
+                                                14,
+                                                1
+                                            ),
+                                            "Completed",
+                                            RGBA(
+                                                10,
+                                                84,
+                                                48,
+                                                1
+                                            )
+                                        ),80%)
                                     Height: =Parent.Height*60%
                                     Text: =
                                     Width: =Parent.Width*90%
@@ -282,16 +314,81 @@
                                     ZIndex: =1
 
                                 Label4 As label:
+                                    Color: |-
+                                        =Switch(
+                                            Text(ThisItem.'Review Stage'),
+                                            "Not Started",
+                                            RGBA(
+                                                69,
+                                                14,
+                                                140,
+                                                1
+                                            ),
+                                            "In Progress",
+                                            RGBA(
+                                                140,
+                                                14,
+                                                108,
+                                                1
+                                            ),
+                                            "Awaiting Approval",
+                                            RGBA(
+                                                140,
+                                                98,
+                                                14,
+                                                1
+                                            ),
+                                            "Completed",
+                                            RGBA(
+                                                10,
+                                                84,
+                                                48,
+                                                1
+                                            )
+                                        )
+                                    FontWeight: =FontWeight.Semibold
                                     Height: =TextPill_BG.Height
                                     PaddingLeft: =30
-                                    Text: ="Text"
+                                    Size: =9.5
+                                    Text: =ThisItem.'Review Stage'
                                     Width: =TextPill_BG.Width
                                     X: =TextPill_BG.X
                                     Y: =TextPill_BG.Y
                                     ZIndex: =2
 
                                 Circle1 As circle:
-                                    Fill: =RGBA(246, 88, 16, 1)
+                                    Fill: |-
+                                        =Switch(
+                                            Text(ThisItem.'Review Stage'),
+                                            "Not Started",
+                                            RGBA(
+                                                69,
+                                                14,
+                                                140,
+                                                1
+                                            ),
+                                            "In Progress",
+                                            RGBA(
+                                                140,
+                                                14,
+                                                108,
+                                                1
+                                            ),
+                                            "Awaiting Approval",
+                                            RGBA(
+                                                140,
+                                                98,
+                                                14,
+                                                1
+                                            ),
+                                            "Completed",
+                                            RGBA(
+                                                10,
+                                                84,
+                                                48,
+                                                1
+                                            )
+                                        )
                                     Height: =10
                                     Width: =10
                                     X: =TextPill_BG.X+10
