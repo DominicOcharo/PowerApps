@@ -546,6 +546,10 @@
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =2
 
+                                    Rectangle1 As rectangle:
+                                        Height: =Parent.Height
+                                        ZIndex: =1
+
                             Container4_4 As groupContainer.manualLayoutContainer:
                                 LayoutMinHeight: =50
                                 LayoutMinWidth: =150
