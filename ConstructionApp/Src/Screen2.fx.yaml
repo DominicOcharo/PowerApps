@@ -234,6 +234,7 @@
 
                         Label1 As label:
                             AlignInContainer: =AlignInContainer.Stretch
+                            Color: =secondaryColor
                             FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
@@ -243,6 +244,7 @@
 
                         Label1_1 As label:
                             AlignInContainer: =AlignInContainer.Stretch
+                            Color: =secondaryColor
                             FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
@@ -252,6 +254,7 @@
 
                         Label1_2 As label:
                             AlignInContainer: =AlignInContainer.Stretch
+                            Color: =secondaryColor
                             FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
@@ -261,6 +264,7 @@
 
                         Label1_3 As label:
                             AlignInContainer: =AlignInContainer.Stretch
+                            Color: =secondaryColor
                             FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
@@ -270,6 +274,7 @@
 
                         Label1_4 As label:
                             AlignInContainer: =AlignInContainer.Stretch
+                            Color: =secondaryColor
                             FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
@@ -279,6 +284,7 @@
 
                         Label1_5 As label:
                             AlignInContainer: =AlignInContainer.Stretch
+                            Color: =secondaryColor
                             FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
@@ -288,6 +294,7 @@
 
                         Label1_6 As label:
                             AlignInContainer: =AlignInContainer.Stretch
+                            Color: =secondaryColor
                             FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
