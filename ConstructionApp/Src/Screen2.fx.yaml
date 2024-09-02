@@ -216,10 +216,8 @@
                         Fill: =ColorFade(RGBA(237, 237, 237, 1), -5%)
                         Height: =Parent.Height-2*Self.BorderThickness
                         HoverFill: =Self.Fill
-                        RadiusBottomLeft: =20
-                        RadiusBottomRight: =20
-                        RadiusTopLeft: =20
-                        RadiusTopRight: =20
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
                         Text: =
                         Width: =Parent.Width-2*Self.BorderThickness
                         X: =(Parent.Width-Self.Width)/2
