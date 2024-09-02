@@ -313,6 +313,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.GalleryContainer.Gallery1.Container3.Container4_4.Rating1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.ScreenContainer1.MainContainer.MainHeader.GalleryContainer.Gallery1.Container3.Container4_4.Rating1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen2",
+                "type": "Screen2.ScreenContainer1.MainContainer.MainHeader.GalleryContainer.Gallery1.Container3.Container4_4.Rating1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.primaryColorText"
                 }
               ],

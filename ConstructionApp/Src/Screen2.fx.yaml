@@ -586,6 +586,13 @@
                                 LayoutMinWidth: =150
                                 ZIndex: =7
 
+                                Rating1 As rating:
+                                    Height: =Parent.Height*60%
+                                    Width: =Parent.Width*80%
+                                    X: =(Parent.Width-Self.Width)/2
+                                    Y: =(Parent.Height-Self.Height)/2
+                                    ZIndex: =1
+
                 TableHeaderContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
                     Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.36)

@@ -60,6 +60,7 @@
     "ProductList": 16,
     "ProductListDesc": 17,
     "ProfileImage": 12,
+    "Rating1": 82,
     "Rectangle1": 81,
     "Reset": 30,
     "Screen2": 4,
@@ -74,7 +75,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/02/2024 20:07:49",
+  "HeaderLastSavedDateTimeUTC": "09/02/2024 20:11:51",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1b5a4dc4-2d02-47ed-ac49-b0409788fddb": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/f68a6facbfd8434282a3344c14044829\""
@@ -110,6 +111,7 @@
     "icon": 4,
     "image": 2,
     "label": 1,
+    "rating": 10,
     "rectangle": 9,
     "text": 5
   },
@@ -172,6 +174,7 @@
     "ProductList": {},
     "ProductListDesc": {},
     "ProfileImage": {},
+    "Rating1": {},
     "Rectangle1": {},
     "Reset": {},
     "Screen2": {},
@@ -245,6 +248,7 @@
     "ProductList": 11,
     "ProductListDesc": 12,
     "ProfileImage": 7,
+    "Rating1": 0,
     "Rectangle1": 0,
     "Reset": 25,
     "Screen2": 0,
