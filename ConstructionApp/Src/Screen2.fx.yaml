@@ -445,7 +445,7 @@
                                     LoadingSpinner: =LoadingSpinner.Data
                                     ShowScrollbar: =false
                                     TemplatePadding: =0
-                                    TemplateSize: =30
+                                    TemplateSize: =25
                                     Width: =Parent.Width*52.5%
                                     X: =15
                                     ZIndex: =1
