@@ -212,7 +212,7 @@
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
-                        TemplateSize: =104
+                        TemplateSize: =50
                         Width: =Parent.Width
                         ZIndex: =2
 
