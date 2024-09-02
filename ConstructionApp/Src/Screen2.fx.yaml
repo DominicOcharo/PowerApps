@@ -246,7 +246,7 @@
                                     Height: =42
                                     Text: =ThisItem.'Company Name'
                                     Width: =140
-                                    X: =50
+                                    X: =Image2.X + Image2.Width
                                     ZIndex: =2
 
                             Label2 As label:
