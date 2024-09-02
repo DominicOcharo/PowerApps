@@ -224,6 +224,53 @@
                             Y: =Parent.TemplateHeight - Self.Height
                             ZIndex: =5
 
+                        Container3 As groupContainer.horizontalAutoLayoutContainer:
+                            Height: =Parent.TemplateHeight
+                            LayoutMode: =LayoutMode.Auto
+                            Width: =Parent.TemplateWidth
+                            ZIndex: =6
+
+                            Container4 As groupContainer.manualLayoutContainer:
+                                LayoutMinHeight: =50
+                                LayoutMinWidth: =150
+                                ZIndex: =1
+
+                            Label2 As label:
+                                AlignInContainer: =AlignInContainer.Stretch
+                                FillPortions: =1
+                                Height: =50
+                                PaddingLeft: =15
+                                Text: ="Text"
+                                ZIndex: =2
+
+                            Container4_1 As groupContainer.manualLayoutContainer:
+                                LayoutMinHeight: =50
+                                LayoutMinWidth: =150
+                                ZIndex: =3
+
+                            Container4_2 As groupContainer.manualLayoutContainer:
+                                LayoutMinHeight: =50
+                                LayoutMinWidth: =150
+                                ZIndex: =4
+
+                            Label2_1 As label:
+                                AlignInContainer: =AlignInContainer.Stretch
+                                FillPortions: =1
+                                Height: =50
+                                PaddingLeft: =15
+                                Text: ="Text"
+                                ZIndex: =5
+
+                            Container4_3 As groupContainer.manualLayoutContainer:
+                                LayoutMinHeight: =50
+                                LayoutMinWidth: =150
+                                ZIndex: =6
+
+                            Container4_4 As groupContainer.manualLayoutContainer:
+                                LayoutMinHeight: =50
+                                LayoutMinWidth: =150
+                                ZIndex: =7
+
                 TableHeaderContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
                     Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.36)
