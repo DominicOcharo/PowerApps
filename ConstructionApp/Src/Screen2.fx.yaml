@@ -288,7 +288,7 @@
                         RadiusBottomRight: =10
                         RadiusTopLeft: =10
                         RadiusTopRight: =10
-                        Size: =(TextInput2.Width*TextInput2.Height)/600
+                        Size: =(TextInput2.Width*TextInput2.Height)/800
                         Width: =SearchButton.Width-SearchButton.Width/8
                         X: =SearchButton.X+SearchButton.Width/20
                         Y: =SearchButton.Y+SearchButton.Height/4.5
@@ -322,7 +322,7 @@
                         Height: =Parent.Height/1.8
                         Items: =UniqueDetections
                         Reset: =true
-                        Size: =(TextInput2.Width*TextInput2.Height)/600
+                        Size: =(TextInput2.Width*TextInput2.Height)/800
                         Width: =DropButton1.Width-DropButton1.Width/8
                         X: =DropButton1.X+DropButton1.Width/20
                         Y: =DropButton1.Y+DropButton1.Height/4.5
@@ -347,7 +347,7 @@
                         Height: =Parent.Height/1.8
                         Items: =UniqueTimeDetections
                         Reset: =true
-                        Size: =(TextInput2.Width*TextInput2.Height)/600
+                        Size: =(TextInput2.Width*TextInput2.Height)/800
                         Width: =DropButton2.Width-DropButton2.Width/8
                         X: =DropButton2.X+DropButton2.Width/20
                         Y: =DropButton2.Y+DropButton2.Height/4.5
