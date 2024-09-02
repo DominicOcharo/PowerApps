@@ -226,6 +226,54 @@
                         Y: =(Parent.Height-Self.Height)/2
                         ZIndex: =1
 
+                    Container2 As groupContainer.horizontalAutoLayoutContainer:
+                        Height: =Parent.Height
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =2
+
+                        Label1 As label:
+                            AlignInContainer: =AlignInContainer.Stretch
+                            FillPortions: =1
+                            Text: ="Text"
+                            ZIndex: =1
+
+                        Label1_1 As label:
+                            AlignInContainer: =AlignInContainer.Stretch
+                            FillPortions: =1
+                            Text: ="Text"
+                            ZIndex: =2
+
+                        Label1_2 As label:
+                            AlignInContainer: =AlignInContainer.Stretch
+                            FillPortions: =1
+                            Text: ="Text"
+                            ZIndex: =3
+
+                        Label1_3 As label:
+                            AlignInContainer: =AlignInContainer.Stretch
+                            FillPortions: =1
+                            Text: ="Text"
+                            ZIndex: =4
+
+                        Label1_4 As label:
+                            AlignInContainer: =AlignInContainer.Stretch
+                            FillPortions: =1
+                            Text: ="Text"
+                            ZIndex: =5
+
+                        Label1_5 As label:
+                            AlignInContainer: =AlignInContainer.Stretch
+                            FillPortions: =1
+                            Text: ="Text"
+                            ZIndex: =6
+
+                        Label1_6 As label:
+                            AlignInContainer: =AlignInContainer.Stretch
+                            FillPortions: =1
+                            Text: ="Text"
+                            ZIndex: =7
+
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
                     Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.35)
                     Width: =Parent.Width
