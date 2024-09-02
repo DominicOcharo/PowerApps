@@ -479,6 +479,7 @@
 
                                         Label5 As label:
                                             Align: =Align.Center
+                                            Color: =Color.White
                                             FontWeight: =FontWeight.Semibold
                                             Height: =Parent.Height
                                             Size: =9
