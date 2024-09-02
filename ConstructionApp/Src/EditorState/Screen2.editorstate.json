@@ -4637,7 +4637,14 @@
     "Gallery1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Items",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Items",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "WrapCount",
         {
           "AFDDataSourceName": "",
@@ -8608,7 +8615,14 @@
       "ControlPropertyState": [
         "Live",
         "Overflow",
-        "Text",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"Text\"",
+          "InvariantPropertyName": "Text",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Role",
         "Color",
         "DisabledColor",
@@ -8741,7 +8755,7 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -8937,7 +8951,14 @@
       "ControlPropertyState": [
         "Live",
         "Overflow",
-        "Text",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"Text\"",
+          "InvariantPropertyName": "Text",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Role",
         "Color",
         "DisabledColor",
@@ -9070,7 +9091,7 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
