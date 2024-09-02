@@ -7,9 +7,6 @@
     "CompanyLogo": 11,
     "Container1": 8,
     "Container11": 15,
-    "DataTable2": 32,
-    "Date_Column2": 34,
-    "Detections_Column2": 33,
     "DownloadButton1": 18,
     "DropButton1": 24,
     "DropButton2": 25,
@@ -21,8 +18,8 @@
     "Host": 3,
     "Icon1": 14,
     "Icon2": 19,
-    "InferenceTime_Column2": 36,
     "ItemsContainer": 31,
+    "ItemsContainer_1": 38,
     "MainContainer": 20,
     "MainHeader": 21,
     "Name": 9,
@@ -35,12 +32,11 @@
     "SearchButton": 23,
     "SearchFilterContainer": 22,
     "SearchIcon": 27,
-    "TextInput2": 26,
-    "Time_Column2": 35
+    "TextInput2": 26
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/02/2024 10:25:58",
+  "HeaderLastSavedDateTimeUTC": "09/02/2024 10:44:59",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -49,8 +45,8 @@
     "logo": "103eb9df-fce4-4d99-808d-7c19bf743599.jpg"
   },
   "LocalResourceRootPaths": {
-    "ISAIAH 60 22": "https://docserverpwaprodwuk.blob.core.windows.net/ce225c5c-84d4-4826-87d3-8857132cf2eb-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T10%3A22%3A35Z&ske=2024-09-03T10%3A37%3A35Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A37%3A35Z&sr=b&sp=r&sig=Gyh9QJB7pOZcAvAIDk3aQm2VAxgxa7f2Mrp4z01odVU%3D",
-    "logo": "https://docserverpwaprodwuk.blob.core.windows.net/ce225c5c-84d4-4826-87d3-8857132cf2eb-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T10%3A22%3A35Z&ske=2024-09-03T10%3A37%3A35Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A37%3A35Z&sr=b&sp=r&sig=tlErA6d1Me%2BRpovzNfmdCh32UJbOzx4X%2BLqkZ0yu%2F3I%3D"
+    "ISAIAH 60 22": "https://docserverpwaprodsuk.blob.core.windows.net/b3ed6c8d-cbae-4f27-b52e-65e6cf24166c-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T10%3A41%3A56Z&ske=2024-09-03T10%3A56%3A56Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A56%3A56Z&sr=b&sp=r&sig=xjrH31%2BcDw0%2FxfqnVXusU5npG93UfcVZb5QkXtKE01E%3D",
+    "logo": "https://docserverpwaprodsuk.blob.core.windows.net/b3ed6c8d-cbae-4f27-b52e-65e6cf24166c-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T10%3A41%3A56Z&ske=2024-09-03T10%3A56%3A56Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A56%3A56Z&sr=b&sp=r&sig=Iif6UFIpzNY4hSLSHR6yfyqRkZ6GHvHwgKXUKT%2BOb5M%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -78,9 +74,6 @@
     "CompanyLogo": {},
     "Container1": {},
     "Container11": {},
-    "DataTable2": {},
-    "Date_Column2": {},
-    "Detections_Column2": {},
     "DownloadButton1": {},
     "DropButton1": {},
     "DropButton2": {},
@@ -92,8 +85,8 @@
     "Host": {},
     "Icon1": {},
     "Icon2": {},
-    "InferenceTime_Column2": {},
     "ItemsContainer": {},
+    "ItemsContainer_1": {},
     "MainContainer": {},
     "MainHeader": {},
     "Name": {},
@@ -106,8 +99,7 @@
     "SearchButton": {},
     "SearchFilterContainer": {},
     "SearchIcon": {},
-    "TextInput2": {},
-    "Time_Column2": {}
+    "TextInput2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -117,9 +109,6 @@
     "CompanyLogo": 6,
     "Container1": 3,
     "Container11": 10,
-    "DataTable2": 27,
-    "Date_Column2": 29,
-    "Detections_Column2": 28,
     "DownloadButton1": 13,
     "DropButton1": 19,
     "DropButton2": 20,
@@ -131,8 +120,8 @@
     "Host": 0,
     "Icon1": 9,
     "Icon2": 14,
-    "InferenceTime_Column2": 31,
     "ItemsContainer": 26,
+    "ItemsContainer_1": 26,
     "MainContainer": 15,
     "MainHeader": 16,
     "Name": 4,
@@ -145,8 +134,7 @@
     "SearchButton": 18,
     "SearchFilterContainer": 17,
     "SearchIcon": 22,
-    "TextInput2": 21,
-    "Time_Column2": 30
+    "TextInput2": 21
   },
   "ResourcesJsonIndices": {
     "Image-ISAIAH 60 22": 1,
@@ -156,20 +144,20 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2860312,
+    "AnalysisLoadTime": 0.3590711,
     "ControlCount": {
       "button": 5,
       "dataTable": 1,
       "dataTableColumn": 4,
       "dropdown": 2,
-      "groupContainer": 9,
+      "groupContainer": 11,
       "icon": 4,
       "image": 2,
       "label": 4,
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 0.9929026
+    "DeserializationLoadTime": 1.6626396
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

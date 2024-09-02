@@ -184,85 +184,25 @@
                 Y: =MainContainer.Y
                 ZIndex: =2
 
+                ItemsContainer_1 As groupContainer.manualLayoutContainer:
+                    Fill: =Color.LightGray
+                    Height: =156
+                    Width: =1334
+                    Y: =SearchFilterContainer.Y+SearchFilterContainer.Height+ItemsContainer.Height
+                    ZIndex: =1
+
                 ItemsContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
-                    Height: =Screen2.Height-HeaderContainer1.Height-SearchFilterContainer.Height-(Screen2.Height/18)
+                    Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.48)
                     Width: =1334
                     Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
-                    ZIndex: =10
-
-                    DataTable2 As dataTable.datatable:
-                        BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =ItemsContainer.Height
-                        Items: =Filter(PPEone,(StartsWith(Detections,TextInput2.Text)|| StartsWith(InferenceTime,TextInput2.Text))&&(StartsWith(Detections,Dropdown1.Selected.Value)||Dropdown1.Selected.Value=Blank())&&(StartsWith(Time,Dropdown2.Selected.Value)||Dropdown2.Selected.Value=Blank()))
-                        Width: =Screen2.Width-(Screen2.Width/36)
-                        X: =ItemsContainer.X
-                        Y: =0
-                        ZIndex: =2
-
-                        Detections_Column2 As dataTableColumn.textualColumn:
-                            DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Detections"
-                            FieldName: ="Detections"
-                            FieldVariantName: ="textualColumn"
-                            Height: =Parent.Height
-                            LayoutHeight: =Parent.Height
-                            Order: =1
-                            Text: =ThisItem.Detections
-                            Width: =100
-                            X: =0
-                            Y: =0
-                            ZIndex: =12
-
-                        Date_Column2 As dataTableColumn.textualColumn:
-                            DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Date"
-                            FieldName: ="Date"
-                            FieldVariantName: ="textualColumn"
-                            Height: =Parent.Height
-                            LayoutHeight: =Parent.Height
-                            Order: =2
-                            Text: =ThisItem.Date
-                            Width: =100
-                            X: =0
-                            Y: =0
-                            ZIndex: =13
-
-                        Time_Column2 As dataTableColumn.textualColumn:
-                            DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Time"
-                            FieldName: ="Time"
-                            FieldVariantName: ="textualColumn"
-                            Height: =Parent.Height
-                            LayoutHeight: =Parent.Height
-                            Order: =3
-                            Text: =ThisItem.Time
-                            Width: =100
-                            X: =0
-                            Y: =0
-                            ZIndex: =14
-
-                        InferenceTime_Column2 As dataTableColumn.textualColumn:
-                            DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="InferenceTime"
-                            FieldName: ="InferenceTime"
-                            FieldVariantName: ="textualColumn"
-                            Height: =Parent.Height
-                            LayoutHeight: =Parent.Height
-                            Order: =4
-                            Text: =ThisItem.InferenceTime
-                            Width: =100
-                            X: =0
-                            Y: =0
-                            ZIndex: =15
+                    ZIndex: =2
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
                     Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.35)
                     Width: =Parent.Width
                     Y: =MainHeader.Y
-                    ZIndex: =11
+                    ZIndex: =3
 
                     SearchButton As button:
                         Color: =RGBA(214, 223, 238, 1)
