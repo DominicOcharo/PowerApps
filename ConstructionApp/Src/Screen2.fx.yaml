@@ -462,6 +462,29 @@
                                         Y: =(Parent.TemplateHeight-Self.Height)/2
                                         ZIndex: =1
 
+                                    Container5 As groupContainer.manualLayoutContainer:
+                                        Height: =Image4.Height
+                                        Width: =Image4.Width
+                                        X: =Image4.X
+                                        Y: =Image4.Y
+                                        ZIndex: =2
+
+                                        Circle2 As circle:
+                                            BorderColor: =RGBA(255, 255, 255, 1)
+                                            BorderThickness: =2
+                                            Fill: =secondaryColor
+                                            Height: =Parent.Height
+                                            Width: =Parent.Width
+                                            ZIndex: =1
+
+                                        Label5 As label:
+                                            FontWeight: =FontWeight.Semibold
+                                            Height: =Parent.Height
+                                            Size: =9.5
+                                            Text: ="TE"
+                                            Width: =Parent.Width
+                                            ZIndex: =2
+
                             Label2_1 As label:
                                 AlignInContainer: =AlignInContainer.Stretch
                                 Color: =secondaryColor
