@@ -322,7 +322,7 @@
                         Height: =Parent.Height/1.8
                         Items: =UniqueDetections
                         Reset: =true
-                        Size: =TextInput2.Width/15
+                        Size: =TextInput2.Width/40
                         Width: =DropButton1.Width-DropButton1.Width/8
                         X: =DropButton1.X+DropButton1.Width/20
                         Y: =DropButton1.Y+DropButton1.Height/4.5
@@ -347,7 +347,7 @@
                         Height: =Parent.Height/1.8
                         Items: =UniqueTimeDetections
                         Reset: =true
-                        Size: =TextInput2.Width/15
+                        Size: =TextInput2.Width/40
                         Width: =DropButton2.Width-DropButton2.Width/8
                         X: =DropButton2.X+DropButton2.Width/20
                         Y: =DropButton2.Y+DropButton2.Height/4.5
