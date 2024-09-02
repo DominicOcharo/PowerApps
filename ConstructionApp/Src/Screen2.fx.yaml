@@ -483,7 +483,7 @@
                                             FontWeight: =FontWeight.Semibold
                                             Height: =Parent.Height
                                             Size: =9
-                                            Text: ="TE"
+                                            Text: =Left(User().FullName,1)&Left(User().Email,1)
                                             Width: =Parent.Width
                                             ZIndex: =2
 
