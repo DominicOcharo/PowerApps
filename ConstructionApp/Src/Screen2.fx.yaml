@@ -96,11 +96,11 @@
                         Text: ="So T Co"
                         Width: =(Screen2.Width)/2.5
                         X: =CompanyLogo.Width
-                        Y: =Parent.Height/10
+                        Y: =(HeaderContainer1.Height/2)/20
                         ZIndex: =6
 
                     CompanyLogo As image:
-                        Height: =Parent.Height-15
+                        Height: =(HeaderContainer1.Height/2)-15
                         Image: =logo
                         ImagePosition: =ImagePosition.Fill
                         RadiusBottomLeft: =50
@@ -108,7 +108,7 @@
                         RadiusTopLeft: =50
                         RadiusTopRight: =50
                         Width: =Parent.Height-15
-                        Y: =Parent.Height/9
+                        Y: =(HeaderContainer1.Height/2)/9
                         ZIndex: =7
 
                     ProfileImage As image:
@@ -123,7 +123,7 @@
                         Width: |
                             =Parent.Height-15
                         X: =(Screen2.Width)-(42+ProfileImage.Width)
-                        Y: =Screen2.Width/150
+                        Y: =(HeaderContainer1.Height/2)/9
                         ZIndex: =8
 
                     Name As label:
@@ -134,7 +134,7 @@
                         Visible: =If((Name.X-HelpButton.X-HelpButton.Width)<1,false,true)
                         Width: =Len(User().FullName)*12
                         X: =(ProfileImage.X-Name.Width-1)
-                        Y: =7
+                        Y: =(HeaderContainer1.Height/2)/9
                         ZIndex: =9
 
                     HelpButton As button:
@@ -149,7 +149,7 @@
                         Text: ="Help"
                         Visible: =If(Screen2.Width >= (CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5+HelpButton.Width),true,false)
                         X: =(CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5)
-                        Y: =19
+                        Y: =(HeaderContainer1.Height/2)/4
                         ZIndex: =10
 
                     Icon1 As icon.Help:
@@ -159,7 +159,7 @@
                         Visible: =If(Screen2.Width >= (CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5+HelpButton.Width),true,false)
                         Width: =44
                         X: =(CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5)
-                        Y: =19
+                        Y: =(HeaderContainer1.Height/2)/4
                         ZIndex: =11
 
         MainContainer As groupContainer.horizontalAutoLayoutContainer:
