@@ -2,7 +2,7 @@
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
-        Height: =Parent.Height
+        Height: =Screen2.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =16
@@ -17,7 +17,7 @@
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
-            Height: =150
+            Height: =ScreenContainer1.Height/6
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
@@ -31,7 +31,7 @@
             Header As groupContainer.manualLayoutContainer:
                 BorderColor: =Color.White
                 BorderStyle: =BorderStyle.None
-                Height: =Parent.Height
+                Height: =HeaderContainer1.Height
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 Width: =Parent.Width
@@ -39,7 +39,7 @@
 
                 Container11 As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
-                    Height: =((Parent.Height)-Container1.Height)
+                    Height: =HeaderContainer1.Height/2
                     Width: =Screen2.Width
                     Y: =(Parent.Height)/2
                     ZIndex: =10
@@ -47,6 +47,7 @@
                     ProductList As label:
                         Font: =Font.'Lato Black'
                         FontWeight: =FontWeight.Bold
+                        Height: =Container11.Height/2
                         Size: =17
                         Text: ="Product List"
                         X: =5
@@ -54,6 +55,7 @@
                         ZIndex: =1
 
                     ProductListDesc As label:
+                        Height: =Container11.Height/2
                         Text: ="Here is a list of all the products in the database"
                         Visible: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,false,true)
                         Width: =Len(ProductListDesc.Text)*8
@@ -62,7 +64,7 @@
                         ZIndex: =2
 
                     DownloadButton1 As button:
-                        Height: =28
+                        Height: =Container11.Height/2.2
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
                         RadiusTopLeft: =20
@@ -75,14 +77,14 @@
 
                     Icon2 As icon.Download:
                         Color: =RGBA(0, 0, 0, 1)
-                        Height: =20
+                        Height: =Container11.Height/2.2
                         Icon: =Icon.Download
                         X: =If((Screen2.Width-204-ProductListDesc.X-ProductListDesc.Width)<1,(ProductList.X-8),Screen2.Width-216)
                         Y: =ProductList.Y+ProductList.Height+5
                         ZIndex: =4
 
                 Container1 As groupContainer.manualLayoutContainer:
-                    Height: =((Parent.Height)/2)
+                    Height: =(HeaderContainer1.Height/2)
                     Width: =Parent.Width
                     ZIndex: =11
 
@@ -162,7 +164,7 @@
         MainContainer As groupContainer.horizontalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
-            Height: =ScreenContainer1.Height-HeaderContainer1.Height
+            Height: =Screen2.Height-HeaderContainer1.Height
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
@@ -186,7 +188,7 @@
 
                 ItemsContainer_1 As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
-                    Height: =156
+                    Height: =MainHeader.Height-ItemsContainer.Height-SearchFilterContainer.Height
                     Width: =1334
                     Y: =SearchFilterContainer.Y+SearchFilterContainer.Height+ItemsContainer.Height
                     ZIndex: =1
