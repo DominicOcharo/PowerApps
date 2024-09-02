@@ -288,7 +288,7 @@
                         RadiusBottomRight: =10
                         RadiusTopLeft: =10
                         RadiusTopRight: =10
-                        Size: =(TextInput2.Width*TextInput2.Height)/800
+                        Size: =(TextInput2.Width*TextInput2.Height)/400
                         Width: =SearchButton.Width-SearchButton.Width/8
                         X: =SearchButton.X+SearchButton.Width/20
                         Y: =SearchButton.Y+SearchButton.Height/4.5
