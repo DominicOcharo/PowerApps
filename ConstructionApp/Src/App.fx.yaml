@@ -9,10 +9,10 @@ App As appinfo:
             )
         );
         ClearCollect(
-            UniqueDateDetections,
+            UniqueDetections2,
             Distinct(
-                PPE,
-                Date
+                Table1,
+                'Review Stage'
             )
         );
         ClearCollect(

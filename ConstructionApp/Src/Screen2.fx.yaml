@@ -778,7 +778,7 @@
                         AllowEmptySelection: =true
                         Color: =Color.Black
                         Height: =Parent.Height/1.8
-                        Items: =UniqueTimeDetections
+                        Items: =UniqueDetections2
                         Reset: =true
                         Size: =(TextInput2.Width*TextInput2.Height)/400
                         Width: =DropButton2.Width-DropButton2.Width/8
