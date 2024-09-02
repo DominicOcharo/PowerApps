@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |
+    OnStart: |-
         =ClearCollect(
             UniqueDetections,
             Distinct(
@@ -22,6 +22,10 @@ App As appinfo:
                 Time
             )
         );
+        Set(primaryColor,RGBA(45,85,251,1));
+        Set(primaryColorText,"RGBA(45,85,251,1)");
+        Set(secondaryColor,RGBA(116,116,116,1));
+        Set(secondaryColorText,"RGBA(116,116,116,1)");
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
