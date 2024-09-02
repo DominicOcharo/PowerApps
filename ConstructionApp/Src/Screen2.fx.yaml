@@ -541,13 +541,14 @@
 
                                 Container7 As groupContainer.manualLayoutContainer:
                                     Fill: =RGBA(237, 237, 237, 1)
-                                    Height: =20
+                                    Height: =10
                                     Width: =Parent.Width-Label6.Width
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =2
 
                                     Rectangle1 As rectangle:
                                         Height: =Parent.Height
+                                        Width: =Parent.Width*(ThisItem.'Price Rating'/100)
                                         ZIndex: =1
 
                             Container4_4 As groupContainer.manualLayoutContainer:
