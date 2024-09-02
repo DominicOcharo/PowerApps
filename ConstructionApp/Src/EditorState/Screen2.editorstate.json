@@ -14227,7 +14227,14 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Default",
-        "RatingFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "RGBA(0, 18, 107, 1)",
+          "InvariantPropertyName": "RatingFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -14295,7 +14302,7 @@
         {
           "Category": "Design",
           "PropertyName": "RatingFill",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

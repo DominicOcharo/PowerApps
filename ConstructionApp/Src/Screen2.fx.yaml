@@ -208,7 +208,7 @@
                     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
                         DelayItemLoading: =true
                         Height: =Parent.Height
-                        Items: =Table1
+                        Items: =Filter(Table1,(StartsWith('Product Name',TextInput2.Text)|| StartsWith('Company Name',TextInput2.Text))&&(StartsWith('Product Price',Dropdown1.Selected.Value)||Dropdown1.Selected.Value=Blank())&&(StartsWith('Review Stage',Dropdown2.Selected.Value)||Dropdown2.Selected.Value=Blank()))
                         Layout: =Layout.Vertical
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
@@ -588,6 +588,7 @@
 
                                 Rating1 As rating:
                                     Height: =Parent.Height*60%
+                                    RatingFill: =RGBA(255,215,0,1)
                                     Width: =Parent.Width*80%
                                     X: =(Parent.Width-Self.Width)/2
                                     Y: =(Parent.Height-Self.Height)/2

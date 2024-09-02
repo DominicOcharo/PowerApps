@@ -4,8 +4,8 @@ App As appinfo:
         =ClearCollect(
             UniqueDetections,
             Distinct(
-                PPE,
-                Detections
+                Table1,
+                'Product Price'
             )
         );
         ClearCollect(
