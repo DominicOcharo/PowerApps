@@ -187,11 +187,23 @@
                 ZIndex: =2
 
                 ItemsContainer_1 As groupContainer.manualLayoutContainer:
-                    Fill: =Color.LightGray
+                    Fill: =Color.White
                     Height: =MainHeader.Height-TableHeaderContainer.Height-SearchFilterContainer.Height
                     Width: =1334
                     Y: =SearchFilterContainer.Y+SearchFilterContainer.Height+TableHeaderContainer.Height
                     ZIndex: =1
+
+                    Button1_1 As button:
+                        Fill: =Color.White
+                        Height: =Parent.Height-2*Self.BorderThickness
+                        HoverFill: =Self.Fill
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        Text: =
+                        Width: =Parent.Width-2*Self.BorderThickness
+                        X: =(Parent.Width-Self.Width)/2
+                        Y: =(Parent.Height-Self.Height)/2
+                        ZIndex: =1
 
                 TableHeaderContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
@@ -203,10 +215,15 @@
                     Button1 As button:
                         Fill: =ColorFade(RGBA(237, 237, 237, 1), -5%)
                         Height: =Parent.Height-2*Self.BorderThickness
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
+                        HoverFill: =Self.Fill
+                        RadiusBottomLeft: =20
+                        RadiusBottomRight: =20
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
                         Text: =
                         Width: =Parent.Width-2*Self.BorderThickness
+                        X: =(Parent.Width-Self.Width)/2
+                        Y: =(Parent.Height-Self.Height)/2
                         ZIndex: =1
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:

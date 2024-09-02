@@ -4,6 +4,7 @@
   "ControlUniqueIds": {
     "App": 1,
     "Button1": 39,
+    "Button1_1": 40,
     "Company Name": 10,
     "CompanyLogo": 11,
     "Container1": 8,
@@ -37,7 +38,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/02/2024 11:11:28",
+  "HeaderLastSavedDateTimeUTC": "09/02/2024 11:17:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -72,6 +73,7 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Button1": {},
+    "Button1_1": {},
     "Company Name": {},
     "CompanyLogo": {},
     "Container1": {},
@@ -108,6 +110,7 @@
   "PublishOrderIndices": {
     "App": 0,
     "Button1": 0,
+    "Button1_1": 0,
     "Company Name": 5,
     "CompanyLogo": 6,
     "Container1": 3,
@@ -149,7 +152,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.3590711,
     "ControlCount": {
-      "button": 5,
+      "button": 6,
       "dataTable": 1,
       "dataTableColumn": 4,
       "dropdown": 2,
