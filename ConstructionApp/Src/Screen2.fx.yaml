@@ -250,6 +250,7 @@
                                 Label3 As label:
                                     FontWeight: =FontWeight.Semibold
                                     Height: =42
+                                    PaddingLeft: =10
                                     Size: =9.5
                                     Text: =ThisItem.'Company Name'
                                     Width: =140
@@ -271,6 +272,14 @@
                                 LayoutMinHeight: =50
                                 LayoutMinWidth: =150
                                 ZIndex: =3
+
+                                Button2 As button:
+                                    Height: =Parent.Height*60%
+                                    Text: ="Button"
+                                    Width: =Parent.Width*90%
+                                    X: =(Parent.Width-Self.Width)/2
+                                    Y: =(Parent.Height-Self.Height)/2
+                                    ZIndex: =1
 
                             Container4_2 As groupContainer.manualLayoutContainer:
                                 LayoutMinHeight: =50
