@@ -274,38 +274,76 @@
                                 ZIndex: =3
 
                                 TextPill_BG As button:
+                                    BorderColor: |-
+                                        =ColorFade(
+                                            Switch(
+                                                Text(ThisItem.'Review Stage'),
+                                                "Not Started",
+                                                RGBA(
+                                                    69,
+                                                    14,
+                                                    140,
+                                                    1
+                                                ),
+                                                "In Progress",
+                                                RGBA(
+                                                    140,
+                                                    14,
+                                                    108,
+                                                    1
+                                                ),
+                                                "Awaiting Approval",
+                                                RGBA(
+                                                    140,
+                                                    98,
+                                                    14,
+                                                    1
+                                                ),
+                                                "Completed",
+                                                RGBA(
+                                                    10,
+                                                    84,
+                                                    48,
+                                                    1
+                                                )
+                                            ),
+                                            80%
+                                        )
                                     Fill: |-
-                                        =ColorFade(Switch(
-                                            Text(ThisItem.'Review Stage'),
-                                            "Not Started",
-                                            RGBA(
-                                                69,
-                                                14,
-                                                140,
-                                                1
+                                        =ColorFade(
+                                            Switch(
+                                                Text(ThisItem.'Review Stage'),
+                                                "Not Started",
+                                                RGBA(
+                                                    69,
+                                                    14,
+                                                    140,
+                                                    1
+                                                ),
+                                                "In Progress",
+                                                RGBA(
+                                                    140,
+                                                    14,
+                                                    108,
+                                                    1
+                                                ),
+                                                "Awaiting Approval",
+                                                RGBA(
+                                                    140,
+                                                    98,
+                                                    14,
+                                                    1
+                                                ),
+                                                "Completed",
+                                                RGBA(
+                                                    10,
+                                                    84,
+                                                    48,
+                                                    1
+                                                )
                                             ),
-                                            "In Progress",
-                                            RGBA(
-                                                140,
-                                                14,
-                                                108,
-                                                1
-                                            ),
-                                            "Awaiting Approval",
-                                            RGBA(
-                                                140,
-                                                98,
-                                                14,
-                                                1
-                                            ),
-                                            "Completed",
-                                            RGBA(
-                                                10,
-                                                84,
-                                                48,
-                                                1
-                                            )
-                                        ),80%)
+                                            80%
+                                        )
                                     Height: =Parent.Height*60%
                                     Text: =
                                     Width: =Parent.Width*90%
