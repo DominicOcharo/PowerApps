@@ -235,11 +235,21 @@
                                 LayoutMinWidth: =150
                                 ZIndex: =1
 
+                                Image2 As image:
+                                    Height: =Parent.Height*70%
+                                    Width: =Self.Height
+                                    X: =15
+                                    Y: =(Parent.Height-Self.Height)/2
+                                    ZIndex: =1
+
                             Label2 As label:
                                 AlignInContainer: =AlignInContainer.Stretch
+                                Color: =secondaryColor
                                 FillPortions: =1
+                                FontWeight: =FontWeight.Semibold
                                 Height: =50
                                 PaddingLeft: =15
+                                Size: =9.5
                                 Text: =ThisItem.'Product Name'
                                 ZIndex: =2
 
@@ -255,10 +265,14 @@
 
                             Label2_1 As label:
                                 AlignInContainer: =AlignInContainer.Stretch
+                                Color: =secondaryColor
                                 FillPortions: =1
+                                FontWeight: =FontWeight.Semibold
                                 Height: =50
                                 PaddingLeft: =15
-                                Text: =ThisItem.'Product Price'
+                                Size: =9.5
+                                Text: |-
+                                    ="$" & Text(ThisItem.'Product Price', "###,###,###.00")
                                 ZIndex: =5
 
                             Container4_3 As groupContainer.manualLayoutContainer:
