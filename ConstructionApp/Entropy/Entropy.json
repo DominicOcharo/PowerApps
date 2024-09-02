@@ -65,9 +65,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/02/2024 14:18:11",
+  "HeaderLastSavedDateTimeUTC": "09/02/2024 14:25:45",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "1b5a4dc4-2d02-47ed-ac49-b0409788fddb": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/f68a6facbfd8434282a3344c14044829\""
+  },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {
     "ISAIAH 60 22": "1b878808-6a21-449b-a474-dd342b14fcad.jpeg",
@@ -80,11 +82,12 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "CustomGallerySample": 1,
-    "DropDownSample": 2,
-    "PPE": 0,
-    "PPEone": 3,
-    "Table1": 4
+    "CustomGallerySample": 2,
+    "DropDownSample": 3,
+    "Office365Users": 0,
+    "PPE": 1,
+    "PPEone": 4,
+    "Table1": 5
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
