@@ -218,6 +218,8 @@
                         HoverFill: =Self.Fill
                         RadiusBottomLeft: =0
                         RadiusBottomRight: =0
+                        RadiusTopLeft: =20
+                        RadiusTopRight: =20
                         Text: =
                         Width: =Parent.Width-2*Self.BorderThickness
                         X: =(Parent.Width-Self.Width)/2
