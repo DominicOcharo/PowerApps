@@ -438,6 +438,17 @@
                                 LayoutMinWidth: =150
                                 ZIndex: =4
 
+                                Gallery2 As gallery.galleryHorizontal:
+                                    DelayItemLoading: =true
+                                    Height: =Parent.Height
+                                    Items: =ThisItem.Users
+                                    LoadingSpinner: =LoadingSpinner.Data
+                                    TemplatePadding: =0
+                                    TemplateSize: =30
+                                    Width: =Parent.Width*52.5%
+                                    X: =15
+                                    ZIndex: =1
+
                             Label2_1 As label:
                                 AlignInContainer: =AlignInContainer.Stretch
                                 Color: =secondaryColor
