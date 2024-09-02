@@ -164,7 +164,7 @@
         MainContainer As groupContainer.horizontalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
-            Height: =Screen2.Height-HeaderContainer1.Height
+            Height: =Screen2.Height-HeaderContainer1.Height-(HeaderContainer1.Height/3.5)
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
