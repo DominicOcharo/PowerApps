@@ -472,7 +472,7 @@
                                         Circle2 As circle:
                                             BorderColor: =RGBA(255, 255, 255, 1)
                                             BorderThickness: =2
-                                            Fill: =secondaryColor
+                                            Fill: =primaryColor
                                             Height: =Parent.Height
                                             Width: =Parent.Width
                                             ZIndex: =1
@@ -517,7 +517,7 @@
                                 AlignInContainer: =AlignInContainer.Stretch
                                 Color: =secondaryColor
                                 FillPortions: =1
-                                FontWeight: =FontWeight.Semibold
+                                FontWeight: =FontWeight.Bold
                                 Height: =50
                                 PaddingLeft: =15
                                 Size: =9.5
