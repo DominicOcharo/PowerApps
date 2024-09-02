@@ -547,6 +547,36 @@
                                     ZIndex: =2
 
                                     Rectangle1 As rectangle:
+                                        Fill: |-
+                                            =If(
+                                                ThisItem.'Price Rating' < 40,
+                                                RGBA(
+                                                    252,
+                                                    144,
+                                                    144,
+                                                    1
+                                                ),
+                                                ThisItem.'Price Rating' > 40 && ThisItem.'Price Rating' < 70,
+                                                RGBA(
+                                                    254,
+                                                    216,
+                                                    142,
+                                                    1
+                                                ),
+                                                ThisItem.'Price Rating' > 70 && ThisItem.'Price Rating' < 90,
+                                                RGBA(
+                                                    180,
+                                                    228,
+                                                    201,
+                                                    1
+                                                ),
+                                                RGBA(
+                                                    150,
+                                                    188,
+                                                    152,
+                                                    1
+                                                )
+                                            )
                                         Height: =Parent.Height
                                         Width: =Parent.Width*(ThisItem.'Price Rating'/100)
                                         ZIndex: =1
