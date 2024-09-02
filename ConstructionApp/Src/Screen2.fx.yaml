@@ -91,7 +91,7 @@
                     "'Company Name' As label":
                         Font: =Font.'Lato Black'
                         FontWeight: =FontWeight.Bold
-                        Height: =60
+                        Height: =(HeaderContainer1.Height/2)
                         Size: =(Screen2.Width)/38
                         Text: ="So T Co"
                         Width: =(Screen2.Width)/2.5
@@ -112,7 +112,7 @@
                         ZIndex: =7
 
                     ProfileImage As image:
-                        Height: =Parent.Height-15
+                        Height: =(HeaderContainer1.Height/2)-15
                         Image: =User().Image
                         ImagePosition: =ImagePosition.Fill
                         RadiusBottomLeft: =50
@@ -128,7 +128,7 @@
 
                     Name As label:
                         FontWeight: =FontWeight.Bold
-                        Height: =Parent.Height-15
+                        Height: =(HeaderContainer1.Height/2)-15
                         Size: =Screen2.Width/100
                         Text: =User().FullName
                         Visible: =If((Name.X-HelpButton.X-HelpButton.Width)<1,false,true)
@@ -140,6 +140,7 @@
                     HelpButton As button:
                         Color: =Color.Black
                         Fill: =Color.LightBlue
+                        Height: =(HeaderContainer1.Height/3)
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
                         RadiusTopLeft: =20
@@ -153,7 +154,7 @@
 
                     Icon1 As icon.Help:
                         Color: =RGBA(0, 0, 0, 1)
-                        Height: =40
+                        Height: =(HeaderContainer1.Height/3)
                         Icon: =Icon.Help
                         Visible: =If(Screen2.Width >= (CompanyLogo.Width+'Company Name'.Width+Screen2.Width/5+HelpButton.Width),true,false)
                         Width: =44
