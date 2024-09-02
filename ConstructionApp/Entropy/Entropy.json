@@ -40,7 +40,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/02/2024 10:11:58",
+  "HeaderLastSavedDateTimeUTC": "09/02/2024 10:25:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -49,8 +49,8 @@
     "logo": "103eb9df-fce4-4d99-808d-7c19bf743599.jpg"
   },
   "LocalResourceRootPaths": {
-    "ISAIAH 60 22": "https://docserverpwaprodwuk.blob.core.windows.net/296a6305-3c0f-418c-895f-964ec6151dfe-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T09%3A59%3A15Z&ske=2024-09-03T10%3A14%3A15Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A14%3A15Z&sr=b&sp=r&sig=I%2BmLGKI54V9B2MF%2FViHLqjk1A8CdvD2v5PBjc1sN7WI%3D",
-    "logo": "https://docserverpwaprodwuk.blob.core.windows.net/296a6305-3c0f-418c-895f-964ec6151dfe-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T09%3A59%3A15Z&ske=2024-09-03T10%3A14%3A15Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A14%3A15Z&sr=b&sp=r&sig=xfgB4%2BPaCNYbzN5s71plyh5ov44X7TnDYo52hulZRJI%3D"
+    "ISAIAH 60 22": "https://docserverpwaprodwuk.blob.core.windows.net/ce225c5c-84d4-4826-87d3-8857132cf2eb-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T10%3A22%3A35Z&ske=2024-09-03T10%3A37%3A35Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A37%3A35Z&sr=b&sp=r&sig=Gyh9QJB7pOZcAvAIDk3aQm2VAxgxa7f2Mrp4z01odVU%3D",
+    "logo": "https://docserverpwaprodwuk.blob.core.windows.net/ce225c5c-84d4-4826-87d3-8857132cf2eb-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-02T10%3A22%3A35Z&ske=2024-09-03T10%3A37%3A35Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-03T10%3A37%3A35Z&sr=b&sp=r&sig=tlErA6d1Me%2BRpovzNfmdCh32UJbOzx4X%2BLqkZ0yu%2F3I%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -156,7 +156,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.4065092,
+    "AnalysisLoadTime": 0.2860312,
     "ControlCount": {
       "button": 5,
       "dataTable": 1,
@@ -169,7 +169,7 @@
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 1.0490407
+    "DeserializationLoadTime": 0.9929026
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
