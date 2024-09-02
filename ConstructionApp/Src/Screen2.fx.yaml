@@ -449,6 +449,17 @@
                                     X: =15
                                     ZIndex: =1
 
+                                    Image4 As image:
+                                        Height: =Self.Width
+                                        OnSelect: =Select(Parent)
+                                        RadiusBottomLeft: =Self.Width
+                                        RadiusBottomRight: =Self.Width
+                                        RadiusTopLeft: =Self.Width
+                                        RadiusTopRight: =Self.Width
+                                        Width: =30
+                                        Y: =(Parent.TemplateHeight-Self.Height)/2
+                                        ZIndex: =1
+
                             Label2_1 As label:
                                 AlignInContainer: =AlignInContainer.Stretch
                                 Color: =secondaryColor
