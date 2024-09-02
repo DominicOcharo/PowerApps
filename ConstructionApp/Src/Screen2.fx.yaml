@@ -179,7 +179,7 @@
             MainHeader As groupContainer.manualLayoutContainer:
                 BorderColor: =Color.White
                 BorderStyle: =BorderStyle.None
-                Height: =Parent.Height
+                Height: =MainContainer.Height
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 Width: =Parent.Width
@@ -188,17 +188,26 @@
 
                 ItemsContainer_1 As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
-                    Height: =MainHeader.Height-ItemsContainer.Height-SearchFilterContainer.Height
+                    Height: =MainHeader.Height-TableHeaderContainer.Height-SearchFilterContainer.Height
                     Width: =1334
-                    Y: =SearchFilterContainer.Y+SearchFilterContainer.Height+ItemsContainer.Height
+                    Y: =SearchFilterContainer.Y+SearchFilterContainer.Height+TableHeaderContainer.Height
                     ZIndex: =1
 
-                ItemsContainer As groupContainer.manualLayoutContainer:
+                TableHeaderContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.LightGray
-                    Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.48)
+                    Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.36)
                     Width: =1334
                     Y: =SearchFilterContainer.Y+SearchFilterContainer.Height
                     ZIndex: =2
+
+                    Button1 As button:
+                        Fill: =ColorFade(RGBA(237, 237, 237, 1), -5%)
+                        Height: =Parent.Height-2*Self.BorderThickness
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        Text: =
+                        Width: =Parent.Width-2*Self.BorderThickness
+                        ZIndex: =1
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
                     Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.35)
