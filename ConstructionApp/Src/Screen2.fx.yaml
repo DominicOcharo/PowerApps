@@ -487,6 +487,32 @@
                                             Width: =Parent.Width
                                             ZIndex: =2
 
+                                Container5_1 As groupContainer.manualLayoutContainer:
+                                    Height: =30
+                                    Width: =30
+                                    X: =Gallery2.Width
+                                    Y: =(Parent.Height-Self.Height)/2
+                                    ZIndex: =2
+
+                                    Circle2_1 As circle:
+                                        BorderColor: =RGBA(255, 255, 255, 1)
+                                        BorderThickness: =2
+                                        Fill: =secondaryColor
+                                        Height: =Parent.Height
+                                        Width: =Parent.Width
+                                        ZIndex: =1
+
+                                    Label5_1 As label:
+                                        Align: =Align.Center
+                                        Color: =Color.White
+                                        FontWeight: =FontWeight.Semibold
+                                        Height: =30
+                                        Size: =9
+                                        Text: ="+"&(CountRows(Gallery2.AllItems)-496)
+                                        Width: =30
+                                        X: =
+                                        ZIndex: =2
+
                             Label2_1 As label:
                                 AlignInContainer: =AlignInContainer.Stretch
                                 Color: =secondaryColor
