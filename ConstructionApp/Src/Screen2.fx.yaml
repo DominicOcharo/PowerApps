@@ -51,7 +51,6 @@
                         Size: =17
                         Text: ="Product List"
                         X: =5
-                        Y: =1
                         ZIndex: =1
 
                     ProductListDesc As label:
