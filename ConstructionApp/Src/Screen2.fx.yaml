@@ -693,7 +693,8 @@
                             ZIndex: =7
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
-                    Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.35)
+                    Fill: =ColorFade(secondaryColor, 80%)
+                    Height: =Screen2.Height-HeaderContainer1.Height-(Screen2.Height/1.3)
                     Width: =Parent.Width
                     Y: =MainHeader.Y
                     ZIndex: =3
@@ -701,7 +702,7 @@
                     SearchButton As button:
                         Color: =RGBA(214, 223, 238, 1)
                         DisplayMode: =DisplayMode.View
-                        Fill: =Color.AliceBlue
+                        Fill: =ColorFade(secondaryColor, 80%)
                         Height: =Parent.Height
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
@@ -739,7 +740,7 @@
 
                     DropButton1 As button:
                         DisplayMode: =DisplayMode.View
-                        Fill: =Color.AliceBlue
+                        Fill: =ColorFade(secondaryColor, 80%)
                         Height: =Parent.Height
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
@@ -764,7 +765,7 @@
 
                     DropButton2 As button:
                         DisplayMode: =DisplayMode.View
-                        Fill: =Color.AliceBlue
+                        Fill: =ColorFade(secondaryColor, 80%)
                         Height: =Parent.Height
                         RadiusBottomLeft: =20
                         RadiusBottomRight: =20
@@ -788,7 +789,7 @@
                         ZIndex: =7
 
                     Reset As icon.Reset:
-                        Fill: =RGBA(186, 202, 226, 1)
+                        Fill: =ColorFade(secondaryColor, 80%)
                         Height: =Dropdown2.Height
                         Icon: =Icon.Reset
                         OnSelect: =Reset(Dropdown1);Reset(Dropdown2)
