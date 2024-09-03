@@ -227,7 +227,7 @@
                         Container3 As groupContainer.horizontalAutoLayoutContainer:
                             Height: =Parent.TemplateHeight
                             LayoutMode: =LayoutMode.Auto
-                            Width: =Parent.TemplateWidth
+                            Width: =Parent.Width
                             ZIndex: =6
 
                             Container4 As groupContainer.manualLayoutContainer:
