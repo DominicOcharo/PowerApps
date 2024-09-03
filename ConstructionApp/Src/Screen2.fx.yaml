@@ -441,7 +441,7 @@
                                 Container5_1 As groupContainer.manualLayoutContainer:
                                     Height: =30
                                     Width: =30
-                                    X: =Parent.Width/4
+                                    X: =Parent.Width/10
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =2
 
@@ -463,6 +463,17 @@
                                         Width: =30
                                         X: =
                                         ZIndex: =2
+
+                                Label5 As label:
+                                    Color: =Color.White
+                                    Fill: =primaryColor
+                                    FontWeight: =FontWeight.Semibold
+                                    Size: =9.5
+                                    Text: =ThisItem.'Product Quality'
+                                    Width: =Parent.Width*10%
+                                    X: =Parent.Width/3
+                                    Y: =(Parent.Height-Self.Height)/2
+                                    ZIndex: =3
 
                             Label2_1 As label:
                                 AlignInContainer: =AlignInContainer.Stretch
