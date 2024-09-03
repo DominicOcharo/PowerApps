@@ -237,24 +237,24 @@
                                 ZIndex: =1
 
                                 Image2 As image:
-                                    Height: =Parent.Height*70%
+                                    Height: =Parent.Width*20%
                                     Image: =ThisItem.'Company Logo'
                                     RadiusBottomLeft: =Self.Height
                                     RadiusBottomRight: =Self.Height
                                     RadiusTopLeft: =Self.Height
                                     RadiusTopRight: =Self.Height
-                                    Width: =Self.Height
-                                    X: =15
+                                    Width: =Parent.Width*20%
+                                    X: =(Parent.Width-Self.Width)/10
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =1
 
                                 Label3 As label:
                                     FontWeight: =FontWeight.Semibold
-                                    Height: =42
+                                    Height: =Parent.Height/1.2
                                     PaddingLeft: =10
-                                    Size: =9.5
+                                    Size: =((Parent.Width*2.5)/(Parent.Height))
                                     Text: =ThisItem.'Company Name'
-                                    Width: =140
+                                    Width: =Parent.Width*70%
                                     X: =Image2.X + Image2.Width
                                     ZIndex: =2
 
@@ -265,7 +265,7 @@
                                 FontWeight: =FontWeight.Semibold
                                 Height: =50
                                 PaddingLeft: =15
-                                Size: =9.5
+                                Size: =((Parent.Width)/(Parent.Height*2.8))
                                 Text: =ThisItem.'Product Name'
                                 Width: =Parent.Width/7
                                 ZIndex: =2
@@ -430,9 +430,9 @@
                                                 1
                                             )
                                         )
-                                    Height: =10
-                                    Width: =10
-                                    X: =TextPill_BG.X+10
+                                    Height: =Parent.Width*5%
+                                    Width: =Parent.Width*5%
+                                    X: =TextPill_BG.X+(Container4_1.Width/90)
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =3
 
@@ -443,8 +443,8 @@
                                 ZIndex: =4
 
                                 Container5_1 As groupContainer.manualLayoutContainer:
-                                    Height: =30
-                                    Width: =30
+                                    Height: =Self.Width
+                                    Width: =Parent.Width*15%
                                     X: =Parent.Width/10
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =2
@@ -461,18 +461,18 @@
                                         Align: =Align.Center
                                         Color: =Color.White
                                         FontWeight: =FontWeight.Semibold
-                                        Height: =30
+                                        Height: =Parent.Height
                                         Size: =9
                                         Text: ="+4"
-                                        Width: =30
-                                        X: =
+                                        Width: =Parent.Width
                                         ZIndex: =2
 
                                 Label5 As label:
                                     Color: =Color.White
                                     Fill: =primaryColor
                                     FontWeight: =FontWeight.Semibold
-                                    Size: =9.5
+                                    Height: =Parent.Height*70%
+                                    Size: =(Parent.Width*3)/(Parent.Height)
                                     Text: =ThisItem.'Product Quality'
                                     Width: =Parent.Width*10%
                                     X: =Parent.Width/3
@@ -486,7 +486,7 @@
                                 FontWeight: =FontWeight.Bold
                                 Height: =50
                                 PaddingLeft: =15
-                                Size: =9.5
+                                Size: =((Parent.Width)/(Parent.Height*2.8))
                                 Text: |-
                                     ="$" & Text(ThisItem.'Product Price', "###,###,###.00")
                                 Width: =Parent.Width/7
@@ -500,17 +500,17 @@
 
                                 Label6 As label:
                                     FontWeight: =FontWeight.Semibold
-                                    Height: =41
+                                    Height: =Parent.Height*80%
                                     Size: =9.5
                                     Text: =ThisItem.'Price Rating'& "%"
-                                    Width: =39
-                                    X: =150
+                                    Width: =Parent.Width*20%
+                                    X: =Container7.X+Container7.Width
                                     ZIndex: =1
 
                                 Container7 As groupContainer.manualLayoutContainer:
                                     Fill: =RGBA(237, 237, 237, 1)
-                                    Height: =10
-                                    Width: =Parent.Width-Label6.Width
+                                    Height: =Parent.Height*15%
+                                    Width: =Parent.Width*80%
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =2
 
