@@ -438,59 +438,10 @@
                                 LayoutMinWidth: =150
                                 ZIndex: =4
 
-                                Gallery2 As gallery.galleryHorizontal:
-                                    DelayItemLoading: =true
-                                    Height: =Parent.Height
-                                    Items: =Table1
-                                    LoadingSpinner: =LoadingSpinner.Data
-                                    ShowScrollbar: =false
-                                    TemplatePadding: =0
-                                    TemplateSize: =25
-                                    Width: =Parent.Width*52.5%
-                                    X: =15
-                                    ZIndex: =1
-
-                                    Image4 As image:
-                                        Height: =Self.Width
-                                        Image: =User().Image
-                                        OnSelect: =Select(Parent)
-                                        RadiusBottomLeft: =Self.Width
-                                        RadiusBottomRight: =Self.Width
-                                        RadiusTopLeft: =Self.Width
-                                        RadiusTopRight: =Self.Width
-                                        Width: =30
-                                        Y: =(Parent.TemplateHeight-Self.Height)/2
-                                        ZIndex: =1
-
-                                    Container5 As groupContainer.manualLayoutContainer:
-                                        Height: =Image4.Height
-                                        Width: =Image4.Width
-                                        X: =Image4.X
-                                        Y: =Image4.Y
-                                        ZIndex: =2
-
-                                        Circle2 As circle:
-                                            BorderColor: =RGBA(255, 255, 255, 1)
-                                            BorderThickness: =2
-                                            Fill: =primaryColor
-                                            Height: =Parent.Height
-                                            Width: =Parent.Width
-                                            ZIndex: =1
-
-                                        Label5 As label:
-                                            Align: =Align.Center
-                                            Color: =Color.White
-                                            FontWeight: =FontWeight.Semibold
-                                            Height: =Parent.Height
-                                            Size: =9
-                                            Text: =Left(User().FullName,1)&Left(User().Email,1)
-                                            Width: =Parent.Width
-                                            ZIndex: =2
-
                                 Container5_1 As groupContainer.manualLayoutContainer:
                                     Height: =30
                                     Width: =30
-                                    X: =Gallery2.Width
+                                    X: =Parent.Width/4
                                     Y: =(Parent.Height-Self.Height)/2
                                     ZIndex: =2
 
@@ -508,7 +459,7 @@
                                         FontWeight: =FontWeight.Semibold
                                         Height: =30
                                         Size: =9
-                                        Text: ="+"&(CountRows(Gallery2.AllItems)-496)
+                                        Text: ="+4"
                                         Width: =30
                                         X: =
                                         ZIndex: =2
