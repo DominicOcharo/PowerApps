@@ -189,7 +189,7 @@
                 GalleryContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.White
                     Height: =MainHeader.Height-TableHeaderContainer.Height-SearchFilterContainer.Height
-                    Width: =1334
+                    Width: =Parent.Width
                     Y: =SearchFilterContainer.Y+SearchFilterContainer.Height+TableHeaderContainer.Height
                     ZIndex: =1
 
@@ -233,6 +233,7 @@
                             Container4 As groupContainer.manualLayoutContainer:
                                 LayoutMinHeight: =50
                                 LayoutMinWidth: =150
+                                Width: =Parent.Width/7
                                 ZIndex: =1
 
                                 Image2 As image:
@@ -266,11 +267,13 @@
                                 PaddingLeft: =15
                                 Size: =9.5
                                 Text: =ThisItem.'Product Name'
+                                Width: =Parent.Width/7
                                 ZIndex: =2
 
                             Container4_1 As groupContainer.manualLayoutContainer:
                                 LayoutMinHeight: =50
                                 LayoutMinWidth: =150
+                                Width: =Parent.Width/7
                                 ZIndex: =3
 
                                 TextPill_BG As button:
@@ -436,6 +439,7 @@
                             Container4_2 As groupContainer.manualLayoutContainer:
                                 LayoutMinHeight: =50
                                 LayoutMinWidth: =150
+                                Width: =Parent.Width/7
                                 ZIndex: =4
 
                                 Container5_1 As groupContainer.manualLayoutContainer:
@@ -485,11 +489,13 @@
                                 Size: =9.5
                                 Text: |-
                                     ="$" & Text(ThisItem.'Product Price', "###,###,###.00")
+                                Width: =Parent.Width/7
                                 ZIndex: =5
 
                             Container4_3 As groupContainer.manualLayoutContainer:
                                 LayoutMinHeight: =50
                                 LayoutMinWidth: =150
+                                Width: =Parent.Width/7
                                 ZIndex: =6
 
                                 Label6 As label:
@@ -546,6 +552,7 @@
                             Container4_4 As groupContainer.manualLayoutContainer:
                                 LayoutMinHeight: =50
                                 LayoutMinWidth: =150
+                                Width: =Parent.Width/7
                                 ZIndex: =7
 
                                 Rating1 As rating:
