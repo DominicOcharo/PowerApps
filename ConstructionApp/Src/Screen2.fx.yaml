@@ -587,71 +587,71 @@
                         Label1 As label:
                             AlignInContainer: =AlignInContainer.Stretch
                             Color: =secondaryColor
-                            FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
                             Size: =10
                             Text: ="COMPANY NAME"
+                            Width: =Parent.Width/7
                             ZIndex: =1
 
                         Label1_1 As label:
                             AlignInContainer: =AlignInContainer.Stretch
                             Color: =secondaryColor
-                            FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
                             Size: =10
                             Text: ="PRODUCT NAME"
+                            Width: =Parent.Width/7
                             ZIndex: =2
 
                         Label1_2 As label:
                             AlignInContainer: =AlignInContainer.Stretch
                             Color: =secondaryColor
-                            FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
                             Size: =10
                             Text: ="REVIEW STAGE"
+                            Width: =Parent.Width/7
                             ZIndex: =3
 
                         Label1_3 As label:
                             AlignInContainer: =AlignInContainer.Stretch
                             Color: =secondaryColor
-                            FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
                             Size: =10
                             Text: ="PRODUCT TEAM"
+                            Width: =Parent.Width/7
                             ZIndex: =4
 
                         Label1_4 As label:
                             AlignInContainer: =AlignInContainer.Stretch
                             Color: =secondaryColor
-                            FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
                             Size: =10
                             Text: ="PRICE"
+                            Width: =Parent.Width/7
                             ZIndex: =5
 
                         Label1_5 As label:
                             AlignInContainer: =AlignInContainer.Stretch
                             Color: =secondaryColor
-                            FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
                             Size: =10
                             Text: ="PRICE RATING"
+                            Width: =Parent.Width/7
                             ZIndex: =6
 
                         Label1_6 As label:
                             AlignInContainer: =AlignInContainer.Stretch
                             Color: =secondaryColor
-                            FillPortions: =1
                             FontWeight: =FontWeight.Semibold
                             PaddingLeft: =15
                             Size: =10
                             Text: ="PRICE RATING"
+                            Width: =Parent.Width/7
                             ZIndex: =7
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
