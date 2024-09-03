@@ -587,6 +587,7 @@
                                 ZIndex: =7
 
                                 Rating1 As rating:
+                                    Default: =3.5
                                     Height: =Parent.Height*60%
                                     RatingFill: =RGBA(255,215,0,1)
                                     Width: =Parent.Width*80%
