@@ -591,109 +591,113 @@
                         Width: =Parent.Width
                         ZIndex: =2
 
-                        "Gallery2 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
+                        "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
                             DelayItemLoading: =true
-                            Height: =Container2.Height
                             Items: =headerContent
+                            Layout: =Layout.Vertical
                             LayoutMinHeight: =287
                             LayoutMinWidth: =320
                             LoadingSpinner: =LoadingSpinner.Data
                             TemplatePadding: =0
-                            TemplateSize: =Min(440, Self.Height - 60)
-                            Width: =Parent.Width
-                            ZIndex: =1
+                            TemplateSize: =Container2.Height
+                            ZIndex: =2
 
-                            Subtitle1 As label:
+                            Title3 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height-((Container2.Height)*20%)
+                                Height: =Container2.Height
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
                                 PaddingRight: =0
                                 PaddingTop: =0
-                                Size: =Container2.Width/(Container2.Height*130%)
-                                Text: =ThisItem.Name
+                                Text: =LookUp(headerContent, ID = 1).Name
                                 VerticalAlign: =VerticalAlign.Top
-                                Width: =Parent.Width
-                                Y: =(Container2.Height)*20%
+                                Width: =Container2.Width/7
+                                ZIndex: =2
+
+                            Title3_1 As label:
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =Container2.Height
+                                OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Text: =LookUp(headerContent, ID = 2).Name
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =Container2.Width/7
+                                X: =Title3.X + Title3.Width
                                 ZIndex: =3
 
-                        Label1 As label:
-                            AlignInContainer: =AlignInContainer.Stretch
-                            Color: =secondaryColor
-                            FontWeight: =FontWeight.Semibold
-                            PaddingLeft: =15
-                            Size: =(Parent.Width/(Parent.Height*1.5))
-                            Text: ="COMPANY NAME"
-                            Visible: =false
-                            Width: =Parent.Width/7
-                            ZIndex: =2
+                            Title3_2 As label:
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =Container2.Height
+                                OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Text: =ThisItem.Name
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =Container2.Width/7
+                                X: =Title3_1.X+Title3_1.Width
+                                ZIndex: =4
 
-                        Label1_1 As label:
-                            AlignInContainer: =AlignInContainer.Stretch
-                            Color: =secondaryColor
-                            FontWeight: =FontWeight.Semibold
-                            PaddingLeft: =15
-                            Size: =(Parent.Width/(Parent.Height*1.5))
-                            Text: ="PRODUCT NAME"
-                            Visible: =false
-                            Width: =Parent.Width/7
-                            ZIndex: =3
+                            Title3_3 As label:
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =Container2.Height
+                                OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Text: =ThisItem.Name
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =Container2.Width/7
+                                X: =Title3_2.X+Title3_2.Width
+                                ZIndex: =5
 
-                        Label1_2 As label:
-                            AlignInContainer: =AlignInContainer.Stretch
-                            Color: =secondaryColor
-                            FontWeight: =FontWeight.Semibold
-                            PaddingLeft: =15
-                            Size: =(Parent.Width/(Parent.Height*1.5))
-                            Text: ="REVIEW STAGE"
-                            Visible: =false
-                            Width: =Parent.Width/7
-                            ZIndex: =4
+                            Title3_4 As label:
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =Container2.Height
+                                OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Text: =ThisItem.Name
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =Container2.Width/7
+                                X: =Title3_3.X+Title3_3.Width
+                                ZIndex: =6
 
-                        Label1_3 As label:
-                            AlignInContainer: =AlignInContainer.Stretch
-                            Color: =secondaryColor
-                            FontWeight: =FontWeight.Semibold
-                            PaddingLeft: =15
-                            Size: =(Parent.Width/(Parent.Height*1.5))
-                            Text: ="PRODUCT TEAM"
-                            Visible: =false
-                            Width: =Parent.Width/7
-                            ZIndex: =5
+                            Title3_5 As label:
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =Container2.Height
+                                OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Text: =ThisItem.Name
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =Container2.Width/7
+                                X: =Title3_4.X+Title3_4.Width
+                                ZIndex: =7
 
-                        Label1_4 As label:
-                            AlignInContainer: =AlignInContainer.Stretch
-                            Color: =secondaryColor
-                            FontWeight: =FontWeight.Semibold
-                            PaddingLeft: =15
-                            Size: =(Parent.Width/(Parent.Height*1.5))
-                            Text: ="PRICE"
-                            Visible: =false
-                            Width: =Parent.Width/7
-                            ZIndex: =6
-
-                        Label1_5 As label:
-                            AlignInContainer: =AlignInContainer.Stretch
-                            Color: =secondaryColor
-                            FontWeight: =FontWeight.Semibold
-                            PaddingLeft: =15
-                            Size: =(Parent.Width/(Parent.Height*1.5))
-                            Text: ="PRICE RATING"
-                            Visible: =false
-                            Width: =Parent.Width/7
-                            ZIndex: =7
-
-                        Label1_6 As label:
-                            AlignInContainer: =AlignInContainer.Stretch
-                            Color: =secondaryColor
-                            FontWeight: =FontWeight.Semibold
-                            PaddingLeft: =15
-                            Size: =(Parent.Width/(Parent.Height*1.5))
-                            Text: ="PRICE RATING"
-                            Visible: =false
-                            Width: =Parent.Width/7
-                            ZIndex: =8
+                            Title3_6 As label:
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =Container2.Height
+                                OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Text: =ThisItem.Name
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =Container2.Width/7
+                                X: =Title3_5.X+Title3_5.Width
+                                ZIndex: =8
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
                     Fill: =ColorFade(secondaryColor, 80%)
