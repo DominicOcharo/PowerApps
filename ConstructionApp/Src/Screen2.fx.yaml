@@ -189,7 +189,7 @@
                 GalleryContainer As groupContainer.manualLayoutContainer:
                     Fill: =Color.White
                     Height: =MainHeader.Height-TableHeaderContainer.Height-SearchFilterContainer.Height
-                    Width: =Parent.Width
+                    Width: =Container2.Width
                     Y: =SearchFilterContainer.Y+SearchFilterContainer.Height+TableHeaderContainer.Height
                     ZIndex: =1
 
