@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =ClearCollect(
             UniqueDetections,
             Distinct(
@@ -22,10 +22,63 @@ App As appinfo:
                 Time
             )
         );
-        Set(primaryColor,RGBA(45,85,251,1));
-        Set(primaryColorText,"RGBA(45,85,251,1)");
-        Set(secondaryColor,RGBA(116,116,116,1));
-        Set(secondaryColorText,"RGBA(116,116,116,1)");
+        Set(
+            primaryColor,
+            RGBA(
+                45,
+                85,
+                251,
+                1
+            )
+        );
+        Set(
+            primaryColorText,
+            "RGBA(45,85,251,1)"
+        );
+        Set(
+            secondaryColor,
+            RGBA(
+                116,
+                116,
+                116,
+                1
+            )
+        );
+        Set(
+            secondaryColorText,
+            "RGBA(116,116,116,1)"
+        );
+        ClearCollect(
+            headerContent,
+            {
+                ID: 1,
+                Name: "COMPANY NAME"
+            },
+            {
+                ID: 2,
+                Name: "PRODUCT NAME"
+            },
+            {
+                ID: 3,
+                Name: "REVIEW STAGE"
+            },
+            {
+                ID: 4,
+                Name: "PRODUCT TEAM"
+            },
+            {
+                ID: 5,
+                Name: "PRICE"
+            },
+            {
+                ID: 6,
+                Name: "PRICE RATING"
+            },
+            {
+                ID: 7,
+                Name: "PRICE RATING"
+            }
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

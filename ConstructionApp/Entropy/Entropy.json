@@ -70,7 +70,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/03/2024 17:39:40",
+  "HeaderLastSavedDateTimeUTC": "09/04/2024 07:38:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1b5a4dc4-2d02-47ed-ac49-b0409788fddb": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/f68a6facbfd8434282a3344c14044829\""
@@ -81,8 +81,8 @@
     "logo": "103eb9df-fce4-4d99-808d-7c19bf743599.jpg"
   },
   "LocalResourceRootPaths": {
-    "ISAIAH 60 22": "https://docserverpwaprodwuk.blob.core.windows.net/4bcd5c39-225a-4f73-9722-901e55a809ff-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-03T16%3A03%3A55Z&ske=2024-09-04T16%3A18%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-04T16%3A18%3A55Z&sr=b&sp=r&sig=XrET1OsYYXbf5DsYm4fe63aH%2F4Nq%2BDPEFXhgP4YtUaY%3D",
-    "logo": "https://docserverpwaprodwuk.blob.core.windows.net/4bcd5c39-225a-4f73-9722-901e55a809ff-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-03T16%3A03%3A55Z&ske=2024-09-04T16%3A18%3A55Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-04T16%3A18%3A55Z&sr=b&sp=r&sig=GeF2rfiuv9aGK3PhqEBK93ZdIsk1srqNeC%2ForkgY5p8%3D"
+    "ISAIAH 60 22": "https://docserverpwaprodwuk.blob.core.windows.net/5d25e08b-5cab-4cf9-b884-8a3cf68490c8-1/resource/Assets0Images01b878808-6a21-449b-a474-dd342b14fcad.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-04T05%3A07%3A05Z&ske=2024-09-05T05%3A22%3A05Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-05T05%3A22%3A05Z&sr=b&sp=r&sig=lWFk1kZzBkx2cqLl4fQpR2I0imNZvUnJahxBDQhE%2Fz4%3D",
+    "logo": "https://docserverpwaprodwuk.blob.core.windows.net/5d25e08b-5cab-4cf9-b884-8a3cf68490c8-1/resource/Assets0Images0103eb9df-fce4-4d99-808d-7c19bf743599.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-04T05%3A07%3A05Z&ske=2024-09-05T05%3A22%3A05Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-05T05%3A22%3A05Z&sr=b&sp=r&sig=3Z%2FpSioTAJh6MU%2BhFUX%2FRR3X5rDf%2FrwSb%2B2jiPZMubc%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -254,7 +254,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.4757464,
+    "AnalysisLoadTime": 0.4752238,
     "ControlCount": {
       "button": 8,
       "circle": 2,
@@ -270,7 +270,7 @@
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 2.0631811
+    "DeserializationLoadTime": 2.5201725
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
