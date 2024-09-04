@@ -604,7 +604,7 @@
 
                             Title3 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height
+                                Height: =Container2.Height-(Container2.Height*10%)
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -613,11 +613,12 @@
                                 Text: =LookUp(headerContent, ID = 1).Name
                                 VerticalAlign: =VerticalAlign.Top
                                 Width: =Container2.Width/7
+                                Y: =Container2.Height*10%
                                 ZIndex: =2
 
                             Title3_1 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height
+                                Height: =Container2.Height-(Container2.Height*10%)
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -627,11 +628,12 @@
                                 VerticalAlign: =VerticalAlign.Top
                                 Width: =Container2.Width/7
                                 X: =Title3.X + Title3.Width
+                                Y: =Container2.Height*10%
                                 ZIndex: =3
 
                             Title3_2 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height
+                                Height: =Container2.Height-(Container2.Height*10%)
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -641,11 +643,12 @@
                                 VerticalAlign: =VerticalAlign.Top
                                 Width: =Container2.Width/7
                                 X: =Title3_1.X+Title3_1.Width
+                                Y: =Container2.Height*10%
                                 ZIndex: =4
 
                             Title3_3 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height
+                                Height: =Container2.Height-(Container2.Height*10%)
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -655,11 +658,12 @@
                                 VerticalAlign: =VerticalAlign.Top
                                 Width: =Container2.Width/7
                                 X: =Title3_2.X+Title3_2.Width
+                                Y: =Container2.Height*10%
                                 ZIndex: =5
 
                             Title3_4 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height
+                                Height: =Container2.Height-(Container2.Height*10%)
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -669,11 +673,12 @@
                                 VerticalAlign: =VerticalAlign.Top
                                 Width: =Container2.Width/7
                                 X: =Title3_3.X+Title3_3.Width
+                                Y: =Container2.Height*10%
                                 ZIndex: =6
 
                             Title3_5 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height
+                                Height: =Container2.Height-(Container2.Height*10%)
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -683,11 +688,12 @@
                                 VerticalAlign: =VerticalAlign.Top
                                 Width: =Container2.Width/7
                                 X: =Title3_4.X+Title3_4.Width
+                                Y: =Container2.Height*10%
                                 ZIndex: =7
 
                             Title3_6 As label:
                                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                                Height: =Container2.Height
+                                Height: =Container2.Height-(Container2.Height*10%)
                                 OnSelect: =Select(Parent)
                                 PaddingBottom: =0
                                 PaddingLeft: =0
@@ -697,6 +703,7 @@
                                 VerticalAlign: =VerticalAlign.Top
                                 Width: =Container2.Width/7
                                 X: =Title3_5.X+Title3_5.Width
+                                Y: =Container2.Height*10%
                                 ZIndex: =8
 
                 SearchFilterContainer As groupContainer.manualLayoutContainer:
